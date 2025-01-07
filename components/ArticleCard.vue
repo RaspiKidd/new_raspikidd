@@ -1,19 +1,19 @@
 <template>
   <nuxt-link :to="slug">
-    <div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
+    <div class="flex flex-col rounded-lg shadow-lg overflow-hidden bg-red-100">
       <div class="flex-shrink-0">
-        <img class="h-48 w-full object-cover" :src="image" alt="" />
+        <img class="h-48 w-full object-cover" :src="image" alt="image.alt" />
       </div>
-      <div class="flex-1 bg-white p-6 flex flex-col justify-between">
+      <div class="flex-1 p-6 flex flex-col justify-between">
         <div class="flex-1">
-          <p class="text-sm font-medium text-indigo-600" style="color:#A42530">
+          <p class="text-md font-medium text-red-900">
             {{ type }}
           </p>
           <a href="#" class="block mt-2">
-            <p class="text-xl font-semibold text-gray-900">
+            <p class="text-xl font-semibold text-grey-950">
               {{ title }}
             </p>
-            <p class="mt-3 text-base text-gray-500">
+            <p class="mt-3 text-base text-gray-900">
               {{ description }}
             </p>
           </a>
@@ -25,7 +25,7 @@
               <img
                 class="h-10 w-10 rounded-full"
                 :src="author.content.Avatar.filename"
-                alt=""
+                alt="author.content.Avatar.alt"
               />
             </a>
           </div>
@@ -35,10 +35,8 @@
                 {{ author.content.Name }}
               </a>
             </p>
-            <div class="flex space-x-1 text-sm text-gray-500">
-              <time datetime="2020-03-16">
-                {{ date }}
-              </time>
+            <div class="flex space-x-1 text-sm text-red-900">
+                {{ formattedDate }}
             </div>
           </div>
         </div>
@@ -47,16 +45,22 @@
   </nuxt-link>
 </template>
 
-<script>
-export default {
-  props: {
-    type: Object,
+<script setup lang="ts">
+  import { format } from 'date-fns'
+  import { computed } from 'vue';
+  
+  const props = defineProps({
+    type: String,
     title: String,
     slug: String,
     description: String,
     author: Object,
     date: String,
     image: String,
-  },
-}
+  })
+
+  const formattedDate = computed(() => {
+    if (!props.date) return 'No date available'
+    return format(new Date(props.date), 'dd-MM-yyyy')
+  })
 </script>

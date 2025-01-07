@@ -53,7 +53,7 @@
           <NuxtLink to="/MakeCodeTutorials" class="block mt-2">
             <div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
               <div class="flex-shrink-0">
-                <img class="h-48 w-full object-scale-down" src="/public/images/MakeCodeIcon.jpeg" alt="MakeCode Logo">
+                <img class="h-48 w-full object-scale-down" src="/images/MakeCodeIcon.jpeg" alt="MakeCode Logo">
               </div>
               <div class="flex-1 bg-white p-6 flex flex-col justify-between">
                 <div class="flex-1">
@@ -71,7 +71,7 @@
           <NuxtLink to="/EduBlocksTutorials" class="block mt-2">
             <div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
               <div class="flex-shrink-0">
-                <img class="h-48 w-full object-scale-down" src="/public/images/EduBlocksIcon.jpeg" alt="EduBlocks Logo">
+                <img class="h-48 w-full object-scale-down" src="/images/EduBlocksIcon.jpeg" alt="EduBlocks Logo">
               </div>
               <div class="flex-1 bg-white p-6 flex flex-col justify-between">
                 <div class="flex-1">
@@ -89,7 +89,7 @@
           <NuxtLink to="/MicroPythonTutorials" class="block mt-2">
             <div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
               <div class="flex-shrink-0">
-                <img class="h-48 w-full object-scale-down" src="/public/images/PythonIcon.jpeg" alt="Python Logo">
+                <img class="h-48 w-full object-scale-down" src="/images/PythonIcon.jpeg" alt="Python Logo">
               </div>
               <div class="flex-1 bg-white p-6 flex flex-col justify-between">
                 <div class="flex-1">
@@ -110,4 +110,16 @@
   </div>
 </template>
 
+<!--<script lang="ts">
+  import Vue from "vue";
+  import Header from "~/components/Header.vue";
+  import Footer from "~/components/Footer.vue";
+
+  export default Vue.extend({
+    components: {
+      Header,
+      Footer
+    }
+  });
+</script>-->
 

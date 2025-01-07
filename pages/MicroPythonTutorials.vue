@@ -22,7 +22,7 @@
           <NuxtLink to="/microbitTutorials/PythonTutorials/RockPaperScissorsPY" class="block mt-2">
             <div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
               <div class="flex-shrink-0">
-                <img class="h-48 w-full object-scale-down" src="/public/images/RockPaperScissors.png" alt="Rock Paper Scissors image">
+                <img class="h-48 w-full object-scale-down" src="/images/RockPaperScissors.png" alt="Rock Paper Scissors image">
               </div>
                     
               <div class="flex-1 bg-white p-6 flex flex-col justify-between">
@@ -42,7 +42,7 @@
           <NuxtLink to="/microbitTutorials/PythonTutorials/CreateFitbitPY" class="block mt-2">
             <div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
               <div class="flex-shrink-0">
-                <img class="h-48 w-full object-scale-down" src="/public/images/counter.jpeg" alt="micro:bit counter">
+                <img class="h-48 w-full object-scale-down" src="/images/counter.jpeg" alt="micro:bit counter">
               </div>
                     
               <div class="flex-1 bg-white p-6 flex flex-col justify-between">
@@ -62,7 +62,7 @@
           <NuxtLink to="microbitTutorials/PythonTutorials/EnviroSensingPY" class="block mt-2">
             <div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
               <div class="flex-shrink-0">
-                <img class="h-48 w-full object-scale-down" src="/public/images/EnviroSensing.png" alt="Python Logo">
+                <img class="h-48 w-full object-scale-down" src="/images/EnviroSensing.png" alt="Python Logo">
               </div>
                     
               <div class="flex-1 bg-white p-6 flex flex-col justify-between">
@@ -84,7 +84,7 @@
           <NuxtLink to="/microbitTutorials/PythonTutorials/TrafficLightsPY" class="block mt-2">
             <div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
               <div class="flex-shrink-0">
-                <img class="h-48 w-full object-scale-down" src="/public/images/TrafficLights03.jpg" alt="carboard traffic lights">
+                <img class="h-48 w-full object-scale-down" src="/images/TrafficLights03.jpg" alt="carboard traffic lights">
               </div>
                     
               <div class="flex-1 bg-white p-6 flex flex-col justify-between">
@@ -104,7 +104,7 @@
           <NuxtLink to="/microbitTutorials/PythonTutorials/ThrowGhostPY" class="block mt-2">
             <div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
               <div class="flex-shrink-0">
-                <img class="h-48 w-full object-scale-down" src="/public/images/ThrowGhost_Cover.png" alt="micro:bit ghost icon">
+                <img class="h-48 w-full object-scale-down" src="/images/ThrowGhost_Cover.png" alt="micro:bit ghost icon">
               </div>
                     
               <div class="flex-1 bg-white p-6 flex flex-col justify-between">
@@ -127,3 +127,17 @@
     <Footer />
   </div>
 </template>
+
+<!--<script lang="ts">
+  import Vue from "vue";
+  import Header from "~/components/Header.vue";
+  import Footer from "~/components/Footer.vue";
+
+  export default Vue.extend({
+    components: {
+      Header,
+      Footer
+    }
+  });
+</script>-->
+

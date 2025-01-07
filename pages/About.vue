@@ -39,7 +39,7 @@
 
           <p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">
             Kerry is also the co-founder of 
-            <a href = "https://micromag.cc/"
+            <a href = "https://micromag.raspikidd.com/"
               target="_blank"
               class="text-blue-500 hover:text-blue-600"
             > 
@@ -63,10 +63,23 @@
         </div>
       </div>
       <div class="relative w-full h-64 sm:h-72 md:h-96 lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2 lg:h-full">
-        <img class="absolute inset-0 w-full h-full object-cover" src="/images/me.jpeg" alt="Image of RaspiKidd programming">
+        <img class="absolute inset-0 w-full h-full object-cover" src="/public/images/me.jpeg" alt="Image of RaspiKidd programming">
       </div>
     </main>
     <Footer />
   </div>
 </template>
+
+<!--<script lang="ts">
+  import Vue from "vue";
+  import Header from "~/components/Header.vue";
+  import Footer from "~/components/Footer.vue";
+
+  export default Vue.extend({
+    components: {
+      Header,
+      Footer
+    }
+  });
+</script>-->
 

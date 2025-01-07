@@ -24,10 +24,14 @@
             </div>
           
             <div class="rounded-md shadow sm:mt-0 sm:ml-3">
-              <NuxtLink to="/TutorialLayout" style ="background-color:#76B82A; color:#0E7452; font-weight: bold; font-size: 18px" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-base rounded-md text-black md:py-4 md:text-lg md:px-4">
+              <!--<NuxtLink to="/TutorialLayout" style ="background-color:#76B82A; color:#0E7452; font-weight: bold; font-size: 18px" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-base rounded-md text-black md:py-4 md:text-lg md:px-4">
                 Raspberry Pi
-              </NuxtLink> 
+              </NuxtLink> -->
+              <a href='https://ko-fi.com/G2G2Y3YFZ' target='_blank'>
+                <img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi2.png?v=3' border='0' alt='Buy Me a Coffee at ko-fi.com' />
+              </a>
             </div>
+
         
             <!-- <div class="rounded-md shadow sm:mt-0 sm:ml-3">
               <router-link to="/ComputerRepair" style ="background-color:#76B82A;" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-base rounded-md text-black md:py-4 md:text-lg md:px-4">
@@ -66,7 +70,8 @@
           <div class="mt-8 sm:w-full sm:max-w-md xl:mt-0 xl:ml-8">
 
             <!--<form class="md:flex" name="Newsletter" netlify action="https://formspree.io/f/moqrdzdn" method="POST">-->
-            <form class="md:flex" name="Newsletter" netlify>
+            <form class="md:flex" name="Newsletter" method="POST" netlify>
+              <input type="hidden" name="form-name" value="Newsletter" />
               <label for="name" class="sr-only">Name</label>
               <input
                 id="name"
@@ -103,5 +108,18 @@
   </div>
 </template>
 
+<!--<script lang="ts">
+  import Vue from "vue";
+  import Header from "~/components/Header.vue";
+  import Footer from "~/components/Footer.vue";
+
+  export default Vue.extend({
+    
+    components: {
+      Header,
+      Footer
+    }
+  });
+</script>-->
 
 

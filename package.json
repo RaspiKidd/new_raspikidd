@@ -10,14 +10,21 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
-    "@nuxtjs/sitemap": "^6.1.1",
+    "@nuxtjs/sitemap": "^6.1.0",
     "@nuxtjs/tailwindcss": "^6.12.1",
-    "@storyblok/js": "^3.1.6",
-    "@storyblok/nuxt": "^6.0.12",
+    "@storyblok/js": "^3.1.4",
+    "@storyblok/nuxt": "^6.0.11",
     "@tailwindcss/typography": "^0.5.15",
     "date-fns": "^4.1.0",
     "nuxt": "^3.13.0",
     "vue": "latest",
     "vue-router": "latest"
+  },
+  "devDependencies": {
+    "@marvr/storyblok-rich-text-vue-renderer": "^3.2.1",
+    "@netlify/plugin-sitemap": "^0.8.1",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.12"
   }
 }
