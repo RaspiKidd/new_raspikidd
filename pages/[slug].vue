@@ -1,5 +1,5 @@
 <template>
-  <div class="font-sans bg-gray-900 py-24 sm:py-32">
+  <div class="font-sans">
     <Header />
 
     <div class="relative py-16 bg-white overflow-hidden">
