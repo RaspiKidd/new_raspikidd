@@ -16,10 +16,9 @@ export default defineNuxtConfig({
   nitro: {
     prerender: {
       routes: [
-        '/Submissions',
-        '/ContactUs',
-        '/Magazines',
-        '/SignUp',
+        '/index',
+        '/Classes',
+        '/HireMe',
       ]
     }
   },
@@ -29,29 +28,6 @@ export default defineNuxtConfig({
       script: [{src:"https://cdn-cookieyes.com/client_data/bdea172743202246b46b4050/script.js"}],
     },
   },
-
-  plugins: ['~/plugins/google-analytics.client.ts'],
-
-  sitemap: {
-    hostname: 'https://micromag.raspikidd.com', // Replace with your Netlify domain or custom domain
-    gzip: true, // Optional: enable gzip compression for the sitemap
-    routes: [
-      '/',
-      '/Magazines',
-      '/Contribute',
-      '/ContactUs',
-      '/Guidelines',
-      '/Submissions',
-      '/Issue1',
-      '/Issue2',
-      '/Issue3',
-      '/Issue4',
-      '/Issue5',
-      '/Issue6',
-      '/Issue7',
-      '/Issue8',
-    ]
-  }
 
 })
 
