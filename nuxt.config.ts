@@ -16,7 +16,7 @@ export default defineNuxtConfig({
   nitro: {
     prerender: {
       routes: [
-        '/index',
+        '/',
         '/Classes',
         '/HireMe',
       ]
