@@ -6,7 +6,6 @@
         <div class="px-4 lg:w-1/2 sm:px-8 xl:pr-16">
           <h1 class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl lg:text-5xl xl:text-6xl">
             <span class="block xl:inline" style="color:#A42530"> Making <br> Programming<br> Fun </span> <br>
-            <!--<span class="block xl:inline xl:text-5xl"> through physical computing</span> -->
           </h1>
           
           <p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">
@@ -49,11 +48,11 @@
       </div>
   
       <div class="relative w-full h-64 sm:h-72 md:h-96 lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2 lg:h-full">
-        <img class="absolute inset-0 w-full h-full object-cover" src="/images/PhysicalComputing.jpg" alt="home page image">
+        <img class="absolute inset-0 w-full h-full object-cover" src="/images/PhysicalComputing.jpg" alt="cutting mat with various electronics">
       </div>
     </main>
 
-    <!-- Neswletter form -->
+    <!-- Neswletter form 
     <div class="bg-white" style="background-color:#A1C4B5">
       <div class="px-6 py-12 mx-auto max-w-7xl sm:px-6 lg:py-16 lg:px-8">
         <div class="px-6 py-6 bg-teal-600 rounded-lg md:py-12 md:px-12 lg:py-16 lg:px-16 xl:flex xl:items-center">
@@ -69,7 +68,7 @@
       
           <div class="mt-8 sm:w-full sm:max-w-md xl:mt-0 xl:ml-8">
 
-            <!--<form class="md:flex" name="Newsletter" netlify action="https://formspree.io/f/moqrdzdn" method="POST">-->
+            
             <form class="md:flex" name="Newsletter" method="POST" netlify>
               <input type="hidden" name="form-name" value="Newsletter" />
               <label for="name" class="sr-only">Name</label>
@@ -103,7 +102,8 @@
           </div>
         </div>
       </div>
-    </div>
+    </div>-->
+    <NewsletterForm />
     <Footer />
   </div>
 </template>
