@@ -77,7 +77,7 @@
             </div>
         </main>
         <!-- CTA Booking-->
-        <div class="relative isolate overflow-hidden px-6 pt-16 shadow-2xl sm:rounded-3xl sm:px-16 md:pt-24 lg:flex lg:gap-x-20 lg:px-24 lg:pt-0" style="background-color:#A1C4B5">
+        <!--<div class="relative isolate overflow-hidden px-6 pt-16 shadow-2xl sm:rounded-3xl sm:px-16 md:pt-24 lg:flex lg:gap-x-20 lg:px-24 lg:pt-0" style="background-color:#A1C4B5">
             <div class="text-center justify-center lg:mx-0 lg:flex-auto lg:py-32">
                 <h2 class="text-3xl font-bold tracking-tight sm:text-4xl" style ="color:#0E7452">
                     Ready to Start the Coding Adventure?
@@ -99,7 +99,8 @@
                     </a>
                 </div>
             </div>
-        </div>
+        </div>-->
+        <ClassesCTA />
         <Footer />
     </div>
   </template>
