@@ -76,44 +76,7 @@
                 </div>
             </div>
         </main>
-        <!-- CTA Booking-->
-        <!--<div class="relative isolate overflow-hidden px-6 pt-16 shadow-2xl sm:rounded-3xl sm:px-16 md:pt-24 lg:flex lg:gap-x-20 lg:px-24 lg:pt-0" style="background-color:#A1C4B5">
-            <div class="text-center justify-center lg:mx-0 lg:flex-auto lg:py-32">
-                <h2 class="text-3xl font-bold tracking-tight sm:text-4xl" style ="color:#0E7452">
-                    Ready to Start the Coding Adventure?
-                </h2>
-                <p class="mt-6 text-lg leading-8 text-gray-300" style="color:#A42530"> 
-                    Why wait? Book your child's spot in our workshops today! Unleash their potential and watch them thrive in the world of programming. <br> Need more information? Book a call now. Let's make coding a journey filled with laughter, learning, and endless possibilities!
-                </p>
-                <div class="mt-6 items-center justify-center gap-x-8 lg:justify-start">
-                    <NuxtLink to="/ComingSoon" 
-                        class="rounded-md bg-white px-3.5 py-2.5 text-sm font-semibold text-gray-900 shadow-sm hover:bg-gray-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white">
-                        Book Classes
-                    </NuxtLink>
-                    <a href="https://calendly.com/raspikidd/30-min-discovery-call" 
-                        class="text-sm font-semibold leading-6 text-grey-900"> 
-                        Book a Call 
-                        <span aria-hidden="true">
-                            →
-                        </span>
-                    </a>
-                </div>
-            </div>
-        </div>-->
         <ClassesCTA />
         <Footer />
     </div>
   </template>
-
-<!--<script lang="ts">
-  import Vue from "vue";
-  import Header from "~/components/Header.vue";
-  import Footer from "~/components/Footer.vue";
-
-  export default Vue.extend({
-    components: {
-      Header,
-      Footer
-    }
-  });
-</script>-->

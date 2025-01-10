@@ -190,4 +190,3 @@
     <Footer />
   </div>
 </template>
-

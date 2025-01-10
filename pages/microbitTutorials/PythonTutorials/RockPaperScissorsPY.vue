@@ -56,10 +56,7 @@
           <div class="bg-blue-100 border-l-8 border-blue-400 px-8">
             <h3 class="text-2xl tracking-tight font-extrabold sm:text-4xl md:text-4xl lg:text-3xl xl:text-4xl" style="color:#006494">
               What is a variable
-            </h3>
-            
-            <!--<img src="@/static/images/lightbulb.svg" alt="" width="20" height="20"> -->
-                    
+            </h3>    
             <p class="text-gray-900"> 
               Think of a variable as a box that stores information that can be used throughout our program. 
               We give variables a descriptive name so we and others can understand what is going on within our program.
@@ -117,17 +114,3 @@
     <Footer />
   </div>
 </template>
-
-<!--<script lang="ts">
-  import Vue from "vue";
-  import Header from "~/components/Header.vue";
-  import Footer from "~/components/Footer.vue";
-
-  export default Vue.extend({
-    components: {
-      Header,
-      Footer
-   }
-  });
-</script>-->
-

@@ -7,11 +7,6 @@
           <h1 class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl lg:text-5xl xl:text-6xl">
             <span class="block xl:inline" style = "color:#A42530"> micro:bit </span>
           </h1>
-          <!--<h2 class=" pt-8 text-2xl tracking-tight font-extrabold text-gray-900 sm:text-3xl md:text-4xl lg:text-3xl xl:text-4xl">
-            <span class="block xl:inline" style="color:#76B82a"> 
-              The  
-            </span>
-          </h2> -->
           <p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">
             The micro:bit is a small device about half the size of a credit card. 
             It is packed full of features aimed at getting children into computer 
@@ -35,7 +30,6 @@
     </main>
     <!-- Tutorial Block -->
     <div class="relative">
-    <!-- <div class="relative bg-gray-50 pt-16 pb-20 px-4 sm:px-6 lg:pt-24 lg:pb-28 lg:px-8"> -->
       <div class="absolute inset-0">
         <div class="h-1/3 sm:h-2/3" style="background-color:#a1c4b5"></div>
       </div>
@@ -109,17 +103,3 @@
     <Footer />
   </div>
 </template>
-
-<!--<script lang="ts">
-  import Vue from "vue";
-  import Header from "~/components/Header.vue";
-  import Footer from "~/components/Footer.vue";
-
-  export default Vue.extend({
-    components: {
-      Header,
-      Footer
-    }
-  });
-</script>-->
-

@@ -85,4 +85,3 @@
     <Footer />
   </div>
 </template>
-
