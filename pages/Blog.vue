@@ -1,10 +1,10 @@
 <template>
-  <div class="font-sans">
+  <div class="font-sans bg-gray-100">
     <div class="relative px-4 pt-6 sm:px-6 lg:px-8">
         <Header />
     </div>
 
-    <div class="relative py-16 bg-white overflow-hidden">
+    <div class="relative py-16 overflow-hidden">
         <div class="hidden lg:block lg:absolute lg:inset-y-0 lg:h-full lg:w-full">
           <div
             class="relative h-full text-lg max-w-prose mx-auto"
@@ -31,7 +31,7 @@
                   y="0"
                   width="4"
                   height="4"
-                  class="text-gray-200"
+                  class="text-gray-300"
                   fill="currentColor"
                 />
               </pattern>
@@ -95,7 +95,7 @@
                   y="0"
                   width="4"
                   height="4"
-                  class="text-gray-200"
+                  class="text-gray-300"
                   fill="currentColor"
                 />
               </pattern>

@@ -1,8 +1,8 @@
 <template>
-  <div class="font-sans">
+  <div class="font-sans bg-gray-100">
     <Header />
 
-    <div class="relative py-16 bg-white overflow-hidden">
+    <div class="relative py-16 overflow-hidden">
       <div class="hidden lg:block lg:absolute lg:inset-y-0 lg:h-full lg:w-full">
         <div class="relative h-full text-lg max-w-prose mx-auto" aria-hidden="true">
           <svg class="absolute top-12 left-full transform translate-x-32" width="404" height="384" fill="none" viewBox="0 0 404 384">

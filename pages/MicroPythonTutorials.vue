@@ -1,10 +1,10 @@
 <template>
-  <div class="relative bg-gray-50">
+  <div class="relative bg-gray-100">
     <Header />
     <!-- main -->
-    <div class="relative bg-gray-50 pt-16 pb-20 px-4 sm:px-6 lg:pt-24 lg:pb-28 lg:px-8">
+    <div class="relative pt-16 pb-20 px-4 sm:px-6 lg:pt-24 lg:pb-28 lg:px-8">
       <div class="absolute inset-0">
-        <div class="bg-white h-1/3 sm:h-2/3"></div>
+        <div class="h-1/3 sm:h-2/3"></div>
       </div>
             
       <div class="relative max-w-7xl mx-auto">
@@ -21,7 +21,7 @@
                 <img class="h-48 w-full object-scale-down" src="/images/RockPaperScissors.png" alt="Rock Paper Scissors image">
               </div>
                     
-              <div class="flex-1 bg-white p-6 flex flex-col justify-between">
+              <div class="flex-1 bg-gray-100 p-6 flex flex-col justify-between">
                 <div class="flex-1">
                   <p class="text-xl font-bold" style="color:#A42530">
                     Rock Paper Scissors
@@ -41,7 +41,7 @@
                 <img class="h-48 w-full object-scale-down" src="/images/counter.jpeg" alt="micro:bit counter">
               </div>
                     
-              <div class="flex-1 bg-white p-6 flex flex-col justify-between">
+              <div class="flex-1 bg-gray-100 p-6 flex flex-col justify-between">
                 <div class="flex-1">
                   <p class="text-xl font-bold" style="color:#A42530">
                     Create Your Own Fitbit
@@ -61,7 +61,7 @@
                 <img class="h-48 w-full object-scale-down" src="/images/EnviroSensing.png" alt="Python Logo">
               </div>
                     
-              <div class="flex-1 bg-white p-6 flex flex-col justify-between">
+              <div class="flex-1 bg-gray-100 p-6 flex flex-col justify-between">
                 <div class="flex-1">
                   <p class="text-xl font-bold" style="color:#A42530">
                     Sensing The Environment
@@ -83,7 +83,7 @@
                 <img class="h-48 w-full object-scale-down" src="/images/TrafficLights03.jpg" alt="carboard traffic lights">
               </div>
                     
-              <div class="flex-1 bg-white p-6 flex flex-col justify-between">
+              <div class="flex-1 bg-gray-100 p-6 flex flex-col justify-between">
                 <div class="flex-1">
                   <p class="text-xl font-bold" style="color:#A42530">
                     Traffic Lights add-on board
@@ -103,7 +103,7 @@
                 <img class="h-48 w-full object-scale-down" src="/images/ThrowGhost_Cover.png" alt="micro:bit ghost icon">
               </div>
                     
-              <div class="flex-1 bg-white p-6 flex flex-col justify-between">
+              <div class="flex-1 bg-gray-100 p-6 flex flex-col justify-between">
                 <div class="flex-1">
                   <p class="text-xl font-bold" style="color:#A42530">
                     Throw a Ghost

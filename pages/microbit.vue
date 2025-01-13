@@ -1,5 +1,5 @@
 <template>
-  <div class="relative bg-gray-50">
+  <div class="relative bg-gray-100">
     <Header />  
     <main class="lg:relative">
       <div class="mx-auto max-w-7xl w-full pt-16 pb-20 text-center lg:py-30 lg:text-center">
@@ -49,7 +49,7 @@
               <div class="flex-shrink-0">
                 <img class="h-48 w-full object-scale-down" src="/images/MakeCodeIcon.jpeg" alt="MakeCode Logo">
               </div>
-              <div class="flex-1 bg-white p-6 flex flex-col justify-between">
+              <div class="flex-1 bg-gray-100 p-6 flex flex-col justify-between">
                 <div class="flex-1">
                   <p class="text-xl font-bold" style="color:#A42530">
                     MakeCode Tutorials
@@ -67,7 +67,7 @@
               <div class="flex-shrink-0">
                 <img class="h-48 w-full object-scale-down" src="/images/EduBlocksIcon.jpeg" alt="EduBlocks Logo">
               </div>
-              <div class="flex-1 bg-white p-6 flex flex-col justify-between">
+              <div class="flex-1 bg-gray-100 p-6 flex flex-col justify-between">
                 <div class="flex-1">
                   <p class="text-xl font-bold" style="color:#A42530">
                     EduBlocks Tutorials
@@ -85,7 +85,7 @@
               <div class="flex-shrink-0">
                 <img class="h-48 w-full object-scale-down" src="/images/PythonIcon.jpeg" alt="Python Logo">
               </div>
-              <div class="flex-1 bg-white p-6 flex flex-col justify-between">
+              <div class="flex-1 bg-gray-100 p-6 flex flex-col justify-between">
                 <div class="flex-1">
                   <p class="text-xl font-bold" style="color:#A42530">
                     MicroPython tutorials
