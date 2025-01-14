@@ -8,7 +8,7 @@
             <span class="block xl:inline" style="color:#A42530"> Making <br> Programming<br> Fun </span> <br>
           </h1>
           
-          <p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">
+          <p class="mt-3 max-w-2xl mx-auto text-xl text-gray-700 sm:mt-4">
             We do so with the help of microcomputers which are the size of a credit card. 
             When our students write code for the micro:bit and Raspberry Pi etc, they can see an immediate result, e.g LEDs light 
             up or robots move about.
@@ -17,7 +17,7 @@
         
           <div class="grid grid-cols-2 grid-rows-2 gap-2 place-items-auto h-30 mt-10 sm:ml-3">
             <div class="rounded-md shadow sm:mt-0 sm:ml-3">
-              <NuxtLink to="/microbit" class="bg-green-700 w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-bold rounded-md text-emerald-200 md:py-4 md:text-lg md:px-4">
+              <NuxtLink to="/microbit" class="bg-green-800 w-full flex items-center justify-center px-8 py-3 border border-transparent text-xl font-bold rounded-md text-emerald-200 md:py-4 md:text-xl md:px-4">
                 micro:bit
               </NuxtLink>
             </div>

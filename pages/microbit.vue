@@ -7,19 +7,19 @@
           <h1 class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl lg:text-5xl xl:text-6xl">
             <span class="block xl:inline" style = "color:#A42530"> micro:bit </span>
           </h1>
-          <p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">
+          <p class="mt-3 max-w-2xl mx-auto text-xl text-gray-700 sm:mt-4">
             The micro:bit is a small device about half the size of a credit card. 
             It is packed full of features aimed at getting children into computer 
             programming and technology. Note that you still need a computer or 
             tablet to program it - it is a microcomputer not a full computer. 
           </p>
-          <p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">
+          <p class="mt-3 max-w-2xl mx-auto text-xl text-gray-700 sm:mt-4">
             The micro:bit was created by the BBC and other partners in the UK 
             in 2015. In 2016 they gave away one million free micro:bits to 
             schools within the UK to support the teaching of computer coding.
             Many other countries followed the UK's foot steps.
           </p>
-          <p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">
+          <p class="mt-3 max-w-2xl mx-auto text-xl text-gray-700 sm:mt-4">
             The micro:bit is now available for sale around the world.  
           </p>
         </div>
@@ -54,7 +54,7 @@
                   <p class="text-xl font-bold" style="color:#A42530">
                     MakeCode Tutorials
                   </p>
-                  <p class="mt-3 text-base text-gray-500">
+                  <p class="mt-3 text-base text-gray-700">
                     All Tutorials coded in the MakeCode drag and drop JavaScript editor.
                   </p>
                 </div>
@@ -72,7 +72,7 @@
                   <p class="text-xl font-bold" style="color:#A42530">
                     EduBlocks Tutorials
                   </p>
-                  <p class="mt-3 text-base text-gray-500">
+                  <p class="mt-3 text-base text-gray-700">
                     All tutorials coded the EduBlocks drag and drop Python editor.
                   </p>
                 </div>
@@ -87,10 +87,10 @@
               </div>
               <div class="flex-1 bg-gray-100 p-6 flex flex-col justify-between">
                 <div class="flex-1">
-                  <p class="text-xl font-bold" style="color:#A42530">
+                  <p class="text-red-700 text-xl font-bold">
                     MicroPython tutorials
                   </p>
-                  <p class="mt-3 text-base text-gray-500">
+                  <p class="mt-3 text-base text-gray-700">
                     All tutorials written in MicroPython Will work with the Mu Editor or the online python editor.
                   </p>
                 </div>

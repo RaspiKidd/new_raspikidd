@@ -5,11 +5,11 @@
             <div class="mx-auto max-w-7xl px-6 lg:px-8">
                 <div class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
                     <div class="lg:pr-8 lg:pt-4">
-                        <div class="lg:max-w-lg">
-                            <h2 class="text-base font-semibold leading-7 text-indigo-600" style = "color:#A42530"> Classes </h2>
+                        <div class="lg:max-w-lg text-gray-700">
+                            <h1 class="text-base font-semibold leading-7 text-red-700"> Classes </h1>
                             <p class="mt-2 text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl" style="color:#0E7452">RaspiKidd - Where Coding is Child's Play!</p>
-                            <dl class="mt-10 max-w-xl space-y-8 text-base leading-7 text-gray-600 lg:max-w-none">
-                                <div class="relative ml-8 pl-9 text-lg text-gray-500">
+                            <dl class="mt-10 max-w-xl space-y-8 text-base leading-7 lg:max-w-none">
+                                <div class="relative ml-8 pl-9 text-lg">
                                     <dt class="inline font-bold" style = "color:#A42530">
                                         <svg class="absolute left-1 top-1 h-6 w-5 text-indigo-600" 
                                             xmlns="http://www.w3.org/2000/svg"
@@ -24,9 +24,9 @@
                                         Are you ready to ignite your child's curiosity and creativity? At RaspiKidd, we bring the magic of coding to life for beginners aged 8-12 in the picturesque city of Perth, Scotland.
                                     </dd>
                                 </div>
-                                <div class="relative ml-8 pl-9 text-lg text-gray-500">
+                                <div class="relative ml-8 pl-9 text-lg">
                                     <dt class="inline font-bold" style = "color:#A42530">
-                                        <svg class="absolute left-1 top-1 h-6 w-5 text-indigo-600" 
+                                        <svg class="absolute left-1 top-1 h-6 w-5" 
                                             xmlns="http://www.w3.org/2000/svg"
                                             viewBox="0 0 448 512" 
                                             fill="#76B82A"
@@ -39,9 +39,9 @@
                                         Dive into the world of coding with our innovative workshops! We proudly use EduBlocks to unravel the wonders of programming micro:bits. But wait, this isn't your average coding class. Our workshops are designed to be <b>fun and interactive</b>, ensuring your child not only learns but enjoys every moment of the journey.
                                     </dd>
                                 </div>
-                                <div class="relative ml-8 pl-9 text-lg text-gray-500">
+                                <div class="relative ml-8 pl-9 text-lg">
                                     <dt class="inline font-bold" style = "color:#A42530">
-                                        <svg class="absolute left-1 top-1 h-6 w-5 text-indigo-600" 
+                                        <svg class="absolute left-1 top-1 h-6 w-5" 
                                             xmlns="http://www.w3.org/2000/svg"
                                             viewBox="0 0 512 512" 
                                             fill="#76B82A"
@@ -54,9 +54,9 @@
                                         Say goodbye to monotonous screen time. At RaspiKidd, we believe in hands-on learning. Our young programmers won't just be glued to computer screens; they'll be actively interacting with the real world. Watch as they bring their code to life, creating, exploring, and learning in a dynamic environment.
                                     </dd>
                                 </div>
-                                <div class="relative ml-8 pl-9 text-lg text-gray-500">
+                                <div class="relative ml-8 pl-9 text-lg">
                                     <dt class="inline font-bold" style = "color:#A42530">
-                                        <svg class="absolute left-1 top-1 h-6 w-5 text-indigo-600" 
+                                        <svg class="absolute left-1 top-1 h-6 w-5" 
                                             xmlns="http://www.w3.org/2000/svg"
                                             viewBox="0 0 512 512" 
                                             fill="#76B82A"

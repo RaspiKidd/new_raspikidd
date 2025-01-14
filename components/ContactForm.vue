@@ -7,7 +7,7 @@
             type="text" 
             autocomplete="text"
             required 
-            class="block w-full shadow-sm py-3 px-4 placeholder-gray-500 focus:ring-red-400 focus:border-red-500 border-gray-300 rounded-md" 
+            class="block w-full py-3 px-4 placeholder-gray-900 focus:ring-red-400 focus:border-red-500 border-2 border-green-700 rounded-md" 
             placeholder="Full name"
         />
 
@@ -18,7 +18,7 @@
             type="email" 
             autocomplete="email" 
             required 
-            class="block w-full shadow-sm py-3 px-4 placeholder-gray-500 focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md" 
+            class="block w-full shadow-sm py-3 px-4 placeholder-gray-900 focus:ring-red-500 focus:border-red-500 border-2 border-green-700 rounded-md" 
             placeholder="Email"
         />
                   
@@ -28,7 +28,7 @@
             name="phone"
             type="text"
             autocomplete="tel" 
-            class="block w-full shadow-sm py-3 px-4 placeholder-gray-500 focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md" 
+            class="block w-full shadow-sm py-3 px-4 placeholder-gray-900 focus:ring-red-500 focus:border-red-500 border-2 border-green-700 rounded-md" 
             placeholder="Phone"
         />
                 
@@ -38,14 +38,14 @@
             name="message" 
             rows="2" 
             required
-            class="block w-full shadow-sm py-3 px-4 text-gray-500 focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md" 
+            class="block w-full shadow-sm py-3 px-4 text-gray-900 focus:ring-red-500 focus:border-red-500 border-2 border-green-700 rounded-md" 
         >
             Message
         </textarea>
                  
         <button
             type="submit"
-            class="bg-green-700 flex items-center justify-center w-full px-5 py-3 mt-3 text-emerald-200 text-bold font-medium text-black border border-transparent rounded-md shadow hover:bg-green-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-green-700 focus:ring-white sm:mt-0 sm:ml-3 sm:w-auto sm:flex-shrink-0"
+            class="bg-green-800 flex items-center justify-center w-full px-5 py-3 mt-3 text-emerald-200 text-bold font-medium text-black border border-transparent rounded-md shadow hover:bg-green-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-green-700 focus:ring-white sm:mt-0 sm:ml-3 sm:w-auto sm:flex-shrink-0"
             style ="font-size: 22px"
         >
             Submit

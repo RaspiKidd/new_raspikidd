@@ -20,7 +20,7 @@
             <a href = "https://drive.google.com/file/d/1--vTxJfvK012SSbEtNa7jPxxy2kIM-nY/view?usp=sharing" target="_blank"> PDF Download </a>
           </button>-->
           
-          <h1 class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl lg:text-5xl xl:text-6xl text-red-700">
+          <h1 class="text-4xl tracking-tight font-extrabold sm:text-5xl md:text-6xl lg:text-5xl xl:text-6xl text-red-700">
             Traffic Lights Add-on Board
           </h1>
           
@@ -29,8 +29,8 @@
           </p>
         </div>
     
-        <div class="mt-6 prose prose-indigo prose-lg text-gray-500 mx-auto">
-          <h2 class="text-3xl tracking-tight font-extrabold sm:text-5xl md:text-5xl lg:text-4xl xl:text-5xl" style="color:#76B82A">
+        <div class="mt-6 prose prose-indigo prose-lg text-gray-700 mx-auto">
+          <h2 class="text-green-700 text-3xl tracking-tight font-extrabold sm:text-5xl md:text-5xl lg:text-4xl xl:text-5xl">
             Overview
           </h2>
             
@@ -38,7 +38,7 @@
             By the end of this tutorial you will know what an LED is and how to connect and program them using a BBC micro:bit.
           </p>
 
-          <h2 class="text-3xl tracking-tight font-extrabold sm:text-5xl md:text-5xl lg:text-4xl xl:text-5xl" style="color:#76B82A">
+          <h2 class="text-green-700 text-3xl tracking-tight font-extrabold sm:text-5xl md:text-5xl lg:text-4xl xl:text-5xl">
             What You Will Need
           </h2>
 
@@ -54,13 +54,13 @@
             <li> 1 x Battery pack for the micro:bit (optional) </li>
           </ul>
 
-          <h2 class="text-3xl tracking-tight font-extrabold sm:text-5xl md:text-5xl lg:text-4xl xl:text-5xl" style="color:#76B82A">
+          <h2 class="text-green-700 text-3xl tracking-tight font-extrabold sm:text-5xl md:text-5xl lg:text-4xl xl:text-5xl">
             What is an LED?
           </h2>
 
           <figure>
             <img class="w-full rounded-lg" src="/public/images/LEDDiagram.png" alt="" width="1310" height="873">
-            <figcaption> LED diagram </figcaption>
+            <figcaption class="text-gray-600"> LED diagram </figcaption>
           </figure>
 
           <p> 
@@ -71,7 +71,7 @@
             An LED has a longer leg called the anode (+) and a shorter leg called the cathode (-) as shown above.
           </p>
 
-          <h2 class="text-3xl tracking-tight font-extrabold sm:text-5xl md:text-5xl lg:text-4xl xl:text-5xl" style="color:#76B82A">
+          <h2 class="text-green-700 text-3xl tracking-tight font-extrabold sm:text-5xl md:text-5xl lg:text-4xl xl:text-5xl">
             Creating the Circuit
           </h2>
 
@@ -80,25 +80,25 @@
             <li> Take the red LED and bend the legs out to the sides. Place the LED on the cardboard with the longer leg to the right. 
               <figure>
                 <img class="w-full rounded-lg" src="/public/images/TrafficLights01.jpg" alt="" width="1310" height="873">
-                <figcaption> Red LED placed on the cardboard </figcaption>
+                <figcaption class="text-gray-600"> Red LED placed on the cardboard </figcaption>
               </figure>
             </li>
             <li> Take a bit of copper tape or glue and some aluminium foil over the long leg of the red LED
               <figure>
                 <img class="w-full rounded-lg" src="/public/images/TrafficLights02.jpg" alt="" width="1310" height="873">
-                <figcaption> Taping the longer leg of the red LED </figcaption>
+                <figcaption class="text-gray-600"> Taping the longer leg of the red LED </figcaption>
               </figure>
             </li>
             <li> Complete steps 2 and 3 for the yellow and green LEDs. </li>
             <li> Take a longer bit of copper tape or foil and tape/glue all three of the short legs of the LEDs together.
               <figure>
                 <img class="w-full rounded-lg" src="/public/images/TrafficLights03.jpg" alt="" width="1310" height="873">
-                <figcaption> Completed Traffic lights </figcaption>
+                <figcaption class="text-gray-600"> Completed Traffic lights </figcaption>
               </figure>
             </li>
           </ol>
 
-          <h2 class="text-3xl tracking-tight font-extrabold sm:text-5xl md:text-5xl lg:text-4xl xl:text-5xl" style="color:#76B82A">
+          <h2 class="text-green-700 text-3xl tracking-tight font-extrabold sm:text-5xl md:text-5xl lg:text-4xl xl:text-5xl">
             Connecting to the micro:bit
           </h2>
 
@@ -112,14 +112,14 @@
 
           <figure>
             <img class="w-full rounded-lg" src="/public/images/TrafficLights04.jpeg" alt="" width="1310" height="873">
-            <figcaption> Completed Circuit </figcaption>
+            <figcaption class="text-gray-600"> Completed Circuit </figcaption>
           </figure>
               
           <h3>
             We are now ready to code our traffic lights
           </h3>
 
-          <h2 class="text-3xl tracking-tight font-extrabold sm:text-5xl md:text-5xl lg:text-4xl xl:text-5xl" style="color:#76B82A">
+          <h2 class="text-green-700 text-3xl tracking-tight font-extrabold sm:text-5xl md:text-5xl lg:text-4xl xl:text-5xl">
             Coding The Traffic Lights
           </h2>
 
@@ -133,7 +133,7 @@
             <li> Click on 100 and type 1000. Your code should look like this: 
               <figure>
                 <img class="w-full rounded-lg" src="/public/images/TrafficLights05.png" alt="" width="1310" height="873">
-                <figcaption> Turning the red LED on </figcaption>
+                <figcaption class="text-gray-600"> Turning the red LED on </figcaption>
               </figure>
             </li>
             <li> Right-click on digital write pin P0 to 1 block and click duplicate. Click and drag the duplicated block and attach it under pause (ms) 1000 block. </li>
@@ -141,7 +141,7 @@
             <li> Right-click on the pause (ms) 1000 block and click duplicate. Attach the duplicated block under digital write pin P1 to 1 block. 
               <figure>
                 <img class="w-full rounded-lg" src="/public/images/TrafficLights06.png" alt="" width="1310" height="873">
-                <figcaption> Turning the yellow LED on </figcaption>
+                <figcaption class="text-gray-600"> Turning the yellow LED on </figcaption>
               </figure>
             </li>
             <li> Right-click on digital write pin P0 to 1 and click duplicate attach the duplicated block under pause (ms) 1000 block. </li>
@@ -151,7 +151,7 @@
             <li> Right-click on pause (ms) 1000 and click duplicate and place the duplicated block under digital write P2 to 1 block. 
               <figure>
                 <img class="w-full rounded-lg" src="/public/images/TrafficLights07.png" alt="" width="1310" height="873">
-                <figcaption> Turning the  red and yellow LEDs off and the green LED on </figcaption>
+                <figcaption class="text-gray-600"> Turning the  red and yellow LEDs off and the green LED on </figcaption>
               </figure>
             </li>
             <li> Right-click digital write pin P2 to 1 block and click duplicate and attach it below pause (ms) 1000 block. Click on the 1 and type 0. </li>
@@ -162,14 +162,14 @@
 
           <figure>
             <img class="w-full rounded-lg" src="/public/images/TrafficLights08.png" alt="" width="1310" height="873">
-            <figcaption> Completed Code </figcaption>
+            <figcaption class="text-gray-600"> Completed Code </figcaption>
           </figure>
 
           <p>
             Now that we have completed the code we need to download it to our micro:bit
           </p>
 
-          <h2 class="text-3xl tracking-tight font-extrabold sm:text-5xl md:text-5xl lg:text-4xl xl:text-5xl" style="color:#76B82A">
+          <h2 class="text-green-700 text-3xl tracking-tight font-extrabold sm:text-5xl md:text-5xl lg:text-4xl xl:text-5xl">
             Downloading the Code
           </h2>
 

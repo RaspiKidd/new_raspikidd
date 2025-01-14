@@ -10,49 +10,49 @@
             </span>
           </h2>
           
-          <p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">
+          <p class="mt-3 max-w-2xl mx-auto text-xl text-gray-700 sm:mt-4">
             Here at RaspiKidd we educate kids and teachers how to program computers in 
             a fun and interactive way. We do so with the help of microcomputers which 
             are the size of a credit card. When our students write code, they can see 
             an immediate result, e.g LEDs light up or robots move about.
           </p>
 
-          <h2 class=" pt-8 text-3xl tracking-tight font-extrabold text-gray-900 sm:text-4xl md:text-5xl lg:text-4xl xl:text-5xl">
-            <span class="block xl:inline sm:text-4xl md:text-5xl lg:text-4xl xl:text-5xl" style="color:#A42530"> 
+          <h1 class="pt-8 text-3xl tracking-tight font-extrabold text-green-700 sm:text-4xl md:text-5xl lg:text-4xl xl:text-5xl">
+            <span class="block xl:inline sm:text-4xl md:text-5xl lg:text-4xl xl:text-5xl"> 
               Who we are 
             </span>
-          </h2>
+          </h1>
 
-          <p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">
+          <p class="mt-3 max-w-2xl mx-auto text-xl text-gray-700 sm:mt-4">
             Kerry Kidd is the micro:bit Educational Specialist and Raspberry Pi Certified Educator. 
           </p>
 
-          <p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">
+          <p class="mt-3 max-w-2xl mx-auto text-xl text-gray-700 sm:mt-4">
             Kerry started her tech journey in the early 1990's, when computers were 
             still in their infancy. After studying computer science at college, Kerry went 
             on to combine her love of electronics, tech and building things, that make noise 
             move about and light up this was where RaspiKidd was born.
           </p>
 
-          <p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">
+          <p class="mt-3 max-w-2xl mx-auto text-xl text-gray-700 sm:mt-4">
             Kerry is also the co-founder of 
             <a href = "https://micromag.raspikidd.com/"
               target="_blank"
-              class="text-blue-500 hover:text-blue-600"
+              class="text-blue-800 hover:text-blue-700"
             > 
               micro:mag
             </a> 
             , and she freelances for
             <a href = "https://causewaydigital.io/"
               target="_blank"
-              class="text-blue-500 hover:text-blue-600"
+              class="text-blue-800 hover:text-blue-700"
             > 
               Causeway Digital
             </a>  
             to develop educational materials for 
             <a href = "https://education.minecraft.net/en-us"
               target = "_blank"
-              class = "text-blue-500 hover:text-blue-600"
+              class = "text-blue-800 hover:text-blue-700"
             >
               Minecraft.
             </a> 

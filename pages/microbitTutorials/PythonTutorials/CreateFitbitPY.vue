@@ -16,7 +16,7 @@
       
       <div class="relative px-4 sm:px-6 lg:px-8">
         <div class="text-lg max-w-prose mx-auto">
-          <h1 class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl lg:text-5xl xl:text-6xl text-red-700">
+          <h1 class="text-4xl tracking-tight font-extrabold sm:text-5xl md:text-6xl lg:text-5xl xl:text-6xl text-red-700">
             Create Your Own Fitbit
           </h1>
           
@@ -25,8 +25,8 @@
           </p>
         </div>
     
-        <div class="mt-6 prose prose-indigo prose-lg text-gray-500 mx-auto">
-          <h2 class="text-3xl tracking-tight font-extrabold sm:text-5xl md:text-5xl lg:text-4xl xl:text-5xl" style="color:#76B82A">
+        <div class="mt-6 prose prose-indigo prose-lg text-gray-700 mx-auto">
+          <h2 class="text-green-700 text-3xl tracking-tight font-extrabold sm:text-5xl md:text-5xl lg:text-4xl xl:text-5xl">
             What You Will Learn
           </h2>
           
@@ -40,7 +40,7 @@
             <li> Use the button function. </li>
           </ul>
 
-          <h2 class="text-3xl tracking-tight font-extrabold sm:text-5xl md:text-5xl lg:text-4xl xl:text-5xl" style="color:#76B82A">
+          <h2 class="text-green-700 text-3xl tracking-tight font-extrabold sm:text-5xl md:text-5xl lg:text-4xl xl:text-5xl">
             What You Will Need
           </h2>
           
@@ -50,7 +50,7 @@
             <li> 1 x Battery pack for the micro:bit (optional). </li>
           </ul>
 
-          <h2 class="text-3xl tracking-tight font-extrabold sm:text-5xl md:text-5xl lg:text-4xl xl:text-5xl" style="color:#76B82A">
+          <h2 class="text-green-700 text-3xl tracking-tight font-extrabold sm:text-5xl md:text-5xl lg:text-4xl xl:text-5xl">
             Coding
           </h2>
 
@@ -73,7 +73,7 @@
               Type the following code starting on <i> line 7 </i>. 
               <figure>
                 <img class="rounded-lg" src="/public/images/FitBit_PY_01.png" alt="" width="500" height="500">
-                <figcaption> Code so far </figcaption>
+                <figcaption class="text-gray-600"> Code so far </figcaption>
               </figure>
             </li>
           </ol>
@@ -84,14 +84,14 @@
 
           <figure>
             <img class="rounded-lg" src="/public/images/FitBit_PY_02.png" alt="" width="500" height="500">
-            <figcaption> Completed Code </figcaption>
+            <figcaption class="text-gray-600"> Completed Code </figcaption>
           </figure>
 
           <p> 
             Now that we have completed the code we need to download it to the micro:bit.
           </p>
               
-          <h2 class="text-3xl tracking-tight font-extrabold sm:text-5xl md:text-5xl lg:text-4xl xl:text-5xl" style="color:#76B82A">
+          <h2 class="text-green-700 text-3xl tracking-tight font-extrabold sm:text-5xl md:text-5xl lg:text-4xl xl:text-5xl">
             Downloading the Code
           </h2>
 

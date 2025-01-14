@@ -24,7 +24,7 @@
             We will explore the micro:bit radio function by throwing (shaking the micro:bit) a ghost from one micro:bit to another.
           </p>
 
-          <p> 
+          <p class="text-gray-700"> 
             <b> This is adapted from the Micro:bit Educational Foundations teleporting duck tutorial. </b> 
           </p>
         </div>
@@ -39,11 +39,11 @@
             </p>
           </div>
 
-          <h2 class="text-3xl tracking-tight font-extrabold sm:text-5xl md:text-5xl lg:text-4xl xl:text-5xl" style="color:#76B82A">
+          <h2 class="text-green-700 text-3xl tracking-tight font-extrabold sm:text-5xl md:text-5xl lg:text-4xl xl:text-5xl">
             What You Will Learn
           </h2>
           
-          <ul>
+          <ul class="text-gray-700">
             How to:
             <li> Set the radio group for the micro:bits to communicate over. </li>
             <li> Clear the LED matrix. </li>
@@ -51,28 +51,28 @@
             <li> Display an icon when the micro:bit receives a message. </li>
           </ul>
 
-          <h2 class="text-3xl tracking-tight font-extrabold sm:text-5xl md:text-5xl lg:text-4xl xl:text-5xl" style="color:#76B82A">
+          <h2 class="text-green-700 text-3xl tracking-tight font-extrabold sm:text-5xl md:text-5xl lg:text-4xl xl:text-5xl">
             What You Will Need
           </h2>
 
-          <ul>
+          <ul class="text-gray-700">
             <li> 2 x micro:bits. </li>
             <li> 2 x micro-USB cables. </li>
             <li> 2 x Battery packs for the micro:bit (optional). </li>
           </ul>
 
-          <h2 class="text-3xl tracking-tight font-extrabold sm:text-5xl md:text-5xl lg:text-4xl xl:text-5xl" style="color:#76B82A">
+          <h2 class="text-green-700 text-3xl tracking-tight font-extrabold sm:text-5xl md:text-5xl lg:text-4xl xl:text-5xl">
             Coding
           </h2>
 
-          <ol>
+          <ol class="text-gray-700">
             <li> Within your favourite browser (we recommend Google Chrome) go to <a href = "https://makecode.microbit.org/"> <i> makecode.microbit.org </i> </a> and press <i> Enter </i>. This will load the MakeCode coding editor. </li>
             <li> Click on <i> New project </i> and name it <i> throw a ghost </i> and click <i> OK </i>. </li>
             <li> Click and drag the <i> forever </i> block to the left and drop it on the <i> bin </i>. </li>
             <li> Click on <i> Radio </i>. Click and drag a <i> radio set group 1 </i> block to the code area and attach it within the <i> on start </i> block. Click on <i> 1 </i> and type <i> 30 </i>. 
               <figure>
                 <img class="rounded-lg" src="/public/images/ThrowGhost_MC_01.png" alt="" width="300" height="300">
-                <figcaption> Setting the radio group to 30 </figcaption>
+                <figcaption class="text-gray-600"> Setting the radio group to 30 </figcaption>
               </figure>
             </li>
             <li> Click on <i> Input </i>. Click and drag an <i> on shake </i> block to the code area and drop it. </li>
@@ -80,38 +80,38 @@
             <li> Click on <i> Radio </i>. Click and drag a <i> radio send string “ “ </i> block to the code area and attach it under the <i> clear screen </i> block. Click on the blank space and type <i> GHOST </i>. 
               <figure>
                 <img class="rounded-lg" src="/public/images/ThrowGhost_MC_02.png" alt="" width="300" height="300">
-                <figcaption> Clearing the screen and sending the message ghost </figcaption>
+                <figcaption class="text-gray-600"> Clearing the screen and sending the message ghost </figcaption>
               </figure>
             </li>
             <li> Click on <i> Radio </i>. Click and drag an <i> on radio received received string </i> block to the code area and drop it. </li>
             <li> Click on <i> Basic </i>. Click and drag a <i> show icon </i> block to the code area and attach it within the <i> on radio received received string </i> block. Click on the <i> heart </i> and pick the <i> ghost </i> icon. </li>
           </ol>
           
-          <p> 
+          <p class="text-gray-700"> 
             Completed Code
           </p>
 
           <figure>
             <img class="rounded-lg" src="/public/images/ThrowGhost_MC_03.png" alt="" width="500" height="500">
-            <figcaption> Completed code </figcaption>
+            <figcaption class="text-gray-600"> Completed code </figcaption>
           </figure>
 
-          <h2 class="text-3xl tracking-tight font-extrabold sm:text-5xl md:text-5xl lg:text-4xl xl:text-5xl" style="color:#76B82A">
+          <h2 class="text-green-700 text-3xl tracking-tight font-extrabold sm:text-5xl md:text-5xl lg:text-4xl xl:text-5xl">
             Downloading the Code
           </h2>
 
-          <ol>
+          <ol class="text-gray-700">
             <li> Click on the 3 dots next to Download. </li>
             <li> Click on pair device a pop-up will come on screen to show you how to connect the micro:bit to the computer. Click on pair device again. </li>
             <li> Click on BBC micro:bit xxxx and click connect. </li>
             <li> Click Download. </li>
           </ol>  
 
-          <p> 
+          <p class="text-gray-700"> 
             Now that we have downloaded our code to the micro:bits attach a battery pack and start throwing the ghost back and forth between you and your friend. 
           </p>
 
-          <p> 
+          <p class="text-gray-700"> 
             Try moving further away from one and other and see how far apart you can get before you can no longer catch the ghost.
           </p>
         </div>

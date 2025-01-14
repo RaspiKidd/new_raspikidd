@@ -72,15 +72,15 @@
               </transition>
             </div> -->
 
-            <NuxtLink to="/microbit" class="text-base font-medium text-gray-500 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500">
+            <NuxtLink to="/microbit" class="text-base font-medium text-gray-700 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500">
               micro:bit
             </NuxtLink>
 
-            <NuxtLink to="/About" class="text-base font-medium text-gray-500 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500">
+            <NuxtLink to="/About" class="text-base font-medium text-gray-700 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500">
               About
             </NuxtLink>
 
-            <NuxtLink to="/Classes" class="text-base font-medium text-gray-500 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500">
+            <NuxtLink to="/Classes" class="text-base font-medium text-gray-700 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500">
               Classes
             </NuxtLink>
 
@@ -88,11 +88,11 @@
               Blog
             </a>-->
 
-           <NuxtLink to="/Blog" class="text-base font-medium text-gray-500 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500">
+           <NuxtLink to="/Blog" class="text-base font-medium text-gray-700 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500">
               Blog
             </NuxtLink>
 
-            <NuxtLink to="/HireMe" class="text-base font-medium text-gray-500 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500">
+            <NuxtLink to="/HireMe" class="text-base font-medium text-gray-700 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500">
               Hire Us
             </NuxtLink>
           </nav>
@@ -111,7 +111,7 @@
         
         <!-- Mobile Menu -->
         <div class="absolute top-0 inset-x-0 z-10 p-2 transition transform origin-top-right md:hidden">
-          <div class="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 bg-white divide-y-2 divide-gray-50">
+          <div class="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 bg-gray-200 divide-y-2 divide-gray-50">
             <div class="pt-5 pb-6 px-5">
               <div class="flex items-center justify-between">
                 <NuxtLink to="/">
@@ -128,7 +128,7 @@
                       </div>
                     </div>
                 <div class="-mr-2">
-                  <button type="button" @click="isOpen = !isOpen" class="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
+                  <button type="button" @click="isOpen = !isOpen" class="bg-gray-200 rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
                     <span class="sr-only">Open menu</span>
                     <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
@@ -144,7 +144,7 @@
                     leave-to-class="opacity-0 scale-95"
                   >
                     <div v-show="isOpen" class="origin-top-right absolute right-0 mt-2 w-56 rounded-md shadow-lg">
-                      <div class="rounded-md bg-white shadow-xs">
+                      <div class="rounded-md bg-gray-200 shadow-xs">
                         <div class="mt-6">
                           <nav class="grid gap-y-8">
                             <!-- <NuxtLink to="/RaspberryPi" class="rounded-t bg-white hover:bg-gray-400 -m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
@@ -165,15 +165,15 @@
                               </div>
                             </NuxtLink> -->
         
-                            <NuxtLink to="/microbit" class="text-base font-medium text-gray-500 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500 p-3">
+                            <NuxtLink to="/microbit" class="text-base font-medium text-gray-700 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500 p-3">
                               micro:bit
                             </NuxtLink>
 
-                            <NuxtLink to="/About" class="text-base font-medium text-gray-500 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500 p-3">
+                            <NuxtLink to="/About" class="text-base font-medium text-gray-700 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500 p-3">
                               About
                             </NuxtLink>
 
-                            <NuxtLink to="/Classes" class="text-base font-medium text-gray-500 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500 p-3">
+                            <NuxtLink to="/Classes" class="text-base font-medium text-gray-700 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500 p-3">
                               Classes
                             </NuxtLink>
                       
@@ -181,11 +181,11 @@
                               Blog
                             </a> -->
 
-                            <NuxtLink to="/Blog" class="text-base font-medium text-gray-500 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500 p-3">
+                            <NuxtLink to="/Blog" class="text-base font-medium text-gray-700 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500 p-3">
                               Blog
                             </NuxtLink> 
 
-                            <NuxtLink to="/HireMe" class="text-base font-medium text-gray-500 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500 p-3">
+                            <NuxtLink to="/HireMe" class="text-base font-medium text-gray-700 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500 p-3">
                               Hire Us
                             </NuxtLink>
                           </nav>

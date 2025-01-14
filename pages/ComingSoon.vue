@@ -13,7 +13,7 @@
                         Coming Soon
                     </h1>
                 </div>
-                <p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">
+                <p class="mt-3 max-w-2xl mx-auto text-xl text-gray-700 sm:mt-4">
                 We have some exciting things coming... Be the first to know by sigining up to our Newsletter.
                 </p>
             </div>

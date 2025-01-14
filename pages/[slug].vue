@@ -49,7 +49,7 @@
             height="873"
           />
         </div>
-        <div class="mt-6 prose prose-blue prose-lg text-gray-500 mx-auto">
+        <div class="mt-6 prose prose-blue prose-lg text-gray-700 mx-auto">
           <RichTextRenderer :document="story.content.content"></RichTextRenderer>
         </div>
       </div> 

@@ -25,8 +25,8 @@
           </p>
         </div>
     
-        <div class="mt-6 prose prose-indigo prose-lg text-gray-500 mx-auto">
-          <h2 class="text-3xl tracking-tight font-extrabold sm:text-5xl md:text-5xl lg:text-4xl xl:text-5xl" style="color:#76B82A">
+        <div class="mt-6 prose prose-indigo prose-lg text-gray-700 mx-auto">
+          <h2 class="text-green-700 text-3xl tracking-tight font-extrabold sm:text-5xl md:text-5xl lg:text-4xl xl:text-5xl">
             What You Will Learn
           </h2>
                 
@@ -44,7 +44,7 @@
             <li> Use the light sensor. </li>
           </ul>
 
-          <h2 class="text-3xl tracking-tight font-extrabold sm:text-5xl md:text-5xl lg:text-4xl xl:text-5xl" style="color:#76B82A">
+          <h2 class="text-green-700 text-3xl tracking-tight font-extrabold sm:text-5xl md:text-5xl lg:text-4xl xl:text-5xl">
             Coding
           </h2>
 
@@ -53,7 +53,7 @@
             <li> Delete the text on <i> lines 6, 7 and 8 </i>.
               <figure>
                 <img class="rounded-lg" src="/public/images/ES_PY_01.png" alt="" width="400" height="400">
-                <figcaption> Setting up the code area </figcaption>
+                <figcaption class="text-gray-600"> Setting up the code area </figcaption>
               </figure>
             </li>
           </ol>
@@ -66,7 +66,7 @@
             <li> From line 6 type the following code: 
               <figure>
                 <img class="rounded-lg" src="/public/images/ES_PY_02.png" alt="" width="400" height="400">
-                <figcaption> Sensing Temperature code </figcaption>
+                <figcaption class="text-gray-600"> Sensing Temperature code </figcaption>
               </figure>
             </li>
           </ol>
@@ -83,7 +83,7 @@
             <li> From <i> line 8 </i> type the following code. Make sure your <i> cursor </i> is positioned under the <i> if </i> on <i> line 6 </i>. 
               <figure>
                 <img class="rounded-lg" src="/public/images/ES_PY_03.png" alt="" width="500" height="500">
-                <figcaption> Sensing Light code </figcaption>
+                <figcaption class="text-gray-600"> Sensing Light code </figcaption>
               </figure>
             </li>
           </ol>
@@ -100,7 +100,7 @@
             <li> From <i> line 14 </i> type the following code making sure your <i> cursor </i> is under the <i> if </i> of <i> line 8 </i>. 
               <figure>
                 <img class="rounded-lg" src="/public/images/ES_PY_04.png" alt="" width="500" height="500">
-                <figcaption> Compass sensing code </figcaption>
+                <figcaption class="text-gray-600"> Compass sensing code </figcaption>
               </figure>
             </li>
           </ol>
@@ -115,14 +115,14 @@
 
           <figure>
             <img class="rounded-lg" src="/public/images/ES_PY_05.png" alt="" width="500" height="500">
-            <figcaption> Completed code </figcaption>
+            <figcaption class="text-gray-600"> Completed code </figcaption>
           </figure>
 
           <p> 
             We are now ready to download the code to our micro:bit so we can go out and sense our environment.
           </p>
 
-          <h2 class="text-3xl tracking-tight font-extrabold sm:text-5xl md:text-5xl lg:text-4xl xl:text-5xl" style="color:#76B82A">
+          <h2 class="text-green-700 text-3xl tracking-tight font-extrabold sm:text-5xl md:text-5xl lg:text-4xl xl:text-5xl">
             Downloading the Code
           </h2>
 

@@ -6,19 +6,19 @@
           <div class="max-w-lg mx-auto md:max-w-none md:grid md:grid-cols-2 md:gap-9">
             <!-- Left Side of screen -->
             <div>
-              <h2 class="text-2xl font-extrabold sm:text-3xl" style = "color:#A42530">
+              <h1 class="text-red-700 text-2xl font-extrabold sm:text-3xl">
                 Why Hire Us?
-              </h2>
+              </h1>
           
               <div class="mt-3">
-                <p class="text-lg text-gray-500">
+                <p class="text-lg text-gray-700">
                   We educate kids and teachers how to program computers <br> in a fun and 
                   interactive way.
                 </p>
 
                 <div class="-m-3 p-3 ml-4 mt-3 flex items-start rounded-lg">
                   <img class="flex-shrink-0 h-6 w-6" src="/public/images/phone.svg" alt="Phone Icon">
-                  <span class="ml-8 text-lg text-gray-500">
+                  <span class="ml-8 text-lg text-gray-700">
                     <p>
                       07848 692 935
                     </p>
@@ -29,7 +29,7 @@
                 </div>
                 <div class="-m-3 p-3 ml-4 mt-3 flex items-start rounded-lg">
                   <img class="flex-shrink-0 h-6 w-6" src="/public/images/email.svg" alt="Email Icon">
-                  <span class="ml-8 text-lg text-gray-500">
+                  <span class="ml-8 text-lg text-gray-700">
                     kerry@raspikidd.com
                   </span>
                 </div>
@@ -37,7 +37,7 @@
             </div>
             <!-- Right Side of Screen -->
             <div class="mt-12 sm:mt-16 md:mt-0">
-              <h2 class="text-2xl font-extrabold sm:text-3xl" style ="color:#A42530">
+              <h2 class="text-red-700 text-2xl font-extrabold sm:text-3xl">
                 Contact Us
               </h2>
               <div class="mt-9">

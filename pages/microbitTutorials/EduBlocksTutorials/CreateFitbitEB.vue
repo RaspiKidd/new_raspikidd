@@ -23,12 +23,12 @@
           </p>
         </div>
     
-        <div class="mt-6 prose prose-indigo prose-lg text-gray-500 mx-auto">
-          <h2 class="text-3xl tracking-tight font-extrabold sm:text-5xl md:text-5xl lg:text-4xl xl:text-5xl" style="color:#76B82A">
+        <div class="mt-6 prose prose-indigo prose-lg text-gray-700 mx-auto">
+          <h2 class="text-green-700 text-3xl tracking-tight font-extrabold sm:text-5xl md:text-5xl lg:text-4xl xl:text-5xl">
             What You Will Learn
           </h2>
-          <p> How to </p>
-          <ul>
+          <p class="text-gray-700"> How to </p>
+          <ul class="text-gray-700">
             <li> Create and use a variable. </li>
             <li> The micro:bit shake function. </li>
             <li> Use a while True loop. </li>
@@ -36,19 +36,19 @@
             <li> Use the button function. </li>
           </ul>
 
-          <h2 class="text-3xl tracking-tight font-extrabold sm:text-5xl md:text-5xl lg:text-4xl xl:text-5xl" style="color:#76B82A">
+          <h2 class="text-green-700 text-3xl tracking-tight font-extrabold sm:text-5xl md:text-5xl lg:text-4xl xl:text-5xl">
             What You Will Need
           </h2>
-          <ul>
+          <ul class="text-gray-700">
             <li> 1 x micro:bit. </li>
             <li> 1 x micro USB cable. </li>
             <li> 1 x Battery pack for the micro:bit (optional). </li>
           </ul>
-          <h2 class="text-3xl tracking-tight font-extrabold sm:text-5xl md:text-5xl lg:text-4xl xl:text-5xl" style="color:#76B82A">
+          <h2 class="text-green-700 text-3xl tracking-tight font-extrabold sm:text-5xl md:text-5xl lg:text-4xl xl:text-5xl">
             Coding
           </h2>
 
-          <ol>
+          <ol class="text-gray-700">
             <li> Open your favourite browser ( we recommend Google Chrome) Within the address bar of the browser type <i> <a href="https://app.edublocks.org/"> app.edublocks.org </a> </i> and press <i> Enter </i>. This will load the EduBlocks coding environment.</li>
             <li> Click on <i> micro:bit </i> to open the coding editor. </li>
             <li> Click on <i> Basic </i>. Click and drag a <i> from microbit import * </i> block to the code area and drop it or if you are using the new editor attach it to the <i> # start code here </i> block. </li>
@@ -57,7 +57,7 @@
               Click on <i> Variable </i> and click on <i> New variable… </i> Give it the name <i> steps </i> press <i> Enter </i>. Click on <i> 1 </i> and type <i> 0 </i>.  
               <figure>
                 <img class="rounded-lg" src="/public/images/FitBit_EB_01.png" alt="" width="500" height="500">
-                <figcaption> Initiating the step counter to 0 </figcaption>
+                <figcaption class="text-gray-600"> Initiating the step counter to 0 </figcaption>
               </figure>
             </li>
             <div class="bg-blue-100 border-l-8 border-blue-400 px-8">
@@ -79,7 +79,7 @@
               Click on <i> Variables</i>. Click and drag a <code> steps </code> block to the code area and attach it within the <code> 0 </code> of the <code> display.scroll </code> block. 
               <figure>
                 <img class="rounded-lg" src="/public/images/FitBit_EB_02.png" alt="" width="500" height="500">
-                <figcaption> Increasing the step counter by 1 everytime the micro:bit detects a shake and displays the number of steps on the LED matrix </figcaption>
+                <figcaption class="text-gray-600"> Increasing the step counter by 1 everytime the micro:bit detects a shake and displays the number of steps on the LED matrix </figcaption>
               </figure>
             </li>
             <li> Click on <i> Basic</i>. Click and drag an <code> if True(): </code> block to the code area and attach it under the <code> if accelerometer.is_gesture(‘shake’): </code> block. </li>
@@ -88,7 +88,7 @@
               Right-click on <i> steps = 0 </i> and click <i> duplicate </i> and attach the duplicated block within the <code> if button_.is_pressed(): </code> block. 
               <figure>
                 <img class="rounded-lg" src="/public/images/FitBit_EB_03.png" alt="" width="500" height="500">
-                <figcaption> Resets the step counter to 0 </figcaption>
+                <figcaption class="text-gray-600"> Resets the step counter to 0 </figcaption>
               </figure>
             </li>
             <li> Right-click on <code> if button_a.is_pressed(): </code> block and click <i> duplicate </i> and attach it under the <code> if button_a.is_pressed(): </code> block. Click on <i> a </i> and click <i> b </i>. </li>
@@ -99,27 +99,27 @@
             </li>
           </ol>
 
-          <p> <b> Completed Code: </b> </p>
+          <p class="text-gray-700"> <b> Completed Code: </b> </p>
 
           <figure>
             <img class="rounded-lg" src="/public/images/FitBit_EB_04.png" alt="" width="500" height="500">
-            <figcaption> Completed Code </figcaption>
+            <figcaption class="text-gray-600"> Completed Code </figcaption>
           </figure>
 
-          <p> 
+          <p class="text-gray-700"> 
             Now that we have completed the code we need to download it to the micro:bit.
           </p>
               
-          <h2 class="text-3xl tracking-tight font-extrabold sm:text-5xl md:text-5xl lg:text-4xl xl:text-5xl" style="color:#76B82A">
+          <h2 class="text-green-700 text-3xl tracking-tight font-extrabold sm:text-5xl md:text-5xl lg:text-4xl xl:text-5xl">
             Downloading the Code
           </h2>
 
-          <ol>
+          <ol class="text-gray-700">
             <li> Take the micro USB cable and connect the micro:bit to the computer. </li>
             <li> Click on Download Hex. Click on your micro:bit drive to open it and click save. </li>
           </ol>  
 
-          <p> 
+          <p class="text-gray-700"> 
             You have created your own Fitbit step counter why not connect a battery pack and strap your micro:bit to your ankle and go for a walk and see how many steps you have done at the end.
           </p>
         </div>

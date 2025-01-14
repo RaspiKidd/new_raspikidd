@@ -9,7 +9,7 @@
             
       <div class="relative max-w-7xl mx-auto">
         <div class="text-center">
-          <h1 class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl lg:text-5xl xl:text-6xl" style="color:#A42530">
+          <h1 class="text-4xl tracking-tight font-extrabold text-red-700 sm:text-5xl md:text-6xl lg:text-5xl xl:text-6xl">
             MakeCode Tutorials
           </h1>
         </div>
@@ -23,10 +23,10 @@
                     
               <div class="flex-1 bg-gray-100 p-6 flex flex-col justify-between">
                 <div class="flex-1">
-                  <p class="text-xl font-bold" style="color:#A42530">
+                  <p class="text-red-700 text-xl font-bold">
                     Rock Paper Scissors
                   </p>
-                  <p class="mt-3 text-base text-gray-500">
+                  <p class="mt-3 text-base text-gray-700">
                     Learn how to code the classic game rock paper scissors on your micro:bit.
                   </p>
                 </div>
@@ -41,10 +41,10 @@
               </div>
               <div class="flex-1 bg-gray-100 p-6 flex flex-col justify-between">
                 <div class="flex-1">
-                  <p class="text-xl font-bold" style="color:#A42530">
+                  <p class="text-red-700 text-xl font-bold">
                     Create Your Own Fitbit
                   </p>
-                  <p class="mt-3 text-base text-gray-500">
+                  <p class="mt-3 text-base text-gray-700">
                     Learn how to create your own Fitbit step counter. <br>
                   </p>
                 </div>
@@ -59,10 +59,10 @@
               </div>
               <div class="flex-1 bg-gray-100 p-6 flex flex-col justify-between">
                 <div class="flex-1">
-                  <p class="text-xl font-bold" style="color:#A42530">
+                  <p class="text-red-700 text-xl font-bold">
                     Sensing The Environment
                   </p>
-                  <p class="mt-3 text-base text-gray-500">
+                  <p class="mt-3 text-base text-gray-700">
                     Exploring the environment by using the temperature sensor, light sensor and compass on the micro:bit.
                   </p>
                 </div>
@@ -79,10 +79,10 @@
               </div>
               <div class="flex-1 bg-gray-100 p-6 flex flex-col justify-between">
                 <div class="flex-1">
-                  <p class="text-xl font-bold" style="color:#A42530">
+                  <p class="text-red-700 text-xl font-bold">
                     Traffic Lights add-on board
                   </p>
-                  <p class="mt-3 text-base text-gray-500">
+                  <p class="mt-3 text-base text-gray-700">
                     Create your own micro:bit traffic light add-on board.
                   </p>
                 </div>
@@ -97,10 +97,10 @@
               </div>
               <div class="flex-1 bg-gray-100 p-6 flex flex-col justify-between">
                 <div class="flex-1">
-                  <p class="text-xl font-bold" style="color:#A42530">
+                  <p class="text-red-700 text-xl font-bold">
                     Throw a Ghost
                   </p>
-                  <p class="mt-3 text-base text-gray-500">
+                  <p class="mt-3 text-base text-gray-700">
                     Exploring the micro:bit radio function by throwing a ghost between 2 micro:bits
                   </p>
                 </div>

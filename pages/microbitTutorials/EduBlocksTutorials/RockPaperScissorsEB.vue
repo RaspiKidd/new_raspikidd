@@ -15,7 +15,7 @@
       </div>
       <div class="relative px-4 sm:px-6 lg:px-8">
         <div class="text-lg max-w-prose mx-auto">
-          <h1 class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl lg:text-5xl xl:text-6xl text-red-700">
+          <h1 class="text-4xl tracking-tight font-extrabold sm:text-5xl md:text-6xl lg:text-5xl xl:text-6xl text-red-700">
             Rock Paper Scissors
           </h1>
           <p class="mt-8 text-xl font-bold leading-8" style="color:#006494">
@@ -24,10 +24,10 @@
         </div>
     
         <div class="mt-6 prose prose-indigo prose-lg text-gray-500 mx-auto">
-          <h2 class="text-3xl tracking-tight font-extrabold sm:text-5xl md:text-5xl lg:text-4xl xl:text-5xl" style="color:#76B82A">
+          <h2 class="text-green-700 text-3xl tracking-tight font-extrabold sm:text-5xl md:text-5xl lg:text-4xl xl:text-5xl">
             What You Will Learn
           </h2>
-          <ul>
+          <ul class="text-gray-700">
             <li> How to create and use a variable. </li>
             <li> How to use the micro:bit on shake function. </li>
             <li> How to display images/shapes on the LED matrix. </li>
@@ -36,21 +36,21 @@
             <li> How to randomise choices. </li>
           </ul>
 
-          <h2 class="text-3xl tracking-tight font-extrabold sm:text-5xl md:text-5xl lg:text-4xl xl:text-5xl" style="color:#76B82A">
+          <h2 class="text-green-700 text-3xl tracking-tight font-extrabold sm:text-5xl md:text-5xl lg:text-4xl xl:text-5xl">
             What You Will Need
           </h2>
 
-          <ul>
+          <ul class="text-gray-700">
             <li> 1 x micro:bit </li>
             <li> 1 x micro USB cable </li>
             <li> 1 x battery pack for the micro:bit (optional) </li>
           </ul>
 
-          <h2 class="text-3xl tracking-tight font-extrabold sm:text-5xl md:text-5xl lg:text-4xl xl:text-5xl" style="color:#76B82A">
+          <h2 class="text-green-700 text-3xl tracking-tight font-extrabold sm:text-5xl md:text-5xl lg:text-4xl xl:text-5xl">
             Coding
           </h2>
 
-          <ol>
+          <ol class="text-gray-700">
             <li> Open your favourite browser and go to <a href ="https://app.edublocks.org/"> app.edublocks.org </a> and press enter. </li>
             <li> Click on micro:bit to open the micro:bit coding editor. </li>
             <li> Click on Basic. Click and drag a from microbit import * block to the code area and drop it. </li>
@@ -61,7 +61,7 @@
               Create the following image to represent Paper by typing 9 (this represents the brightness of the LEDs) in the corresponding squares.
               <figure>
                 <img class="rounded-lg" src="/public/images/RPS_EB_01.png" alt="" width="200" height="200">
-                <figcaption> Representation of Paper </figcaption>
+                <figcaption class="text-gray-600"> Representation of Paper </figcaption>
               </figure>
               Click on the drop-down arrow next to image and click New variable and name it Paper.
             </li>
@@ -70,7 +70,7 @@
               Create the following image to represent Rock by typing 9 within the corresponding squares.
               <figure>
                 <img class="rounded-lg" src="/public/images/RPS_EB_02.png" alt="" width="200" height="200">
-                <figcaption> Representation of Rock </figcaption>
+                <figcaption class="text-gray-600"> Representation of Rock </figcaption>
               </figure>
               Click on the arrow next to image and click New variable and name it Rock.
             </li>
@@ -79,13 +79,13 @@
               Create the following image to represent Scissors by typing 9 within the corresponding boxes. 
               <figure>
                 <img class="rounded-lg" src="/public/images/RPS_EB_03.png" alt="" width="200" height="200">
-                <figcaption> Representation of Scissors </figcaption>
+                <figcaption class="text-gray-600"> Representation of Scissors </figcaption>
               </figure>
               Click on the arrow next to image and click New variable and name it Scissors.
               Your code should look like this:
               <figure>
                 <img class="rounded-lg" src="/public/images/RPS_EB_04.png" alt="" width="300" height="200">
-                <figcaption> Your code so far </figcaption>
+                <figcaption class="text-gray-600"> Your code so far </figcaption>
               </figure>
             </li>
             <li> Click on Basic. Click and drag an if True: block to the code area and attach it under Scissors. </li>
@@ -111,7 +111,7 @@
               Click on Variables. Click and drag the Paper block to the code area and attach it within Image.HAPPY. Your code should look like this:
               <figure>
                 <img class="rounded-lg" src="/public/images/RPS_EB_05.png" alt="" width="300" height="200">
-                <figcaption> Your code so far. Getting there </figcaption>
+                <figcaption class="text-gray-600"> Your code so far. Getting there </figcaption>
               </figure>
             </li>
             <li> Click on Basic. Click and drag an elif block to the code area and attach it below the if choice == 0: block. </li>
@@ -120,7 +120,7 @@
               Right-click on the display.show(Paper) block and click duplicate. Attach the duplicated block within elif choice == 1: block. Click on Paper and choose Rock. Your code should look like this:
               <figure>
                 <img class="rounded-lg" src="/public/images/RPS_EB_06.png" alt="" width="300" height="200">
-                <figcaption> Your code so far. Nearly Finished </figcaption>
+                <figcaption class="text-gray-600"> Your code so far. Nearly Finished </figcaption>
               </figure>
             </li>
             <li> Click on Basic. Click and drag an else: block to the code area and attach it under the elif choice == 1: block. </li>
@@ -128,30 +128,30 @@
               Right-click on display.show(Rock) and click duplicate. Attach the duplicated block within the else: block. Click on Rock and choose Scissors. Completed Code:
               <figure>
                 <img class="rounded-lg" src="/public/images/RPS_EB_07.png" alt="" width="300" height="200">
-                <figcaption> Completed Code </figcaption>
+                <figcaption class="text-gray-600"> Completed Code </figcaption>
               </figure>
             </li>
           </ol>
 
-          <p> 
+          <p class="text-gray-700"> 
             We have now finished coding rock paper scissors the next step is to download our code to the miro:bit.
           </p>
 
-          <h2 class="text-3xl tracking-tight font-extrabold sm:text-5xl md:text-5xl lg:text-4xl xl:text-5xl" style="color:#76B82A">
+          <h2 class="text-green-700 text-3xl tracking-tight font-extrabold sm:text-5xl md:text-5xl lg:text-4xl xl:text-5xl">
             Downloading the Code
           </h2>
 
-          <ol>
+          <ol class="text-gray-700">
             <li> Take the micro USB cable and connect the micro:bit to the computer. </li>
             <li> Click on Download Hex. </li>
             <li> Locate your micro:bit within the file explorer. Click on it to open the drive and click on Save. Once the light on the back of the micro:bit stops blinking your code has finished downloading. </li>
           </ol>  
 
-          <p> 
+          <p class="text-gray-700"> 
             You have now successfully coded a micro:bit to play raock paper scissors.
           </p>
 
-          <p> 
+          <p class="text-gray-700"> 
             Find a partner and start playing.
           </p>
         </div>

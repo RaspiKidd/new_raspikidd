@@ -20,7 +20,7 @@
             <a href = "https://drive.google.com/file/d/1--vTxJfvK012SSbEtNa7jPxxy2kIM-nY/view?usp=sharing" target="_blank"> PDF Download </a>
           </button> -->
               
-          <h1 class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl lg:text-5xl xl:text-6xl text-red-700">
+          <h1 class="text-4xl tracking-tight font-extrabold sm:text-5xl md:text-6xl lg:text-5xl xl:text-6xl text-red-700">
             Traffic Lights Add-on Board
           </h1>
               
@@ -29,8 +29,8 @@
           </p>
         </div>
     
-        <div class="mt-6 prose prose-indigo prose-lg text-gray-500 mx-auto">
-          <h2 class="text-3xl tracking-tight font-extrabold sm:text-5xl md:text-5xl lg:text-4xl xl:text-5xl" style="color:#76B82A">
+        <div class="mt-6 prose prose-indigo prose-lg text-gray-700 mx-auto">
+          <h2 class="text-green-700 text-3xl tracking-tight font-extrabold sm:text-5xl md:text-5xl lg:text-4xl xl:text-5xl">
             Overview
           </h2>
             
@@ -38,7 +38,7 @@
             By the end of this tutorial you will know what an LED is and how to connect and program them using a BBC micro:bit.
           </p>
 
-          <h2 class="text-3xl tracking-tight font-extrabold sm:text-5xl md:text-5xl lg:text-4xl xl:text-5xl" style="color:#76B82A">
+          <h2 class="text-green-700 text-3xl tracking-tight font-extrabold sm:text-5xl md:text-5xl lg:text-4xl xl:text-5xl">
             What You Will Need
           </h2>
 
@@ -54,13 +54,13 @@
             <li> 1 x Battery pack for the micro:bit (optional) </li>
           </ul>
 
-          <h2 class="text-3xl tracking-tight font-extrabold sm:text-5xl md:text-5xl lg:text-4xl xl:text-5xl" style="color:#76B82A">
+          <h2 class="text-green-700 text-3xl tracking-tight font-extrabold sm:text-5xl md:text-5xl lg:text-4xl xl:text-5xl">
             What is an LED?
           </h2>
 
           <figure>
             <img class="rounded-lg" src="/public/images/LEDDiagram.png" alt="" width="300" height="300">
-            <figcaption> LED diagram </figcaption>
+            <figcaption class="text-gray-600"> LED diagram </figcaption>
           </figure>
 
           <p> 
@@ -71,7 +71,7 @@
             An LED has a longer leg called the anode (+) and a shorter leg called the cathode (-) as shown above.
           </p>
 
-          <h2 class="text-3xl tracking-tight font-extrabold sm:text-5xl md:text-5xl lg:text-4xl xl:text-5xl" style="color:#76B82A">
+          <h2 class="text-green-700 text-3xl tracking-tight font-extrabold sm:text-5xl md:text-5xl lg:text-4xl xl:text-5xl">
             Creating the Circuit
           </h2>
 
@@ -80,25 +80,25 @@
             <li> Take the red LED and bend the legs out to the sides. Place the LED on the cardboard with the longer leg to the right. 
               <figure>
                 <img class="rounded-lg" src="/public/images/TrafficLights01.jpg" alt="" width="300" height="300">
-                <figcaption> Red LED placed on the cardboard </figcaption>
+                <figcaption class="text-gray-600"> Red LED placed on the cardboard </figcaption>
               </figure>
             </li>
             <li> Take a bit of copper tape or glue and some aluminium foil over the long leg of the red LED
               <figure>
                 <img class="rounded-lg" src="/public/images/TrafficLights02.jpg" alt="" width="300" height="300">
-                <figcaption> Taping the longer leg of the red LED </figcaption>
+                <figcaption class="text-gray-600"> Taping the longer leg of the red LED </figcaption>
               </figure>
             </li>
             <li> Complete steps 2 and 3 for the yellow and green LEDs. </li>
             <li> Take a longer bit of copper tape or foil and tape/glue all three of the short legs of the LEDs together.
               <figure>
                 <img class="rounded-lg" src="/public/images/TrafficLights03.jpg" alt="" width="300" height="300">
-                <figcaption> Completed Traffic lights </figcaption>
+                <figcaption class="text-gray-600"> Completed Traffic lights </figcaption>
               </figure>
             </li>
           </ol>
 
-          <h2 class="text-3xl tracking-tight font-extrabold sm:text-5xl md:text-5xl lg:text-4xl xl:text-5xl" style="color:#76B82A">
+          <h2 class="text-green-700 text-3xl tracking-tight font-extrabold sm:text-5xl md:text-5xl lg:text-4xl xl:text-5xl">
             Connecting to the micro:bit
           </h2>
 
@@ -111,14 +111,14 @@
 
           <figure>
             <img class="rounded-lg" src="/public/images/TrafficLights04.jpeg" alt="" width="300" height="300">
-            <figcaption> Completed Circuit </figcaption>
+            <figcaption class="text-gray-600"> Completed Circuit </figcaption>
           </figure>
              
           <p>
             We are now ready to code our traffic lights
           </p>
 
-          <h2 class="text-3xl tracking-tight font-extrabold sm:text-5xl md:text-5xl lg:text-4xl xl:text-5xl" style="color:#76B82A">
+          <h2 class="text-green-700 text-3xl tracking-tight font-extrabold sm:text-5xl md:text-5xl lg:text-4xl xl:text-5xl">
             Coding The Traffic Lights
           </h2>
 
@@ -128,21 +128,21 @@
             <li> Type the following code: 
               <figure>
                 <img class="rounded-lg" src="/public/images/TrafficLights13.png" alt="" width="300" height="300">
-                <figcaption> Python code </figcaption>
+                <figcaption class="text-gray-600"> Python code </figcaption>
               </figure>
             </li>
           </ol>
 
           <figure>
             <img class="rounded-lg" src="/public/images/TrafficLights14.png" alt="" width="300" height="300">
-            <figcaption> Completed Code </figcaption>
+            <figcaption class="text-gray-600"> Completed Code </figcaption>
           </figure>
 
           <p>
             Now that we have completed the code we need to download it to our micro:bit
           </p>
 
-          <h2 class="text-3xl tracking-tight font-extrabold sm:text-5xl md:text-5xl lg:text-4xl xl:text-5xl" style="color:#76B82A">
+          <h2 class="text-green-700 text-3xl tracking-tight font-extrabold sm:text-5xl md:text-5xl lg:text-4xl xl:text-5xl">
             Downloading the Code
           </h2>
 
