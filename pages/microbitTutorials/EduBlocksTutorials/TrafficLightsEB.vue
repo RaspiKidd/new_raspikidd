@@ -27,12 +27,12 @@
           </p>
         </div>
     
-        <div class="mt-6 prose prose-indigo prose-lg text-gray-500 mx-auto">
+        <div class="mt-6 prose prose-indigo prose-lg text-gray-700 mx-auto">
           <h2 class="text-green-700 text-3xl tracking-tight font-extrabold sm:text-5xl md:text-5xl lg:text-4xl xl:text-5xl">
             Overview
           </h2>
             
-          <p class="text-gray-700">
+          <p>
             By the end of this tutorial you will know what an LED is and how to connect and program them using a BBC micro:bit.
           </p>
 
@@ -40,7 +40,7 @@
             What You Will Need
           </h2>
 
-          <ul class="text-gray-700">
+          <ul>
             <li> 1 x Red LED </li>
             <li> 1 x Yellow LED </li>
             <li> 1 x Green LED </li>
@@ -61,11 +61,11 @@
             <figcaption class="text-gray-600"> LED diagram </figcaption>
           </figure>
 
-          <p class="text-gray-700"> 
+          <p> 
             An LED or Light Emitting Diode is a semiconductor light source that emits (gives off) light when current flows through it.
           </p>
 
-          <p class="text-gray-700">
+          <p>
             An LED has a longer leg called the anode (+) and a shorter leg called the cathode (-) as shown above.
           </p>
 
@@ -73,7 +73,7 @@
             Creating the Circuit
           </h2>
 
-          <ol class="text-gray-700">
+          <ol>
             <li> Place the bit of cardboard on the desk</li>
             <li> Take the red LED and bend the legs out to the sides. Place the LED on the cardboard with the longer leg to the right. 
               <figure>
@@ -111,7 +111,7 @@
             <img class="rounded-lg" src="/public/images/TrafficLights04.jpeg" alt="" width="300" height="300">
             <figcaption class="text-gray-600"> Completed Circuit </figcaption>
           </figure>
-          <p class="text-gray-700">
+          <p>
             We are now ready to code our traffic lights
           </p>
 
@@ -119,7 +119,7 @@
             Coding The Traffic Lights
           </h2>
 
-          <ol class="text-gray-700">
+          <ol>
             <li> Within your favourite browser (we recommend Google Chrome) go to <a href = https://app.edublocks.org/> <i> app.edublocks.org </i> </a> and press <i> Enter </i>. This will load the EduBlocks coding environment. </li>
             <li> Click on <i> micro:bit </i> and click <i> start coding </i> to open the EduBlocks coding editor for micro:bit. </li>
             <li> Click on <i> Basic </i>. Click and drag a <i> from microbit import * </i> block to the code area and drop it or if you are using the new editor attach it to the <i> # start code here </i> block. </li>
@@ -159,7 +159,7 @@
             <figcaption class="text-gray-600"> Completed Code </figcaption>
           </figure>
 
-          <p class="text-gray-700">
+          <p>
             Now that we have completed the code we need to download it to our micro:bit
           </p>
 
@@ -167,13 +167,13 @@
             Downloading the Code
           </h2>
 
-          <ol class="text-gray-700">
+          <ol>
             <li> Attach the micro:bitt to the computer using the micro USB cable. </li>
             <li> Click on the <i> Download Hex </i> button. </li>
             <li> Locate your <i> micro:bit </i> within the <i> file manager </i> and click on it to open the drive and click <i> save </i> to download your code to the micro:bit. </li>
           </ol>  
 
-          <p class="text-gray-700"> 
+          <p> 
             Well-done! You have just created and coded your own micro:bit add-on board.
           </p>
         </div>

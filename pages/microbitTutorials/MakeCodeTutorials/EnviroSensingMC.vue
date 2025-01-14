@@ -25,7 +25,7 @@
           </p>
         </div>
     
-        <div class="mt-6 prose prose-indigo prose-lg text-gray-500 mx-auto">
+        <div class="mt-6 prose prose-indigo prose-lg text-gray-700 mx-auto">
           <div class="bg-red-100 border-l-8 border-red-400 px-8">
             <h3 class="text-2xl tracking-tight font-extrabold sm:text-4xl md:text-4xl lg:text-3xl xl:text-4xl" style="color:#006494">
               NOTE:
@@ -38,7 +38,7 @@
           <h2 class="text-green-700 text-3xl tracking-tight font-extrabold sm:text-5xl md:text-5xl lg:text-4xl xl:text-5xl">
             What You Will Learn
           </h2>
-          <ul class="text-gray-700">
+          <ul>
             <li> How to use the on shake function. </li>
             <li> How to display a number on the LED matrix. </li>
             <li> How to use the temperature sensor. </li>
@@ -54,13 +54,13 @@
             Setting Up
           </h2>
 
-          <ol class="text-gray-700">
+          <ol>
             <li> Open your favourite browser ( we recommend Google Chrome) or if you are using a mobile phone or tablet open the micro:bit app. </li>
             <li> Within the address bar of the browser type <a href="https://makecode.microbit.org/"> makecode.microbit.org </a> or on a tablet or phone press create code. </li>
             <li> Click on new project and give it the name Enviro Sensing. </li>
           </ol>
 
-          <p class="text-gray-700"> 
+          <p> 
             We are now ready to start coding!
           </p>
               
@@ -68,7 +68,7 @@
             Getting Started
           </h2>
 
-          <ol class="text-gray-700">
+          <ol>
             <li> Click and drag the on start block to the left of the screen and drop it on the bin. </li>
             <li> Click and drag the forever block to the left of the screen and drop it on the bin </li>
             <li> Click on Input. Click and drag the on shake block to the code area and drop it. </li>
@@ -77,7 +77,7 @@
             <li> On the duplicated block click the little arrow next to A and click on B. </li>
           </ol>
 
-          <p class="text-gray-700"> 
+          <p> 
             Your code area should look like this:
           </p>
 
@@ -90,7 +90,7 @@
             Temperature Sensing
           </h2>
 
-          <ol class="text-gray-700">
+          <ol>
             <li> Click on Basic. Click and drag a show numbers block to the code area and attach it within the on shake block. </li>
             <li> Click on Input. Click and drag a temperature block to the code area and attach it within the 0 of show number. </li>
           </ol>
@@ -100,7 +100,7 @@
             <figcaption class="text-gray-600"> Code for temperature sensing </figcaption>
           </figure>
 
-          <p class="text-gray-700">
+          <p>
             We are now able to sense what the temperature is around us.
           </p>
 
@@ -108,7 +108,7 @@
             Light Sensing
           </h2>
 
-          <ol class="text-gray-700">
+          <ol>
             <li> Click on Logic. Click and drag an if/else block to the code area and attach it within on button A pressed. </li>
             <li> Click on Logic. Click and drag a 0 &lt; 0 block to the code area and attach it within the true of the if then block. </li>
             <li> Click on Input. Click and drag the light level block to the code area and attach it within the first 0 of the if 0 &lt; 0 then block. </li>
@@ -127,7 +127,7 @@
             <figcaption class="text-gray-600"> Code for Light sensing </figcaption>
           </figure>
 
-          <p class="text-gray-700">
+          <p>
             We can now sense the level of the room we are in.
           </p>
 
@@ -135,7 +135,7 @@
             Compass Sensing
           </h2>
 
-          <ol class="text-gray-700">
+          <ol>
             <li> Click on Basic. Click and drag a show number block to the code area and attach it within the on button B pressed. </li>
             <li> Click on Input. Click and drag the compass heading block to the code area and attach it within the 0 of show number. </li>
           </ol>
@@ -145,7 +145,7 @@
             <figcaption class="text-gray-600"> Code for the compass sensor </figcaption>
           </figure>
 
-          <p class="text-gray-700"> 
+          <p> 
             We have now coded the compass sensor.
           </p>
               
@@ -158,7 +158,7 @@
             <figcaption class="text-gray-600"> Completed code </figcaption>
           </figure>
 
-          <p class="text-gray-700"> 
+          <p> 
             We are now ready to download the code to our micro:bit so we can go out and sense our environment.
           </p>
 
@@ -166,14 +166,14 @@
             Downloading the Code
           </h2>
 
-          <ol class="text-gray-700">
+          <ol>
             <li> Click on the 3 dots next to Download. </li>
             <li> Click on pair device a pop-up will come on screen to show you how to connect the micro:bit to the computer. Click on pair device again. </li>
             <li> Click on BBC micro:bit xxxx and click connect. </li>
             <li> Click Download. </li>
           </ol>  
 
-          <p class="text-gray-700"> 
+          <p> 
             You have successfully downloaded the code to your micro:bit. You can now attach a battery pack and go out and sense the environment around you.
           </p>
         </div>

@@ -27,8 +27,8 @@
           <h2 class="text-green-700 text-3xl tracking-tight font-extrabold sm:text-5xl md:text-5xl lg:text-4xl xl:text-5xl">
             What You Will Learn
           </h2>
-          <p class="text-gray-700"> How to </p>
-          <ul class="text-gray-700">
+          <p> How to </p>
+          <ul>
             <li> Create and use a variable. </li>
             <li> The micro:bit shake function. </li>
             <li> Use a while True loop. </li>
@@ -39,7 +39,7 @@
           <h2 class="text-green-700 text-3xl tracking-tight font-extrabold sm:text-5xl md:text-5xl lg:text-4xl xl:text-5xl">
             What You Will Need
           </h2>
-          <ul class="text-gray-700">
+          <ul>
             <li> 1 x micro:bit. </li>
             <li> 1 x micro USB cable. </li>
             <li> 1 x Battery pack for the micro:bit (optional). </li>
@@ -48,7 +48,7 @@
             Coding
           </h2>
 
-          <ol class="text-gray-700">
+          <ol>
             <li> Open your favourite browser ( we recommend Google Chrome) Within the address bar of the browser type <i> <a href="https://app.edublocks.org/"> app.edublocks.org </a> </i> and press <i> Enter </i>. This will load the EduBlocks coding environment.</li>
             <li> Click on <i> micro:bit </i> to open the coding editor. </li>
             <li> Click on <i> Basic </i>. Click and drag a <i> from microbit import * </i> block to the code area and drop it or if you are using the new editor attach it to the <i> # start code here </i> block. </li>
@@ -64,7 +64,7 @@
               <h3 class="text-2xl tracking-tight font-extrabold sm:text-4xl md:text-4xl lg:text-3xl xl:text-4xl" style="color:#006494">
                 What is a variable
               </h3>
-              <!--<img src="@/static/images/lightbulb.svg" alt="" width="20" height="20"> -->
+          
               <p class="text-gray-900"> 
                 Think of a variable as a box that stores information that can be used throughout our program. 
                 We give variables a descriptive name so we and others can understand what is going on within our program.
@@ -99,14 +99,14 @@
             </li>
           </ol>
 
-          <p class="text-gray-700"> <b> Completed Code: </b> </p>
+          <p> <b> Completed Code: </b> </p>
 
           <figure>
             <img class="rounded-lg" src="/public/images/FitBit_EB_04.png" alt="" width="500" height="500">
             <figcaption class="text-gray-600"> Completed Code </figcaption>
           </figure>
 
-          <p class="text-gray-700"> 
+          <p> 
             Now that we have completed the code we need to download it to the micro:bit.
           </p>
               
@@ -114,12 +114,12 @@
             Downloading the Code
           </h2>
 
-          <ol class="text-gray-700">
+          <ol>
             <li> Take the micro USB cable and connect the micro:bit to the computer. </li>
             <li> Click on Download Hex. Click on your micro:bit drive to open it and click save. </li>
           </ol>  
 
-          <p class="text-gray-700"> 
+          <p> 
             You have created your own Fitbit step counter why not connect a battery pack and strap your micro:bit to your ankle and go for a walk and see how many steps you have done at the end.
           </p>
         </div>

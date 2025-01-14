@@ -26,11 +26,11 @@
           </p>
         </div>
     
-        <div class="mt-6 prose prose-indigo prose-lg text-gray-500 mx-auto">
+        <div class="mt-6 prose prose-indigo prose-lg text-gray-700 mx-auto">
           <h2 class="text-green-700 text-3xl tracking-tight font-extrabold sm:text-5xl md:text-5xl lg:text-4xl xl:text-5xl">
             What You Will Learn
           </h2>
-          <ul class="text-gray-700">
+          <ul>
             How to:
             <li> Set the radio group for the micro:bits to communicate over. </li>
             <li> Clear the LED matrix. </li>
@@ -41,7 +41,7 @@
           <h2 class="text-green-700 text-3xl tracking-tight font-extrabold sm:text-5xl md:text-5xl lg:text-4xl xl:text-5xl">
             What You Will Need
           </h2>
-          <ul class="text-gray-700">
+          <ul>
             <li> 2 x micro:bits. </li>
             <li> 2 x micro-USB Cables. </li>
             <li> 2 x Battery packs for the micro:bits (optional). </li>
@@ -51,7 +51,7 @@
             Coding
           </h2>
 
-          <ol class="text-gray-700">
+          <ol>
             <li> Open your favourite browser (we recommend Google Chrome) and type <a href="https://app.edublocks.org/"> <i> app.edublocks.org </i> </a> and press <i> Enter </i>. This will load the EduBlocks coding environment. </li>
             <li> Click on <i> micro:bit </i> to open the micro:bit coding editor. </li>
             <li> Click on <i> Basic. </i> Click and drag a <i> from microbit import * </i> to the code area and drop it or if you are using the new editor attach it under the <i> # start code here </i> block. </li>
@@ -87,7 +87,7 @@
             <figcaption class="text-gray-600"> Completed Code </figcaption>
           </figure>
 
-          <p class="text-gray-700"> 
+          <p> 
             Now that we have completed the code we need to download it to the micro:bit.
           </p>
 
@@ -95,16 +95,16 @@
             Downloading the Code
           </h2>
 
-          <ol class="text-gray-700">
+          <ol>
             <li> Take the micro USB cable and connect the micro:bit to the computer. </li>
             <li> Click on <i> Download Hex </i>. Click on <i> MICROBIT </i> to open the micro:bit drive then click <i> Save </i> to download the code. </li>
           </ol>  
 
-          <p class="text-gray-700"> 
+          <p> 
             Now that we have downloaded our code to the micro:bits attach a battery pack and start throwing the ghost back and forth between you and your friend. 
           </p>
 
-          <p class="text-gray-700"> 
+          <p> 
             Try moving further away from one and other and see how far apart you can get before you can no longer catch the ghost.
           </p>
         </div>

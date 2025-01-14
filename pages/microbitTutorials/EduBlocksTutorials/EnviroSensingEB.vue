@@ -24,11 +24,11 @@
               </p>
             </div>
     
-            <div class="mt-6 prose prose-indigo prose-lg text-gray-500 mx-auto">
+            <div class="mt-6 prose prose-indigo prose-lg text-gray-700 mx-auto">
                 <h2 class="text-green-700 text-3xl tracking-tight font-extrabold sm:text-5xl md:text-5xl lg:text-4xl xl:text-5xl">
                     What You Will Learn
                 </h2>
-                <ul class="text-gray-700">
+                <ul>
                     How to:
                     <li> Use the shake function. </li>
                     <li> Display a number on the LED matrix. </li>
@@ -46,7 +46,7 @@
                     Coding
                 </h2>
 
-                <ol class="text-gray-700">
+                <ol>
                     <li> Within your favourite browser (we recommend Google Chrome) go to <a href = https://app.edublocks.org/> <i> app.edublocks.org </i> </a> and press <i> Enter </i>. This will load the EduBlocks coding environment. </li>
                     <li> Click on <i> micro:bit </i> and click <i> OK </i> to open the micro:bit coding editor. </li>
                     <li> Click on <i> Basic </i>. Click and drag a <i> from microbit import * </i> block to the coding area and drop it or if you are using the new editor connect it under the <i> # start code here </i> block. </li>
@@ -62,7 +62,7 @@
                   Temperature Sensing
                 </h3>
 
-                <ol class="text-gray-700">
+                <ol>
                     <li> Click on <i> Basic </i>. Click and drag an <i> if True: </i> block to the code area and attach it within the <i> while True: </i> block. </li>
                     <li> Click on <i> Accelerometer </i>. Click and drag an <i> accelerometer.is_gesture(‘shake’) </i> block to the code area and attach it within the <i> True </i> of the <i> if </i> block. </li>
                     <li> Click on <i> Display </i>. Click and drag a <i> display.scroll(0) </i> block to the code area and attach it within the <i> if accelerometer.is_gesture(‘shake’): </i> block. </li>
@@ -74,7 +74,7 @@
                     </li>
                 </ol>
 
-                <p class="text-gray-700"> 
+                <p> 
                     We can now sense the temperature of the room you are in by shaking the micro:bit.
                 </p>
 
@@ -82,7 +82,7 @@
                   Light Sensing
                 </h3>
 
-                <ol class="text-gray-700">
+                <ol>
                     <li> Click on <i> Basic </i>. Click and drag an <i> if True: </i> block to the code area and attach it under the <i> if accelerometer.is_gesture(‘shake’): </i> block. </li>
                     <li> Click on <i> Buttons </i>. Click and drag a <i> button_a.is_pressed() </i> block to the code area and attach it within the <i> True </i> of the <i> if </i> block. </li>
                     <li> Click on <i> Basic </i>. Click and drag an <i> if True(): </i> block to the code area and attach it within the <i> if button_a.is_pressed(): </i> block. </li>
@@ -99,7 +99,7 @@
                     </li>
                 </ol>
 
-                <p class="text-gray-700"> 
+                <p> 
                     We can now use the micro:bit to detect if it’s light or dark within a room by pressing the A button on the micro:bit.
                 </p>
 
@@ -107,7 +107,7 @@
                   Compass Sensing
                 </h3>
 
-                <ol class="text-gray-700">
+                <ol>
                     <li> Click on <i> Basic </i>. Click and drag an <i> if True: </i> block to the code area and attach it under <i> if button_a.is_pressed(): </i> block. </li>
                     <li> Right-click on <i> button_a.is_pressed() </i> block and click <i> duplicate </i>. Attach the <i> duplicated </i> block within the <i> True </i> of the <i> if </i> block. Click on <i> a </i> and click <i> b </i>. </li>
                     <li> Right-click on <i> display.show(Image.HAPPY) </i> and click on <i> duplicate </i>. Attach the <i> duplicated </i> block within the <i> if button_b.is_pressed(): </i> block. Click on <i> Image.HAPPY </i> and type <i> compass.heading() </i>. 
@@ -118,7 +118,7 @@
                     </li>
                 </ol>
 
-                <p class="text-gray-700"> 
+                <p> 
                     We can now see what the compass baring of the direction the micro:bit is facing by pressing the B button on the micro:bit.
                 </p>
 
@@ -131,7 +131,7 @@
                     <figcaption class="text-gray-600"> Completed code </figcaption>
                 </figure>
 
-                <p class="text-gray-700"> 
+                <p> 
                     We are now ready to download the code to our micro:bit so we can go out and sense our environment.
                 </p>
 
@@ -139,13 +139,13 @@
                     Downloading the Code
                 </h2>
 
-                <ol class="text-gray-700">
+                <ol>
                     <li> Take the micro USB cable and connect the micro:bit to the computer. </li>
                     <li> Click <i> Download Hex </i>. Within the file explorer click on <i> MICROBIT </i> to open the drive and click <i> save </i> to download your code. </li>
 
                 </ol>  
 
-                <p class="text-gray-700"> 
+                <p> 
                     Now that you have downloaded the code to your micro:bit attach a battery pack to your micro:bit and go and sense your environment.
                 </p>
             </div>

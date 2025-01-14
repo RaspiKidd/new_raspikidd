@@ -25,7 +25,7 @@
           </p>
         </div>
     
-        <div class="mt-6 prose prose-indigo prose-lg text-gray-500 mx-auto">
+        <div class="mt-6 prose prose-indigo prose-lg text-gray-700 mx-auto">
           <div class="bg-red-100 border-l-8 border-red-400 px-8">
             <h3 class="text-2xl tracking-tight font-extrabold sm:text-4xl md:text-4xl lg:text-3xl xl:text-4xl" style="color:#006494">
               NOTE:
@@ -39,7 +39,7 @@
             What You Will Learn
           </h2>
           
-          <ul class="text-gray-700">
+          <ul>
             <li> How to create and use a variable. </li>
             <li> How to use the micro:bit on shake function. </li>
             <li> How to display images/shapes on the LED matrix. </li>
@@ -52,13 +52,13 @@
             Setting Up
           </h2>
 
-          <ol class="text-gray-700">
+          <ol>
             <li> Open your favourite browser ( we recommend Google Chrome) or if you are using a mobile phone or tablet open the micro:bit app. </li>
             <li> Within the address bar of the browser type <a href="https://makecode.microbit.org/"> makecode.microbit.org </a> or on a tablet or phone press create code. </li>
             <li> Click on new project and give it the name Rock paper scissors. </li>
           </ol>
 
-          <p class="text-gray-700"> 
+          <p> 
             We are now ready to start coding!
           </p>
               
@@ -66,13 +66,13 @@
             Getting Started
           </h2>
 
-          <ol class="text-gray-700">
+          <ol>
             <li> Click and drag the on start block to the left of the screen and drop it on the bin. </li>
             <li> Click and drag the forever block to the left of the screen and drop it on the bin </li>
             <li> Click on Input. Click and drag the on shake block to the code area and drop it. </li>
           </ol>
 
-          <p class="text-gray-700"> 
+          <p> 
             Your code area should look like this:
           </p>
 
@@ -95,7 +95,7 @@
             </p>
           </div>
 
-          <ol class="text-gray-700">
+          <ol>
             <li> Click on Variables. Click on make a variable... </li>
             <li> Type choice and click on OK. </li>
           </ol>
@@ -104,13 +104,13 @@
             Set Choice To
           </h2>
 
-          <ol class="text-gray-700">
+          <ol>
             <li> Click on variables. Click and drag a set choice to 0 block to the code area and attach it within the on shake block. </li>
             <li> Click on Math. Click and drag pick random 0 to 10 block to the code area and attach it within the 0 of set choice to block. </li>
             <li> Click on 10 and type 2. </li>
           </ol>
 
-          <p class="text-gray-700"> 
+          <p> 
             Your code should look like this:
           </p>
           
@@ -123,7 +123,7 @@
             If Condition
           </h2>
 
-          <ol class="text-gray-700">
+          <ol>
             <li> Click on Logic. Click and drag an if true then else block to the code area and attach it under set choice to pick random from 0 to 2 block. </li>
             <li> Click on Logic. Click and drag a 0 = 0 to the code area and attach it within the true of the if then block. </li>
             <li> Click on Variables. Click and drag choice block and attach it within the first 0 of the if 0 = 0 then block. </li>
@@ -136,7 +136,7 @@
             <figcaption class="text-gray-600"> Representation of paper </figcaption>
           </figure>
 
-          <p class="text-gray-700"> 
+          <p> 
             Your code should look like this:
           </p>
           
@@ -149,7 +149,7 @@
             Else Condition
           </h2>
 
-          <ol class="text-gray-700">
+          <ol>
             <li> Click on Basic. Click and drag a show leds block to the code area and attach it within the else block. </li>
             <li> Make the following pattern by clicking the quares to represent rock. </li>
           </ol>
@@ -159,7 +159,7 @@
             <figcaption class="text-gray-600"> Representation of rock </figcaption>
           </figure>
 
-          <p class="text-gray-700"> 
+          <p> 
             Your code should look like this:
           </p>
           
@@ -172,7 +172,7 @@
             Else If Condition
           </h2>
 
-          <ol class="text-gray-700">
+          <ol>
             <li> Click on the + sign below else. </li>
             <li> Click on Logic. Click and drag a 0 = 0 block to the code area and attach it within the blank of else if then block. </li>
             <li> Click on variables. Click and drag a choice block to the code area and attach it within the first 0 of the else if block. </li>
@@ -186,7 +186,7 @@
             <figcaption class="text-gray-600"> Representation of scissors </figcaption>
           </figure>
 
-          <p class="text-gray-700"> 
+          <p> 
             Your code should look like this:
           </p>
           
@@ -195,7 +195,7 @@
             <figcaption class="text-gray-600"> This is what your code looks like </figcaption>
           </figure>
 
-          <p class="text-gray-700"> 
+          <p> 
             We have now finished coding rock paper scissors the next step is to download our code to the miro:bit.
           </p>
 
@@ -203,18 +203,18 @@
             Downloading the Code
           </h2>
 
-          <ol class="text-gray-700">
+          <ol>
             <li> Click on the 3 dots next to Download. </li>
             <li> Click on pair device a pop-up will come on screen to show you how to connect the micro:bit to the computer. Click on pair device again. </li>
             <li> Click on BBC micro:bit xxxx and click connect. </li>
             <li> Click Download. </li>
           </ol>  
 
-          <p class="text-gray-700"> 
+          <p> 
             You have now successfully coded a micro:bit to play raock paper scissors.
           </p>
 
-          <p class="text-gray-700"> 
+          <p> 
             Find a partner and start playing.
           </p>
         </div>

@@ -24,7 +24,7 @@
           </p>
         </div>
     
-        <div class="mt-6 prose prose-indigo prose-lg text-gray-500 mx-auto">
+        <div class="mt-6 prose prose-indigo prose-lg text-gray-700 mx-auto">
           <div class="bg-red-100 border-l-8 border-red-400 px-8">
             <h3 class="text-2xl tracking-tight font-extrabold sm:text-4xl md:text-4xl lg:text-3xl xl:text-4xl" style="color:#006494">
               NOTE:
@@ -37,7 +37,7 @@
           <h2 class=" text-green-700 text-3xl tracking-tight font-extrabold sm:text-5xl md:text-5xl lg:text-4xl xl:text-5xl">
             What You Will Learn
           </h2>
-          <ul class="text-gray-700">
+          <ul>
             <li> How to create and use a variable. </li>
             <li> How to use the micro:bit on shake function. </li>
             <li> How to use a forever loop. </li>
@@ -49,13 +49,13 @@
             Setting Up
           </h2>
 
-          <ol class="text-gray-700">
+          <ol>
             <li> Open your favourite browser ( we recommend Google Chrome) or if you are using a mobile phone or tablet open the micro:bit app. </li>
             <li> Within the address bar of the browser type <a href="https://makecode.microbit.org/"> makecode.microbit.org </a> or on a tablet or phone press create code. </li>
             <li> Click on new project and give it the name Fitbit Clone. </li>
           </ol>
 
-          <p class="text-gray-700"> 
+          <p> 
             We are now ready to start coding!
           </p>
               
@@ -63,13 +63,13 @@
             Getting Started
           </h2>
 
-          <ol class="text-gray-700">
+          <ol>
             <li> Click and drag the on start block to the left of the screen and drop it on the bin. </li>
             <li> Click on Input. Click and drag the on shake block to the code area and drop it. </li>
             <li> Click on Input. Click and drag a on button A pressed block to the code area and drop it. </li>
           </ol>
 
-          <p class="text-gray-700"> 
+          <p> 
             Your code area should look like this:
           </p>
 
@@ -93,7 +93,7 @@
             </p>
           </div>
 
-          <ol class="text-gray-700">
+          <ol>
             <li> Click on Variables. Click on make a variable... </li>
             <li> Type steps and click on OK. </li>
           </ol>
@@ -102,15 +102,15 @@
             Change Steps By
           </h2>
 
-          <p class="text-gray-700">
+          <p>
             Click on Variables. Click and drag a change steps by 1 block to the code area and attach it within the on shake function.
           </p>
 
-          <p class="text-gray-700">
+          <p>
             Everytime the micro:bit detects a shake it will increase the variable steps by 1.
           </p>
 
-          <p class="text-gray-700"> 
+          <p> 
             Your code should look like this:
           </p>
           
@@ -123,16 +123,16 @@
             Show Number
           </h2>
 
-          <ol class="text-gray-700">
+          <ol>
             <li> Click on Basic. Click and drag a show number 0 block to the code area and attach it within the forever block. </li>
             <li> Click on Variables. Click and drag a steps block to the code area and attach it within the 0 of the show number block. </li>
           </ol>
 
-          <p class="text-gray-700">
+          <p>
             This will run forever and display the number of steps on the LED matrix.
           </p>
 
-          <p class="text-gray-700"> 
+          <p> 
             Your code should look like this:
           </p>
 
@@ -145,15 +145,15 @@
             Set Steps To
           </h2>
 
-          <p class="text-gray-700">
+          <p>
             Click on Variables. Click and drag a set steps to 0 block to the code area and insert it within the on button A pressed block.
           </p>
 
-          <p class="text-gray-700">
+          <p>
             This will reset the step counter back to 0 when button A is pressed.
           </p>
 
-          <p class="text-gray-700">  
+          <p>  
             Your code should look like this:
           </p>
 
@@ -175,18 +175,18 @@
             Downloading the Code
           </h2>
 
-          <ol class="text-gray-700">
+          <ol>
             <li> Click on the 3 dots next to Download. </li>
             <li> Click on pair device a pop-up will come on screen to show you how to connect the micro:bit to the computer. Click on pair device again. </li>
             <li> Click on BBC micro:bit xxxx and click connect. </li>
             <li> Click Download. </li>
           </ol>  
 
-          <p class="text-gray-700"> 
+          <p> 
             You have now created your own fitbit step counter.
           </p>
 
-          <p class="text-gray-700"> 
+          <p> 
             Strap the micro:bit to your leg and go for a walk and watch your steps add up.
           </p>
         </div>

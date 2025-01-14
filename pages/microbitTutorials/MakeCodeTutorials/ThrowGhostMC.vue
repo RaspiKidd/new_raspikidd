@@ -29,7 +29,7 @@
           </p>
         </div>
     
-        <div class="mt-6 prose prose-indigo prose-lg text-gray-500 mx-auto">
+        <div class="mt-6 prose prose-indigo prose-lg text-gray-700 mx-auto">
           <div class="bg-red-100 border-l-8 border-red-400 px-8">
             <h3 class="text-2xl tracking-tight font-extrabold sm:text-4xl md:text-4xl lg:text-3xl xl:text-4xl" style="color:#006494">
               NOTE:
@@ -43,7 +43,7 @@
             What You Will Learn
           </h2>
           
-          <ul class="text-gray-700">
+          <ul>
             How to:
             <li> Set the radio group for the micro:bits to communicate over. </li>
             <li> Clear the LED matrix. </li>
@@ -55,7 +55,7 @@
             What You Will Need
           </h2>
 
-          <ul class="text-gray-700">
+          <ul>
             <li> 2 x micro:bits. </li>
             <li> 2 x micro-USB cables. </li>
             <li> 2 x Battery packs for the micro:bit (optional). </li>
@@ -65,7 +65,7 @@
             Coding
           </h2>
 
-          <ol class="text-gray-700">
+          <ol>
             <li> Within your favourite browser (we recommend Google Chrome) go to <a href = "https://makecode.microbit.org/"> <i> makecode.microbit.org </i> </a> and press <i> Enter </i>. This will load the MakeCode coding editor. </li>
             <li> Click on <i> New project </i> and name it <i> throw a ghost </i> and click <i> OK </i>. </li>
             <li> Click and drag the <i> forever </i> block to the left and drop it on the <i> bin </i>. </li>
@@ -87,7 +87,7 @@
             <li> Click on <i> Basic </i>. Click and drag a <i> show icon </i> block to the code area and attach it within the <i> on radio received received string </i> block. Click on the <i> heart </i> and pick the <i> ghost </i> icon. </li>
           </ol>
           
-          <p class="text-gray-700"> 
+          <p> 
             Completed Code
           </p>
 
@@ -100,18 +100,18 @@
             Downloading the Code
           </h2>
 
-          <ol class="text-gray-700">
+          <ol>
             <li> Click on the 3 dots next to Download. </li>
             <li> Click on pair device a pop-up will come on screen to show you how to connect the micro:bit to the computer. Click on pair device again. </li>
             <li> Click on BBC micro:bit xxxx and click connect. </li>
             <li> Click Download. </li>
           </ol>  
 
-          <p class="text-gray-700"> 
+          <p> 
             Now that we have downloaded our code to the micro:bits attach a battery pack and start throwing the ghost back and forth between you and your friend. 
           </p>
 
-          <p class="text-gray-700"> 
+          <p> 
             Try moving further away from one and other and see how far apart you can get before you can no longer catch the ghost.
           </p>
         </div>

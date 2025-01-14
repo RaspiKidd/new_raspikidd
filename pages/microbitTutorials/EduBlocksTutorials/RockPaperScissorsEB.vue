@@ -23,11 +23,11 @@
           </p>
         </div>
     
-        <div class="mt-6 prose prose-indigo prose-lg text-gray-500 mx-auto">
+        <div class="mt-6 prose prose-indigo prose-lg text-gray-700 mx-auto">
           <h2 class="text-green-700 text-3xl tracking-tight font-extrabold sm:text-5xl md:text-5xl lg:text-4xl xl:text-5xl">
             What You Will Learn
           </h2>
-          <ul class="text-gray-700">
+          <ul>
             <li> How to create and use a variable. </li>
             <li> How to use the micro:bit on shake function. </li>
             <li> How to display images/shapes on the LED matrix. </li>
@@ -40,7 +40,7 @@
             What You Will Need
           </h2>
 
-          <ul class="text-gray-700">
+          <ul>
             <li> 1 x micro:bit </li>
             <li> 1 x micro USB cable </li>
             <li> 1 x battery pack for the micro:bit (optional) </li>
@@ -50,7 +50,7 @@
             Coding
           </h2>
 
-          <ol class="text-gray-700">
+          <ol>
             <li> Open your favourite browser and go to <a href ="https://app.edublocks.org/"> app.edublocks.org </a> and press enter. </li>
             <li> Click on micro:bit to open the micro:bit coding editor. </li>
             <li> Click on Basic. Click and drag a from microbit import * block to the code area and drop it. </li>
@@ -133,7 +133,7 @@
             </li>
           </ol>
 
-          <p class="text-gray-700"> 
+          <p> 
             We have now finished coding rock paper scissors the next step is to download our code to the miro:bit.
           </p>
 
@@ -141,17 +141,17 @@
             Downloading the Code
           </h2>
 
-          <ol class="text-gray-700">
+          <ol>
             <li> Take the micro USB cable and connect the micro:bit to the computer. </li>
             <li> Click on Download Hex. </li>
             <li> Locate your micro:bit within the file explorer. Click on it to open the drive and click on Save. Once the light on the back of the micro:bit stops blinking your code has finished downloading. </li>
           </ol>  
 
-          <p class="text-gray-700"> 
+          <p> 
             You have now successfully coded a micro:bit to play raock paper scissors.
           </p>
 
-          <p class="text-gray-700"> 
+          <p> 
             Find a partner and start playing.
           </p>
         </div>
