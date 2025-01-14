@@ -60,16 +60,7 @@
                 <figcaption class="text-gray-600"> Initiating the step counter to 0 </figcaption>
               </figure>
             </li>
-            <div class="bg-blue-100 border-l-8 border-blue-400 px-8">
-              <h3 class="text-2xl tracking-tight font-extrabold sm:text-4xl md:text-4xl lg:text-3xl xl:text-4xl" style="color:#006494">
-                What is a variable
-              </h3>
-          
-              <p class="text-gray-900"> 
-                Think of a variable as a box that stores information that can be used throughout our program. 
-                We give variables a descriptive name so we and others can understand what is going on within our program.
-              </p>
-            </div>
+            <Variable />
             <li> Click on <i> Basic</i>. Click and drag a <code> while True: </code> block to the code area and attach it under <code> steps = 0 </code> block. </li>
             <li> Click on <i> Basic</i>. Click and drag an <code> if True: </code> block to the code area and attach it within the <code> while True: </code> block. </li>
             <li> Click on <i> Accelerometer</i>. Click and drag an <code> accelerometer.is_gesture(‘shake’) </code> block and attach it within the <code> True </code> of the <code> if </code> block. </li>
