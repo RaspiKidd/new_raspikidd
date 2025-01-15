@@ -1,6 +1,6 @@
 <template>
-    <form class="grid grid-cols-1 gap-y-6 p-3" name="Contact" method="POST" netlify>
-        <input type="hidden" name="form-name" value="Contact" />
+    <form class="grid grid-cols-1 gap-y-6 p-3" name="ContactUs" method="POST" netlify>
+        <input type="hidden" name="form-name" value="ContactUs" />
         <label for="full_name" class="sr-only">Full name</label>
         <input 
             id="name"
@@ -39,9 +39,10 @@
             name="message" 
             rows="2" 
             required
-            class="block w-full shadow-sm py-3 px-4 text-gray-900 focus:ring-red-500 focus:border-red-500 border-2 border-green-700 rounded-md" 
+            class="block w-full shadow-sm py-3 px-4 placeholder-gray-900 focus:ring-red-500 focus:border-red-500 border-2 border-green-700 rounded-md"
+            placeholder="Enter your Message here"
         >
-            Message
+            
         </textarea>
                  
         <button
