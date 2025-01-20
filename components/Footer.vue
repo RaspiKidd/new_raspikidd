@@ -100,7 +100,7 @@
                 </a>
             </div>
             <p class="mt-8 text-base text-center text-gray-700">
-          &copy; 2024 RaspiKidd. All rights reserved. 
+          &copy; 2025 RaspiKidd. All rights reserved. 
           <a 
           class ="text-blue-800" 
           href= "/privacy_policy.pdf"
