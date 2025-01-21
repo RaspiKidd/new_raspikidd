@@ -1,5 +1,8 @@
 <template>
   <div class="font-sans bg-gray-100">
+    <head>
+      <title> Blog Posts </title>
+    </head>
     <div class="relative px-4 pt-6 sm:px-6 lg:px-8">
         <Header />
     </div>

@@ -1,5 +1,8 @@
 <template>
   <div class="relative bg-gray-100">
+    <head>
+      <title> Sensing the Environment </title>
+    </head>
     <Header />
     <!-- main -->
     <div class="relative py-16 overflow-hidden">

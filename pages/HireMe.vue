@@ -1,5 +1,8 @@
 <template>
   <div class="relative bg-gray-100">
+    <head>
+      <title> Hire Us </title>
+    </head>
     <Header />
     <main>
         <div class="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8">

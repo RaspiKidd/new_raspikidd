@@ -1,5 +1,8 @@
 <template>
   <div class="relative bg-gray-100">
+    <head>
+      <title> Rock Paper Scissors Game </title>
+    </head>
     <Header />
     <!-- main -->
     <div class="relative py-16 overflow-hidden">

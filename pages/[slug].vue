@@ -1,7 +1,9 @@
 <template>
   <div class="font-sans bg-gray-100">
     <Header />
-
+    <head> 
+      <title> {{ story.content.title }} </title>
+    </head>
     <div class="relative py-16 overflow-hidden">
       <div class="hidden lg:block lg:absolute lg:inset-y-0 lg:h-full lg:w-full">
         <div class="relative h-full text-lg max-w-prose mx-auto" aria-hidden="true">

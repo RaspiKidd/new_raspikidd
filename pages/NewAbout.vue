@@ -1,11 +1,14 @@
 <template>
     <div class="bg-gray-100">
+      <head>
+        <title> About </title>
+      </head>
       <Header />
       <main class="isolate">
         <!-- Content section -->
         <div class="mx-auto mt-32 max-w-7xl px-6 sm:mt-20 lg:px-8">
           <div class="mx-auto max-w-2xl lg:mx-0 lg:max-w-none">
-            <h1 class="text-pretty text-5xl font-semibold tracking-tight text-red-700 sm:text-6xl">
+            <h1 class="text-pretty text-5xl font-semibold tracking-tight text-red-800 sm:text-6xl">
               Inspiring the Next Generation of Innovators
             </h1>
             <div class="mt-6 flex flex-col gap-x-8 gap-y-20 lg:flex-row">
