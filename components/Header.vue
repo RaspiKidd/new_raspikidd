@@ -72,9 +72,9 @@
               </transition>
             </div> -->
 
-            <NuxtLink to="/microbit" class="text-base font-medium text-gray-700 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500">
-              micro:bit
-            </NuxtLink>
+            <a href="https://learn.raspikidd.com/" target="_blank" class="text-base font-medium text-gray-700 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500">
+              Learning Hub
+            </a>
 
             <NuxtLink to="/NewAbout" class="text-base font-medium text-gray-700 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500">
               About
@@ -165,9 +165,9 @@
                               </div>
                             </NuxtLink> -->
         
-                            <NuxtLink to="/microbit" class="text-base font-medium text-gray-700 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500 p-3">
-                              micro:bit
-                            </NuxtLink>
+                            <a href="https://learn.raspikidd.com/" target="_blank" class="text-base font-medium text-gray-500 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500 p-3">
+                              Learning Hub
+                            </a>
 
                             <NuxtLink to="/NewAbout" class="text-base font-medium text-gray-700 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500 p-3">
                               About
