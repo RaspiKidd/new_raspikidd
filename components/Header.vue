@@ -14,7 +14,6 @@
               <span class="sr-only">Open menu</span>
             </button>
           </div>
-
           <!-- Desktop Menu -->
           <nav class="hidden md:flex space-x-10">
             <!-- Nested menu -->
@@ -76,7 +75,7 @@
               Learning Hub
             </a>
 
-            <NuxtLink to="/NewAbout" class="text-base font-medium text-gray-700 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500">
+            <NuxtLink to="/About" class="text-base font-medium text-gray-700 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500">
               About
             </NuxtLink>
 
@@ -169,7 +168,7 @@
                               Learning Hub
                             </a>
 
-                            <NuxtLink to="/NewAbout" class="text-base font-medium text-gray-700 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500 p-3">
+                            <NuxtLink to="/About" class="text-base font-medium text-gray-700 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500 p-3">
                               About
                             </NuxtLink>
 
