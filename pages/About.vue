@@ -1,8 +1,5 @@
 <template>
     <div class="bg-gray-100">
-      <head>
-        <title> About </title>
-      </head>
       <Header />
       <main class="isolate">
         <!-- Content section -->

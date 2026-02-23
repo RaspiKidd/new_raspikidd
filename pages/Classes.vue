@@ -1,8 +1,5 @@
 <template>
     <div class="relative bg-gray-100">
-        <head>
-            <title> Classes </title>
-        </head>
         <Header />
         <main class="overflow-hidden py-24 sm:py-32">
             <div class="mx-auto max-w-7xl px-6 lg:px-8">

@@ -1,10 +1,5 @@
 <template>
   <div class="relative bg-gray-100">
-    <head>
-      <title> Home - RaspiKidd </title>
-      <html lang="en-UK" />
-      
-    </head>
     <Header />
     <main class="lg:relative">
       <div class="mx-auto max-w-7xl w-full pt-16 pb-20 text-center lg:py-30 lg:text-center">
