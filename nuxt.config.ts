@@ -17,8 +17,9 @@ export default defineNuxtConfig({
     prerender: {
       routes: [
         '/',
-        '/Classes',
-        '/HireMe',
+        '/classes',
+        '/hire-me',
+        '/tutoring',
       ]
     }
   },
