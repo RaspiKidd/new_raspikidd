@@ -68,4 +68,8 @@
   const { fetchArticleBySlug } = useArticles()
   
   const story = await fetchArticleBySlug(slug as string)
+
+  if (!story) {
+  throw createError({ statusCode: 404, statusMessage: 'Article not found' })
+}
 </script>
