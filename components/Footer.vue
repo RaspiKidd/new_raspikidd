@@ -108,6 +108,9 @@
             Privacy Policy 
           </a>
         </p>
+        <p class="mt-2 text-base text-center text-gray-700">
+          Servicing Perth Scotland and surrounding areas.
+        </p>
         </div>
     </footer>
 </template>
