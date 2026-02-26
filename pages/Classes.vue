@@ -88,7 +88,7 @@
         { name: 'description', content: 'Book a hands-on STEM workshop for your child in Perthshire. Sessions for ages 8–16 covering coding, electronics and more. Small groups, expert tutors.' },
         { property: 'og:description', content: 'Book a hands-on STEM workshop for your child in Perthshire. Sessions for ages 8–16 covering coding, electronics and more. Small groups, expert tutors.' },
         { property: 'og:image', content: '/images/Classes.jpg' },
-        { property: 'og:url', content: 'https://raspikidd.com' },
+        { property: 'og:url', content: 'https://raspikidd.com/classes' },
         { property: 'og:type', content: 'website' },
         //{ property: 'robots', content: 'index, follow' }
         ]
