@@ -1,6 +1,7 @@
 <template>
   <div class="font-sans bg-gray-100">
     <Header />
+
     <div class="relative py-16 overflow-hidden">
       <div class="hidden lg:block lg:absolute lg:inset-y-0 lg:h-full lg:w-full">
         <div class="relative h-full text-lg max-w-prose mx-auto" aria-hidden="true">
@@ -68,8 +69,4 @@
   const { fetchArticleBySlug } = useArticles()
   
   const story = await fetchArticleBySlug(slug as string)
-
-  if (!story) {
-  throw createError({ statusCode: 404, statusMessage: 'Article not found' })
-}
 </script>

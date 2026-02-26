@@ -32,9 +32,6 @@ export function useArticles(){
             is_startpage: false,
         })
         const story = data.stories[0]
-
-        if (!story) return null
-        
         story.content.author = data.rels.find(({ uuid }) => uuid === story.content.author)
         return story
 
