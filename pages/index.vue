@@ -6,16 +6,25 @@
         <div class="px-4 lg:w-1/2 sm:px-8 xl:pr-16">
           <h1 class="text-3xl tracking-tight font-extrabold text-red-800 sm:text-4xl md:text-5xl lg:text-4xl xl:text-5xl">
             <span class="block xl:inline">
-              Empowering Young Innovators To Dream Big
+              Hands-on STEM workshops for kids in Perthshire
             </span>
           </h1>
           
           <p class="mt-3 max-w-2xl mx-auto text-xl text-gray-700 sm:mt-4">
             At RaspiKidd, we believe that every child deserves the opportunity to explore, engage with, and 
-            excel in STEM (Science Technology Engineering & Maths) regardless of their background. Our mission is to break down barriers to STEM 
-            education by offering hands-on workshops and affordable kits that make technology fun, practical, 
-            and accessible for children aged 8 to 16.
+            excel in STEM (Science Technology Engineering & Maths) regardless of their background. Our mission is 
+            to break down barriers to STEM education by offering fun pratical coding and electonics sessions for 
+            young learners aged 8-16 in Perth, Bridge of Earn, Scone and surrounding areas.
           </p>
+
+          <!--<div class="mt-10 flex items-center justify-center gap-x-6">
+            <a href="#" class="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-indigo-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
+              Get started
+            </a>
+            <a href="#" class="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-indigo-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
+              Learn more
+            </a>  
+          </div>-->
 
           <h2 class="mt-5 text-pretty text-3xl font-semibold tracking-tight text-emerald-800 sm:text-4xl">
             What We Do
@@ -100,3 +109,21 @@
     <Footer />
   </div>
 </template>
+
+<script setup>
+    useHead({
+      title: 'STEM workshops & Tutoring for kids in Perth | RaspiKidd',
+      meta: [
+        { name: 'description', content: 'Hands-on coding and electronics workshops for chlildren age 8-16 in Perthshire. Fun, affordable, and practical. Book a class or tutoring session today!' },
+        { property: 'og:description', content: 'Hands-on coding and electronics workshops for chlildren age 8-16 in Perthshire. Fun, affordable, and practical. Book a class or tutoring session today!' },
+        { property: 'og:image', content: '/images/PhysicalComputing.jpg' },
+        { property: 'og:url', content: 'https://raspikidd.com' },
+        { property: 'og:type', content: 'website' },
+        //{ property: 'robots', content: 'index, follow' }
+        ]
+    });
+    useSeoMeta({
+      title: 'STEM workshops & Tutoring for kids in Perth | RaspiKidd',
+      ogTitle: 'STEM workshops & Tutoring for kids in Perth | RaspiKidd'
+    });
+  </script>

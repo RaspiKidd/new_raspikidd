@@ -80,3 +80,21 @@
         <Footer />
     </div>
   </template>
+
+  <script setup>
+    useHead({
+      title: 'Children\'s STEM Classes Near Perth, Scotland | RaspiKidd',
+      meta: [
+        { name: 'description', content: 'Book a hands-on STEM workshop for your child in Perthshire. Sessions for ages 8–16 covering coding, electronics and more. Small groups, expert tutors.' },
+        { property: 'og:description', content: 'Book a hands-on STEM workshop for your child in Perthshire. Sessions for ages 8–16 covering coding, electronics and more. Small groups, expert tutors.' },
+        { property: 'og:image', content: '/images/Classes.jpg' },
+        { property: 'og:url', content: 'https://raspikidd.com' },
+        { property: 'og:type', content: 'website' },
+        //{ property: 'robots', content: 'index, follow' }
+        ]
+    });
+    useSeoMeta({
+      title: 'Children\'s STEM Classes Near Perth, Scotland | RaspiKidd',
+      ogTitle: 'Children\'s STEM Classes Near Perth, Scotland | RaspiKidd'
+    });
+  </script>

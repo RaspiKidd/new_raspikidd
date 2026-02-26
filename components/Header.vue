@@ -82,6 +82,9 @@
             <NuxtLink to="/Classes" class="text-base font-medium text-gray-700 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500">
               Classes
             </NuxtLink>
+            <NuxtLink to="/Tutoring" class="text-base font-medium text-gray-700 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500">
+              Tutoring Services
+            </NuxtLink>
 
             <!--<a href="https://blog.raspikidd.com/" target="_Blank" class="text-base font-medium text-gray-500 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500">
               Blog
