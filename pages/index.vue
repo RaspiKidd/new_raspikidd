@@ -17,14 +17,14 @@
             young learners aged 8-16 in Perth, Bridge of Earn, Scone and surrounding areas.
           </p>
 
-          <!--<div class="mt-10 flex items-center justify-center gap-x-6">
-            <a href="#" class="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-indigo-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
-              Get started
-            </a>
-            <a href="#" class="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-indigo-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
-              Learn more
-            </a>  
-          </div>-->
+          <div class="mt-10 flex items-center justify-center gap-x-6">
+            <NuxtLink to="/classes" class="rounded-md bg-red-700 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-red-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
+              Coding Classes
+            </NuxtLink>
+            <NuxtLink to="/tutoring" class="rounded-md bg-emerald-700 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-emerald-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
+              Tutoring Services
+            </NuxtLink>  
+          </div>
 
           <h2 class="mt-5 text-pretty text-3xl font-semibold tracking-tight text-emerald-800 sm:text-4xl">
             What We Do

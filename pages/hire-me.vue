@@ -163,3 +163,21 @@
     <Footer />
   </div>
 </template>
+
+<script setup>
+  useHead({
+      title: 'STEM Workshops for schools & Events in Scotland | RaspiKidd',
+      meta: [
+        { name: 'description', content: 'RaspiKidd delivers engaging STEM sessions for schools, libraries and community events across Perthshire and beyond.' },
+        { property: 'og:description', content: 'RaspiKidd delivers engaging STEM sessions for schools, libraries and community events across Perthshire and beyond.' },
+        { property: 'og:image', content: '/RaspiKidd.svg' },
+        { property: 'og:url', content: 'https://raspikidd.com/hire-me' },
+        { property: 'og:type', content: 'website' },
+        //{ property: 'robots', content: 'index, follow' }
+        ]
+    });
+  useSeoMeta({
+    title: 'STEM Workshops for schools & Events in Scotland | RaspiKidd',
+    ogTitle: 'STEM Workshops for schools & Events in Scotland | RaspiKidd'
+  });
+</script>

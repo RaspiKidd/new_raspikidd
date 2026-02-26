@@ -80,7 +80,7 @@
         </div>
         
         <!-- Values section -->
-        <div class="mx-auto mt-32 max-w-7xl px-6 sm:mt-10 lg:px-8 sm:rounded-3xl bg-gray-50">
+        <div class="mx-auto mt-32 max-w-7xl px-6 sm:mt-10 lg:px-8 sm:rounded-3xl bg-orange-100">
           <div class="mx-auto max-w-2xl lg:mx-0">
             <h2 class="text-pretty text-4xl font-semibold tracking-tight text-emerald-800 sm:text-5xl">
               Our values
@@ -169,7 +169,7 @@
       description:
         'Celebrating mistakes as opportunities to learn, embodying the philosophy that failure is simply the First Attempt In Learning (FAIL).',
     },
-  ]
+  ];
   /*const team = [
     {
       name: 'Michael Foster',
@@ -179,4 +179,19 @@
     },
     // More people...
   ]*/
+ useHead({
+      title: 'About RaspiKidd | STEM Education in Perthshire',
+      meta: [
+        { name: 'description', content: 'RaspiKidd brings hands-on STEM learning to families and schools accross Perth and Perthshire. Find out who we are and why we do it.' },
+        { property: 'og:description', content: 'RaspiKidd brings hands-on STEM learning to families and schools accross Perth and Perthshire. Find out who we are and why we do it.' },
+        { property: 'og:image', content: '/RaspiKidd.svg' },
+        { property: 'og:url', content: 'https://raspikidd.com/about' },
+        { property: 'og:type', content: 'website' },
+        //{ property: 'robots', content: 'index, follow' }
+        ]
+    });
+  useSeoMeta({
+    title: 'About RaspiKidd | STEM Education in Perthshire',
+    ogTitle: 'About RaspiKidd | STEM Education in Perthshire'
+  });
   </script>

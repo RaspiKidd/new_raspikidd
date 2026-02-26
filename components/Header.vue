@@ -75,14 +75,14 @@
               Learning Hub
             </a>
 
-            <NuxtLink to="/About" class="text-base font-medium text-gray-700 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500">
+            <NuxtLink to="/about" class="text-base font-medium text-gray-700 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500">
               About
             </NuxtLink>
 
-            <NuxtLink to="/Classes" class="text-base font-medium text-gray-700 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500">
+            <NuxtLink to="/classes" class="text-base font-medium text-gray-700 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500">
               Classes
             </NuxtLink>
-            <NuxtLink to="/Tutoring" class="text-base font-medium text-gray-700 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500">
+            <NuxtLink to="/tutoring" class="text-base font-medium text-gray-700 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500">
               Tutoring Services
             </NuxtLink>
 
@@ -90,11 +90,11 @@
               Blog
             </a> -->
 
-           <NuxtLink to="/Blog" class="text-base font-medium text-gray-700 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500">
+           <NuxtLink to="/blog" class="text-base font-medium text-gray-700 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500">
               Blog
             </NuxtLink>
 
-            <NuxtLink to="/HireMe" class="text-base font-medium text-gray-700 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500">
+            <NuxtLink to="/hire-me" class="text-base font-medium text-gray-700 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500">
               Hire Us
             </NuxtLink>
           </nav>
@@ -171,11 +171,11 @@
                               Learning Hub
                             </a>
 
-                            <NuxtLink to="/About" class="text-base font-medium text-gray-700 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500 p-3">
+                            <NuxtLink to="/about" class="text-base font-medium text-gray-700 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500 p-3">
                               About
                             </NuxtLink>
 
-                            <NuxtLink to="/Classes" class="text-base font-medium text-gray-700 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500 p-3">
+                            <NuxtLink to="/classes" class="text-base font-medium text-gray-700 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500 p-3">
                               Classes
                             </NuxtLink>
                       
@@ -183,11 +183,11 @@
                               Blog
                             </a> -->
 
-                            <NuxtLink to="/Blog" class="text-base font-medium text-gray-700 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500 p-3">
+                            <NuxtLink to="/blog" class="text-base font-medium text-gray-700 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500 p-3">
                               Blog
                             </NuxtLink> 
 
-                            <NuxtLink to="/HireMe" class="text-base font-medium text-gray-700 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500 p-3">
+                            <NuxtLink to="/hire-me" class="text-base font-medium text-gray-700 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500 p-3">
                               Hire Us
                             </NuxtLink>
                           </nav>

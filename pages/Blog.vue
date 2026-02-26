@@ -144,6 +144,21 @@
 </template>
 
 <script setup lang="ts">
+  useHead({
+      title: 'STEM Tips & Resources for Parents & Educators | RaspiKidd Blog',
+      meta: [
+        { name: 'description', content: 'Ideas guides and local news for Perthshire parents who want to support their childs love of coding, tech and science.' },
+        { property: 'og:description', content: 'Ideas guides and local news for Perthshire parents who want to support their childs love of coding, tech and science.' },
+        { property: 'og:image', content: '/RaspiKidd.svg' },
+        { property: 'og:url', content: 'https://raspikidd.com/blog' },
+        { property: 'og:type', content: 'website' },
+        //{ property: 'robots', content: 'index, follow' }
+        ]
+    });
+  useSeoMeta({
+    title: 'STEM Tips & Resources for Parents & Educators | RaspiKidd Blog',
+    ogTitle: 'STEM Tips & Resources for Parents & Educators | RaspiKidd Blog'
+  });
   import { format } from 'date-fns';
   defineProps({
     blok: {
