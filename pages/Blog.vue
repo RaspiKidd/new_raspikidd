@@ -1,8 +1,6 @@
 <template>
   <div class="font-sans bg-gray-100">
-    <div class="relative px-4 pt-6 sm:px-6 lg:px-8">
-        <Header />
-    </div>
+    <Header />
 
     <div class="relative py-16 overflow-hidden">
         <div class="hidden lg:block lg:absolute lg:inset-y-0 lg:h-full lg:w-full">
