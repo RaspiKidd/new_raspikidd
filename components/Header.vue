@@ -173,13 +173,13 @@
                             </NuxtLink>
 
                             <NuxtLink to="/coding-workshops-perth" class="text-base font-medium text-gray-700 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500 p-3">
-                              Classes
+                              Coding Workshops
+                            </NuxtLink>
+
+                            <NuxtLink to="/tutoring" class="text-base font-medium text-gray-700 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500 p-3">
+                              Tutoring Services
                             </NuxtLink>
                       
-                             <!--<a href="https://blog.raspikidd.com/" target="_blank" class="text-base font-medium text-gray-500 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500 p-3">
-                              Blog
-                            </a> -->
-
                             <NuxtLink to="/blog" class="text-base font-medium text-gray-700 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500 p-3">
                               Blog
                             </NuxtLink> 
