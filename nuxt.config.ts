@@ -13,6 +13,11 @@ export default defineNuxtConfig({
     //cacheProvider: 'memory',
   },
 
+  site: {
+    name: 'RaspiKidd',
+    url: 'https://raspikidd.com/',
+  },
+
   nitro: {
     prerender: {
       routes: [
