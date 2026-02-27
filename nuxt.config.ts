@@ -17,7 +17,7 @@ export default defineNuxtConfig({
     prerender: {
       routes: [
         '/',
-        '/classes',
+        '/coding-workshops-perth',
         '/hire-me',
         '/tutoring',
       ]
