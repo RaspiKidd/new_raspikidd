@@ -23,6 +23,7 @@ export default defineNuxtConfig({
       routes: [
         '/',
         '/coding-workshops-perth',
+        '/kids-coding-workshops-perth-waitlist',
         '/hire-me',
         '/tutoring',
       ]
