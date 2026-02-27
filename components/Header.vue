@@ -82,7 +82,7 @@
             <NuxtLink to="/coding-workshops-perth" class="text-base font-medium text-gray-700 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500">
               Coding Workshops
             </NuxtLink>
-            
+
             <NuxtLink to="/tutoring" class="text-base font-medium text-gray-700 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500">
               Tutoring Services
             </NuxtLink>
@@ -172,7 +172,7 @@
                               About
                             </NuxtLink>
 
-                            <NuxtLink to="/classes" class="text-base font-medium text-gray-700 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500 p-3">
+                            <NuxtLink to="/coding-workshops-perth" class="text-base font-medium text-gray-700 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500 p-3">
                               Classes
                             </NuxtLink>
                       
