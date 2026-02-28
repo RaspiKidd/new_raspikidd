@@ -487,18 +487,18 @@
   },
 ];
     useHead({
-      title: 'Children\'s STEM Classes Near Perth, Scotland | RaspiKidd',
+      title: 'Kids Coding Workshops in Perth (Coming Soon) | Join the RaspiKidd Waitlist',
       meta: [
-        { name: 'description', content: 'Book a hands-on STEM workshop for your child in Perthshire. Sessions for ages 8–16 covering coding, electronics and more. Small groups, expert tutors.' },
-        { property: 'og:description', content: 'Book a hands-on STEM workshop for your child in Perthshire. Sessions for ages 8–16 covering coding, electronics and more. Small groups, expert tutors.' },
+        { name: 'description', content: 'Looking for kids coding classes in Perth? RaspiKidd is launching fun, beginner-friendly coding workshops for ages 8–16. Join the waitlist for priority access.' },
+        { property: 'og:description', content: 'Looking for kids coding classes in Perth? RaspiKidd is launching fun, beginner-friendly coding workshops for ages 8–16. Join the waitlist for priority access.' },
         { property: 'og:image', content: '/images/Classes.jpg' },
-        { property: 'og:url', content: 'https://raspikidd.com/classes' },
+        { property: 'og:url', content: 'https://raspikidd.com/kids-coding-workshops-perth-waitlist' },
         { property: 'og:type', content: 'website' },
         //{ property: 'robots', content: 'index, follow' }
         ]
     });
     useSeoMeta({
-      title: 'Children\'s STEM Classes Near Perth, Scotland | RaspiKidd',
-      ogTitle: 'Children\'s STEM Classes Near Perth, Scotland | RaspiKidd'
+      title: 'Kids Coding Workshops in Perth (Coming Soon) | Join the RaspiKidd Waitlist',
+      ogTitle: 'Kids Coding Workshops in Perth (Coming Soon) | Join the RaspiKidd Waitlist'
     });
   </script>
