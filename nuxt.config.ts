@@ -26,6 +26,7 @@ export default defineNuxtConfig({
         '/kids-coding-workshops-perth-waitlist',
         '/hire-me',
         '/tutoring',
+        '/smarter-screen-time',
       ]
     }
   },
