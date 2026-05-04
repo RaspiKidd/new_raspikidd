@@ -116,12 +116,12 @@
                         </h2>
         
                         <p class="text-white max-w-3xl mt-3 text-lg leading-6 font-bold">
-                            Ready to help your child <b> level up their grades? </b> Book a free 15-minute 
+                            Ready to help your child <b> level up their grades? </b> Book a free 30-minute 
                             consultation to see how Kerry at RaspiKidd can help your teen succeed in National 5 
                             and Higher Computer Science.
                         </p>
                         <div class="mt-10 flex items-center justify-center gap-x-6 text-lg">
-                            <a href="https://app.simplymeet.me/raspikidd/tutoring-discovery" target="_blank" class="rounded-md bg-red-700 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-red-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-red-600 ">
+                            <a href="https://app.simplymeet.me/raspikidd/discovery-call" target="_blank" class="rounded-md bg-red-700 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-red-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-red-600 ">
                                 Book Now
                             </a>
                         </div>
@@ -158,11 +158,11 @@
                         </h2>
         
                         <p class="text-white max-w-3xl mt-3 text-lg leading-6 font-bold">
-                            Book a free 15-minute parent consultation and see how RaspiKidd Tutoring can help your 
+                            Book a free 30-minute parent consultation and see how RaspiKidd Tutoring can help your 
                             teen level up in National 5 & Higher Computer Science.
                         </p>
                         <div class="mt-10 flex items-center justify-center gap-x-6 text-lg">
-                            <a href="https://app.simplymeet.me/raspikidd/tutoring-discovery" target="_blank" class="rounded-md bg-red-700 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-red-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-red-600 ">
+                            <a href="https://app.simplymeet.me/raspikidd/discovery-call" target="_blank" class="rounded-md bg-red-700 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-red-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-red-600 ">
                                 Book Now
                             </a>
                         </div>
