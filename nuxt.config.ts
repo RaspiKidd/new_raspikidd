@@ -4,9 +4,10 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
 
   modules: [
-    '@nuxtjs/tailwindcss',
-    '@storyblok/nuxt',
-    '@nuxtjs/sitemap',
+    '@nuxtjs/tailwindcss', 
+    '@storyblok/nuxt', 
+    '@nuxt/content', 
+    //'@nuxtjs/sitemap'
   ],
   storyblok: {
     accessToken: process.env.STORYBLOK_KEY,
@@ -38,6 +39,3 @@ export default defineNuxtConfig({
   },
 
 })
-
-
-
