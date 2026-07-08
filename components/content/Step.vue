@@ -20,9 +20,27 @@ const isActive = computed(() => ctx?.current.value === index)
 </template>
 
 <style scoped>
-.tutorial-step__title 
-{ margin-top: 0;
-  font-size: 1.2rem;
+.tutorial-step {
+  animation: stepFadeIn 0.2s ease;
+}
+.tutorial-step__title {
+  margin-top: 0;
+  margin-bottom: 0.75rem;
+  padding-bottom: 0.5rem;
+  font-size: 1.5rem;
   font-weight: 700;
+  letter-spacing: -0.01em;
+  color: #065f46; /* emerald-800 */
+  border-bottom: 2px solid #fee2e2; /* red-100 accent underline */
+}
+@keyframes stepFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(4px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
 }
 </style>

@@ -86,19 +86,6 @@
               We equip educators and parents with the tools and confidence to inspire young minds.
             </li>
           </ul>
-          <!--<div class="grid grid-cols-2 grid-rows-2 gap-2 place-items-auto h-30 mt-10 sm:ml-3">
-            <div class="rounded-md shadow sm:mt-0 sm:ml-3">
-              <NuxtLink to="/microbit" class="bg-green-800 w-full flex items-center justify-center px-8 py-3 border border-transparent text-xl font-bold rounded-md text-emerald-200 md:py-4 md:text-xl md:px-4">
-                micro:bit
-              </NuxtLink>
-            </div>
-          
-            <div class="sm:mt-0 sm:ml-3">
-              <a href='https://ko-fi.com/G2G2Y3YFZ' target='_blank'>
-                <img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi2.png?v=3' border='0' alt='Buy Me a Coffee at ko-fi.com' />
-              </a>
-            </div>
-          </div>-->
         </div>
       </div>
       <div class="relative w-full h-64 sm:h-72 md:h-96 lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2 lg:h-full">
