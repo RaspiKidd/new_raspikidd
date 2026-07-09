@@ -114,7 +114,7 @@
     
           <div class="relative mx-auto max-w-7xl">
             <div class="text-center">
-              <h1 class="text-red-700 text-3xl font-extrabold tracking-tight md:text-7xl">
+              <h1 class="text-brand-dark text-3xl font-extrabold tracking-tight md:text-7xl">
                 From the blog
               </h1>
             </div>

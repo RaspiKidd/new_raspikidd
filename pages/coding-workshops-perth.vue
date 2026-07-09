@@ -6,7 +6,7 @@
                 <div class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
                     <div class="lg:pr-8 lg:pt-4">
                         <div class="lg:max-w-lg text-gray-700">
-                            <h1 class="text-pretty text-3xl font-semibold tracking-tight text-red-800 sm:text-4xl md:text-5xl lg:text-4xl xl:text-5xl"> 
+                            <h1 class="text-pretty text-3xl font-semibold tracking-tight text-brand-dark sm:text-4xl md:text-5xl lg:text-4xl xl:text-5xl"> 
                                 Turn Screen Time into Skill Time with RaspiKidd Coding Workshops in Perth
                             </h1>
                             <h2 class="mt-2 text-3xl font-extrabold tracking-tight text-emerald-800 sm:text-4xl">

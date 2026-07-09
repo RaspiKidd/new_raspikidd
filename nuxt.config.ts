@@ -4,11 +4,24 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
 
   modules: [
-    '@nuxtjs/tailwindcss', 
+    '@nuxtjs/tailwindcss',
+    '@nuxtjs/google-fonts', 
     '@storyblok/nuxt', 
     '@nuxt/content', 
-    //'@nuxtjs/sitemap'
+    //'@nuxtjs/sitemap',
   ],
+
+  googleFonts: {
+    families: {
+      Ubuntu: [400, 500, 700],
+      Nunito: [300, 400, 600, 700],
+      'Source Code Pro': [400, 700],
+      'Finger Paint': [400],
+    },
+    display: 'swap',
+    preload: true,
+},
+
   storyblok: {
     accessToken: process.env.STORYBLOK_KEY,
     //cacheProvider: 'memory',

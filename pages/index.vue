@@ -4,13 +4,13 @@
     <main class="lg:relative">
       <div class="mx-auto max-w-7xl w-full pt-16 pb-20 text-center lg:py-30 lg:text-center">
         <div class="px-4 lg:w-1/2 sm:px-8 xl:pr-16">
-          <h1 class="text-3xl tracking-tight font-extrabold text-red-800 sm:text-4xl md:text-5xl lg:text-4xl xl:text-5xl">
+          <h1 class="text-3xl tracking-tight font-extrabold text-brand-dark sm:text-4xl md:text-5xl lg:text-4xl xl:text-5xl">
             <span class="block xl:inline">
               Hands-on STEM workshops for kids in Perthshire
             </span>
           </h1>
           
-          <p class="mt-3 max-w-2xl mx-auto text-xl text-gray-700 sm:mt-4">
+          <p class="leading-relaxed mt-3 max-w-2xl mx-auto text-xl text-gray-700 sm:mt-4">
             At RaspiKidd, we believe that every child deserves the opportunity to explore, engage with, and 
             excel in STEM (Science Technology Engineering & Maths) regardless of their background. Our mission is 
             to break down barriers to STEM education by offering fun pratical coding and electonics sessions for 
@@ -18,10 +18,10 @@
           </p>
 
           <div class="mt-10 flex items-center justify-center gap-x-6">
-            <NuxtLink to="/classes" class="rounded-md bg-red-700 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-red-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
+            <NuxtLink to="/classes" class="rounded-md bg-brand px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-brand-light focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand">
               Coding Classes
             </NuxtLink>
-            <NuxtLink to="/tutoring" class="rounded-md bg-emerald-700 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-emerald-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
+            <NuxtLink to="/tutoring" class="rounded-md bg-emerald-700 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-emerald-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand">
               Tutoring Services
             </NuxtLink>  
           </div>
@@ -31,39 +31,39 @@
           </h2>
           <ul role="list" class="mt-8 space-y-8 text-gray-700 text-xl">
             <li class="flex gap-x-3">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#991b1b" class="size-10">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="size-10 fill-brand-dark">
                 <path d="M21.731 2.269a2.625 2.625 0 0 0-3.712 0l-1.157 1.157 3.712 3.712 1.157-1.157a2.625 2.625 0 0 0 0-3.712ZM19.513 8.199l-3.712-3.712-8.4 8.4a5.25 5.25 0 0 0-1.32 2.214l-.8 2.685a.75.75 0 0 0 .933.933l2.685-.8a5.25 5.25 0 0 0 2.214-1.32l8.4-8.4Z" />
                 <path d="M5.25 5.25a3 3 0 0 0-3 3v10.5a3 3 0 0 0 3 3h10.5a3 3 0 0 0 3-3V13.5a.75.75 0 0 0-1.5 0v5.25a1.5 1.5 0 0 1-1.5 1.5H5.25a1.5 1.5 0 0 1-1.5-1.5V8.25a1.5 1.5 0 0 1 1.5-1.5h5.25a.75.75 0 0 0 0-1.5H5.25Z" />
               </svg>
 
               <span>
-                <strong class="font-semibold text-green-700">
+                <strong class="font-semibold text-leaf-dark">
                   Interactive Workshops:
                 </strong> 
                 Fun, engaging sessions designed to spark creativity and curiosity.
               </span>
             </li>
             <li class="flex gap-x-3">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#991b1b" class="size-10">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="size-10 fill-brand-dark">
                 <path fill-rule="evenodd" d="M10.5 3.798v5.02a3 3 0 0 1-.879 2.121l-2.377 2.377a9.845 9.845 0 0 1 5.091 1.013 8.315 8.315 0 0 0 5.713.636l.285-.071-3.954-3.955a3 3 0 0 1-.879-2.121v-5.02a23.614 23.614 0 0 0-3 0Zm4.5.138a.75.75 0 0 0 .093-1.495A24.837 24.837 0 0 0 12 2.25a25.048 25.048 0 0 0-3.093.191A.75.75 0 0 0 9 3.936v4.882a1.5 1.5 0 0 1-.44 1.06l-6.293 6.294c-1.62 1.621-.903 4.475 1.471 4.88 2.686.46 5.447.698 8.262.698 2.816 0 5.576-.239 8.262-.697 2.373-.406 3.092-3.26 1.47-4.881L15.44 9.879A1.5 1.5 0 0 1 15 8.818V3.936Z" clip-rule="evenodd" />
               </svg>
 
               <span>
-                <strong class="font-semibold text-green-700">
+                <strong class="font-semibold text-leaf-dark">
                   Affordable STEM Kits:
                 </strong> 
                 Budget-friendly tools that encourage kids to learn and create using everyday materials.
               </span>
             </li>
             <li class="flex gap-x-3">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#991b1b" class="size-10">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="size-10 fill-brand-dark">
                 <path d="M11.584 2.376a.75.75 0 0 1 .832 0l9 6a.75.75 0 1 1-.832 1.248L12 3.901 3.416 9.624a.75.75 0 0 1-.832-1.248l9-6Z" />
                 <path fill-rule="evenodd" d="M20.25 10.332v9.918H21a.75.75 0 0 1 0 1.5H3a.75.75 0 0 1 0-1.5h.75v-9.918a.75.75 0 0 1 .634-.74A49.109 49.109 0 0 1 12 9c2.59 0 5.134.202 7.616.592a.75.75 0 0 1 .634.74Zm-7.5 2.418a.75.75 0 0 0-1.5 0v6.75a.75.75 0 0 0 1.5 0v-6.75Zm3-.75a.75.75 0 0 1 .75.75v6.75a.75.75 0 0 1-1.5 0v-6.75a.75.75 0 0 1 .75-.75ZM9 12.75a.75.75 0 0 0-1.5 0v6.75a.75.75 0 0 0 1.5 0v-6.75Z" clip-rule="evenodd" />
                 <path d="M12 7.875a1.125 1.125 0 1 0 0-2.25 1.125 1.125 0 0 0 0 2.25Z" />
               </svg>
 
               <span>
-                <strong class="font-semibold text-green-700">
+                <strong class="font-semibold text-leaf-dark">
                   Community Partnerships:
                 </strong> 
                 Collaborating with schools, libraries, and community centres to reach underserved areas.

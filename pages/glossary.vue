@@ -46,7 +46,7 @@ useHead({ title: 'Glossary — RaspiKidd' })
 
     <main class="mx-auto max-w-3xl px-4 py-10">
     <header class="mb-8">
-      <h1 class="text-pretty text-3xl font-semibold tracking-tight text-red-800 sm:text-4xl md:text-5xl lg:text-4xl xl:text-5xl">
+      <h1 class="text-pretty text-3xl font-semibold tracking-tight text-brand-dark sm:text-4xl md:text-5xl lg:text-4xl xl:text-5xl">
         Glossary
       </h1>
       <p class="mt-2 text-gray-600">
@@ -63,7 +63,7 @@ useHead({ title: 'Glossary — RaspiKidd' })
         <a
           v-if="activeLetters.has(letter)"
           :href="`#letter-${letter}`"
-          class="flex h-8 w-8 items-center justify-center rounded font-semibold text-red-700 hover:bg-red-50"
+          class="flex h-8 w-8 items-center justify-center rounded font-semibold text-brand hover:bg-red-50"
         >
           {{ letter }}
         </a>

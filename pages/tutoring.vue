@@ -7,7 +7,7 @@
                     Level Up Your Child’s National 5 & Higher Computer Science Grades
                 </h1>
             </div>-->
-            <h1 class="text-center text-pretty text-3xl font-semibold tracking-tight text-red-800 sm:text-4xl md:text-5xl lg:text-4xl xl:text-5xl">
+            <h1 class="text-center text-pretty text-3xl font-semibold tracking-tight text-brand-dark sm:text-4xl md:text-5xl lg:text-4xl xl:text-5xl">
                 Level Up Your Child’s National 5 & Higher Computer Science Grades
             </h1>
             <h2 class="mt-5 text-pretty text-4xl font-semibold tracking-tight text-emerald-800 sm:text-5xl">
@@ -30,7 +30,7 @@
             </p>
             <dl class="mt-10 max-w-xl space-y-8 text-base leading-7 lg:max-w-none">
                 <div class="relative ml-8 pl-9 text-lg">
-                    <dt class="inline font-bold" style = "color:#A42530">
+                    <dt class="inline font-bold text-brand-dark">
                         Structured & Exam-Focused
                     </dt>
                     <dd class="mt-1">
@@ -39,7 +39,7 @@
                     </dd>
                 </div>
                 <div class="relative ml-8 pl-9 text-lg">
-                    <dt class="inline font-bold" style = "color:#A42530">
+                    <dt class="inline font-bold text-brand-dark">
                         Boost Confidence & Reduce Stress
                     </dt>
                     <dd class="mt-1">
@@ -48,7 +48,7 @@
                     </dd>
                 </div>
                 <div class="relative ml-8 pl-9 text-lg">
-                    <dt class="inline font-bold" style = "color:#A42530">
+                    <dt class="inline font-bold text-brand-dark">
                         Flexible & Local
                     </dt>
                     <dd class="mt-1">
@@ -109,9 +109,9 @@
             </dl>
             <!-- CTA Section -->
             <div class="px-6 py-12 mx-auto max-w-7xl sm:px-6 lg:py-16 lg:px-8">
-                <div class="px-6 py-6 bg-teal-900 rounded-lg md:py-12 md:px-12 lg:py-16 lg:px-16 xl:flex xl:items-center">
+                <div class="px-6 py-6 bg-leaf-dark rounded-lg md:py-12 md:px-12 lg:py-16 lg:px-16 xl:flex xl:items-center">
                     <div class="xl:w-0 xl:flex-1">
-                        <h2 class="text-teal-200 text-2xl font-bold tracking-tight sm:text-3xl">
+                        <h2 class="text-sage text-2xl font-bold tracking-tight sm:text-3xl">
                             Book Your Free Parent Consultation
                         </h2>
         
@@ -121,7 +121,7 @@
                             and Higher Computer Science.
                         </p>
                         <div class="mt-10 flex items-center justify-center gap-x-6 text-lg">
-                            <a href="https://app.simplymeet.me/raspikidd/discovery-call" target="_blank" class="rounded-md bg-red-700 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-red-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-red-600 ">
+                            <a href="https://app.simplymeet.me/raspikidd/discovery-call" target="_blank" class="rounded-md bg-brand px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-brand-light focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand">
                                 Book Now
                             </a>
                         </div>
@@ -151,9 +151,9 @@
             </div>
             <!-- CTA Section -->
             <div class="px-6 py-12 mx-auto max-w-7xl sm:px-6 lg:py-16 lg:px-8">
-                <div class="px-6 py-6 bg-teal-900 rounded-lg md:py-12 md:px-12 lg:py-16 lg:px-16 xl:flex xl:items-center">
+                <div class="px-6 py-6 bg-leaf-dark rounded-lg md:py-12 md:px-12 lg:py-16 lg:px-16 xl:flex xl:items-center">
                     <div class="xl:w-0 xl:flex-1">
-                        <h2 class="text-teal-200 text-2xl font-bold tracking-tight sm:text-3xl">
+                        <h2 class="text-sage text-2xl font-bold tracking-tight sm:text-3xl">
                             Boost Your Child’s Grades Today
                         </h2>
         
@@ -162,7 +162,7 @@
                             teen level up in National 5 & Higher Computer Science.
                         </p>
                         <div class="mt-10 flex items-center justify-center gap-x-6 text-lg">
-                            <a href="https://app.simplymeet.me/raspikidd/discovery-call" target="_blank" class="rounded-md bg-red-700 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-red-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-red-600 ">
+                            <a href="https://app.simplymeet.me/raspikidd/discovery-call" target="_blank" class="rounded-md bg-brand px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-brand-light focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand">
                                 Book Now
                             </a>
                         </div>

@@ -619,7 +619,7 @@
     which "^6.0.1"
     ws "^8.19.0"
 
-"@nuxt/kit@^3.12.3", "@nuxt/kit@>=3.0.0", "@nuxt/kit@3.21.8":
+"@nuxt/kit@^3.10.3", "@nuxt/kit@^3.12.3", "@nuxt/kit@>=3.0.0", "@nuxt/kit@3.21.8":
   version "3.21.8"
   resolved "https://registry.npmjs.org/@nuxt/kit/-/kit-3.21.8.tgz"
   integrity sha512-kg63DUPY5AHPn+9XM7u8rYcdWHXjzwfUscgRDuiC5YUciQ+xdLRhdwXelYFxEAx2nxJHossliiQXbMm/Fleivw==
@@ -800,6 +800,15 @@
     vite-node "^5.3.0"
     vite-plugin-checker "^0.13.0"
     vue-bundle-renderer "^2.2.0"
+
+"@nuxtjs/google-fonts@^3.2.0":
+  version "3.2.0"
+  resolved "https://registry.npmjs.org/@nuxtjs/google-fonts/-/google-fonts-3.2.0.tgz"
+  integrity sha512-cGAjDJoeQ2jm6VJCo4AtSmKO6KjsbO9RSLj8q261fD0lMVNMZCxkCxBkg8L0/2Vfgp+5QBHWVXL71p1tiybJFw==
+  dependencies:
+    "@nuxt/kit" "^3.10.3"
+    google-fonts-helper "^3.5.0"
+    pathe "^1.1.2"
 
 "@nuxtjs/mdc@^0.22.1":
   version "0.22.1"
@@ -2453,7 +2462,7 @@ deep-extend@^0.6.0:
   resolved "https://registry.npmjs.org/deep-extend/-/deep-extend-0.6.0.tgz"
   integrity sha512-LOHxIOaPYdHlJRtCQfDIVZtfw/ufM8+rVj649RIHzcm/vGwQRXFt6OPqIFWsm2XEMrNIEtWR64sY1LEKD2vAOA==
 
-deepmerge@^4.2.2:
+deepmerge@^4.2.2, deepmerge@^4.3.1:
   version "4.3.1"
   resolved "https://registry.npmjs.org/deepmerge/-/deepmerge-4.3.1.tgz"
   integrity sha512-3sUqbMEc77XqpdNO7FRyRog+eW3ph+GYCbj+rK+uYyRMuwsVy0rMiVtPn+QJlKFvWP/1PYpapqYn0Me2knFn+A==
@@ -3235,6 +3244,16 @@ globby@^16.2.0:
     is-path-inside "^4.0.0"
     slash "^5.1.0"
     unicorn-magic "^0.4.0"
+
+google-fonts-helper@^3.5.0:
+  version "3.7.4"
+  resolved "https://registry.npmjs.org/google-fonts-helper/-/google-fonts-helper-3.7.4.tgz"
+  integrity sha512-LNq+i6DjgFfJkb+DN2aztI2Bv/QXKMTQAzwU0arxmK6OZjUY/OxqQJQVWf+31WZFJQzTGFvtaCrSiN+kUosNTw==
+  dependencies:
+    deepmerge "^4.3.1"
+    hookable "^5.5.3"
+    ofetch "^1.4.1"
+    ufo "^1.5.4"
 
 gopd@^1.0.1, gopd@^1.2.0:
   version "1.2.0"
@@ -5200,7 +5219,7 @@ obug@^2.1.1:
   resolved "https://registry.npmjs.org/obug/-/obug-2.1.3.tgz"
   integrity sha512-9miFgM2OFba7hB+pRgvtV84pYTBaoTHohvmIgiRt6dRIzbwEOIaNaP+dIlGs2fNFoB0SeISs0Jz5WFVRid6Xyg==
 
-ofetch@^1.5.1:
+ofetch@^1.4.1, ofetch@^1.5.1:
   version "1.5.1"
   resolved "https://registry.npmjs.org/ofetch/-/ofetch-1.5.1.tgz"
   integrity sha512-2W4oUZlVaqAPAil6FUg/difl6YhqhUR7x2eZY4bQCko22UXg3hptq9KLQdqFClV+Wu85UX7hNtdGTngi/1BxcA==
@@ -7090,7 +7109,7 @@ typescript@*, typescript@^5.9.3:
   resolved "https://registry.npmjs.org/typescript/-/typescript-5.9.3.tgz"
   integrity sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw==
 
-ufo@^1.1.2, ufo@^1.5.3, ufo@^1.6.1, ufo@^1.6.2, ufo@^1.6.3, ufo@^1.6.4:
+ufo@^1.1.2, ufo@^1.5.3, ufo@^1.5.4, ufo@^1.6.1, ufo@^1.6.2, ufo@^1.6.3, ufo@^1.6.4:
   version "1.6.4"
   resolved "https://registry.npmjs.org/ufo/-/ufo-1.6.4.tgz"
   integrity sha512-JFNbkD1Svwe0KvGi8GOeLcP4kAWQ609twvCdcHxq1oSL8svv39ZuSvajcD8B+5D0eL4+s1Is2D/O6KN3qcTeRA==

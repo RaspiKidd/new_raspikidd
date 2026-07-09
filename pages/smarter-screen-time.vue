@@ -2,7 +2,7 @@
     <Header />
     <div class="bg-zinc-100 px-6 py-24 sm:py-32 lg:px-8">
         <div class="mx-auto max-w-2xl text-center">
-            <h1 class="text-3xl font-semibold tracking-tight text-red-800 sm:text-5xl">
+            <h1 class="text-3xl font-semibold tracking-tight text-brand-dark sm:text-5xl">
                 Turn Screen Time Into Real Skills
             </h1>
         </div>
@@ -34,9 +34,9 @@
             </div>
         </div>
         <div class="px-6 py-12 mx-auto max-w-7xl sm:px-6 lg:py-16 lg:px-8">
-            <div class="px-6 py-6 bg-teal-900 rounded-lg md:py-12 md:px-12 lg:py-16 lg:px-16 xl:flex xl:items-center">
+            <div class="px-6 py-6 bg-leaf-dark rounded-lg md:py-12 md:px-12 lg:py-16 lg:px-16 xl:flex xl:items-center">
                 <div class="xl:w-0 xl:flex-1">
-                    <h2 class="text-teal-400 text-2xl font-bold tracking-tight sm:text-3xl">
+                    <h2 class="text-sage text-2xl font-bold tracking-tight sm:text-3xl">
                         Enter your email to get the free smarter screen time guide straight to your inbox.
                     </h2>
                     <p class="text-white max-w-3xl mt-3 text-lg leading-6 font-bold" style="text-size: 20px;">
@@ -54,7 +54,7 @@
                             type="text"
                             autocomplete="text"
                             required
-                            class="w-full px-5 py-3 mr-3 placeholder-gray-500 border-white rounded-md focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-teal-700 focus:ring-white"
+                            class="w-full px-5 py-3 mr-3 placeholder-gray-500 border-white rounded-md focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-leaf-dark focus:ring-white"
                             placeholder="Enter your name"
                         />
                         <label for="emailAddress" class="sr-only">
@@ -66,12 +66,12 @@
                             type="email"
                             autocomplete="email"
                             required
-                            class="w-full px-5 py-3 placeholder-gray-500 border-white rounded-md focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-teal-700 focus:ring-white"
+                            class="w-full px-5 py-3 placeholder-gray-500 border-white rounded-md focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-leaf-dark focus:ring-white"
                             placeholder="Enter your email"
                         />
                         <button
                             type="submit"
-                            class="bg-emerald-200 flex items-center justify-center w-full px-5 py-3 mt-3 text-base font-bold text-sky-900 border border-transparent rounded-md shadow hover:bg-teal-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-teal-700 focus:ring-white sm:mt-0 sm:ml-3 sm:w-auto sm:flex-shrink-0"
+                            class="bg-sage flex items-center justify-center w-full px-5 py-3 mt-3 text-base font-bold text-sky-900 border border-transparent rounded-md shadow hover:bg-leaf-light focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-leaf-dark focus:ring-white sm:mt-0 sm:ml-3 sm:w-auto sm:flex-shrink-0"
                             style = "font-size: 22px">
                             Get the Free Guide
                         </button>
