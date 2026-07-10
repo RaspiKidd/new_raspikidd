@@ -68,27 +68,27 @@ function back() {
 .tutorial-steps__count {
   font-weight: 700;
   font-size: 0.9rem;
-  color: #065f46; /* emerald-800 */
+  color: theme('colors.emerald.800'); /* secondary green token */
 }
 .tutorial-steps__bar {
   margin-top: 0.5rem;
   height: 8px;
   border-radius: 999px;
-  background: #f3f4f6; /* gray-100 */
+  background: theme('colors.gray.100');
   overflow: hidden;
 }
 .tutorial-steps__bar-fill {
   height: 100%;
   border-radius: 999px;
-  background: #b91c1c; /* red-700 */
+  background: theme('colors.brand.DEFAULT'); /* was #b91c1c (red-700) */
   transition: width 0.25s ease;
 }
 .tutorial-steps__done {
   margin-top: 1.5rem;
   padding: 0.75rem 1rem;
   border-radius: 8px;
-  background: #ecfdf5; /* emerald-50 */
-  color: #065f46; /* emerald-800 */
+  background: theme('colors.emerald.50');
+  color: theme('colors.emerald.800');
   font-weight: 600;
   text-align: center;
 }
@@ -107,21 +107,21 @@ function back() {
 }
 /* Back = secondary (outline) */
 .tutorial-steps__nav .btn-back {
-  border: 1px solid #d1d5db; /* gray-300 */
+  border: 1px solid theme('colors.gray.300');
   background: #fff;
-  color: #b91c1c; /* red-700 */
+  color: theme('colors.brand.DEFAULT'); /* was #b91c1c (red-700) */
 }
 .tutorial-steps__nav .btn-back:hover:not(:disabled) {
-  background: #fef2f2; /* red-50 */
+  background: theme('colors.red.50'); /* pale tint left as-is, awaiting a brand tint token */
 }
-/* Next = primary red */
+/* Next = primary brand */
 .tutorial-steps__nav .btn-next {
   border: 1px solid transparent;
-  background: #b91c1c; /* red-700 */
+  background: theme('colors.brand.DEFAULT'); /* was #b91c1c (red-700) */
   color: #fff;
 }
 .tutorial-steps__nav .btn-next:hover:not(:disabled) {
-  background: #ef4444; /* red-500 */
+  background: theme('colors.brand.light'); /* was #ef4444 (red-500) */
 }
 .tutorial-steps__nav button:disabled {
   opacity: 0.4;

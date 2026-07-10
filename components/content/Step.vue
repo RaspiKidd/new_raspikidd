@@ -30,8 +30,8 @@ const isActive = computed(() => ctx?.current.value === index)
   font-size: 1.5rem;
   font-weight: 700;
   letter-spacing: -0.01em;
-  color: #065f46; /* emerald-800 */
-  border-bottom: 2px solid #fee2e2; /* red-100 accent underline */
+  color: theme('colors.emerald.800'); /* secondary green token */
+  border-bottom: 2px solid theme('colors.red.100'); /* pale accent left as-is, awaiting a brand tint token */
 }
 @keyframes stepFadeIn {
   from {
