@@ -8,17 +8,31 @@ const entry = computed(() =>
   glossary.value?.find(t => slugifyTerm(t.term) === props.slug)
 )
 const open = ref(false)
+
+// Only close when focus leaves the whole term, not when it moves
+// to something inside it (e.g. the "Full entry" link). This stops the
+// popover being hidden mid-tap on touch devices, which swallowed the tap.
+function onFocusOut(event: FocusEvent) {
+  const root = event.currentTarget as HTMLElement
+  if (!root.contains(event.relatedTarget as Node | null)) {
+    open.value = false
+  }
+}
 </script>
 
 <template>
-  <span class="glossary-term" @mouseleave="open = false">
+  <span
+    class="glossary-term"
+    @mouseleave="open = false"
+    @focusout="onFocusOut"
+    @keydown.esc="open = false"
+  >
     <button
       type="button"
       class="glossary-term__trigger"
       :aria-expanded="open"
       @click="open = !open"
       @focus="open = true"
-      @blur="open = false"
       @mouseenter="open = true"
     >
       <slot />
@@ -27,7 +41,7 @@ const open = ref(false)
     <span v-if="entry" v-show="open" class="glossary-term__popover" role="tooltip">
       <strong class="glossary-term__title" v-text="entry.term" />
       <span class="glossary-term__def" v-text="entry.definition" />
-      <NuxtLink :to="'/glossary#' + slug" class="glossary-term__link">Full entry →</NuxtLink>
+      <NuxtLink :to="'/glossary#' + slug" class="glossary-term__link" @click="open = false">Full entry →</NuxtLink>
     </span>
   </span>
 </template>
