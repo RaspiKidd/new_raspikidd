@@ -74,22 +74,6 @@ useSeoMeta({
         <div class="tutorial-body rounded-xl bg-white p-6 shadow-sm sm:p-10">
           <ContentRenderer v-if="tutorial" :value="tutorial" />
         </div>
-
-        <!-- Optional matching video -->
-        <div v-if="tutorial?.youtube" class="mt-10">
-          <h2 class="mb-3 text-2xl font-semibold tracking-tight text-emerald-800">
-            Watch the video
-          </h2>
-          <div class="aspect-video overflow-hidden rounded-xl shadow-sm">
-            <iframe
-              class="h-full w-full"
-              :src="tutorial.youtube.replace('youtu.be/', 'www.youtube.com/embed/')"
-              title="Tutorial video"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-            />
-          </div>
-        </div>
       </article>
     </main>
 

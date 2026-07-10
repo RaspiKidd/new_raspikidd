@@ -7,6 +7,7 @@ kit:
     - PicoBricks Brick IDE
     - MicroUSB to USB cable
     - Laptop or tablet for coding
+youtube: https://youtu.be/iaCOzFQv5NY
 ---
 
 # Blinking LED Project
@@ -36,7 +37,7 @@ Let's take a look at how we'd create this on the PicoBricks using the Brick IDE.
 ::
 :::
 
-:::step{title="Set up the board"}
+:::step{title="Set up your PicoBricks"}
 1. Open your favourite web browser. We recommend either Google Chrome or Microsoft Edge. Type [ide.picobricks.com](http://ide.picobricks.com) into the address bar.
 2. Connect the PicoBricks board to your computer using the USB cable.
 3. Connect the PicoBricks board to the Brick IDE by selecting the **Connection** button at the top of the code area.

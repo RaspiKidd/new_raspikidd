@@ -28,6 +28,18 @@ const total = computed(() => steps.length)
 const isFirst = computed(() => current.value === 0)
 const isLast = computed(() => current.value === total.value - 1)
 
+// Surface the tutorial's YouTube video as an optional "watch instead" button on
+// the first step. Reuses the page's useAsyncData cache (same key = route.path),
+// so this does not trigger a second query.
+const route = useRoute()
+const { data: tutorialDoc } = useAsyncData(route.path, () =>
+  queryCollection('tutorials').path(route.path).first()
+)
+const youtubeUrl = computed(
+  () => (tutorialDoc.value as { youtube?: string } | null)?.youtube ?? ''
+)
+const showVideoButton = computed(() => isFirst.value && Boolean(youtubeUrl.value))
+
 function next() {
   if (!isLast.value) current.value++
 }
@@ -44,6 +56,17 @@ function back() {
         <div class="tutorial-steps__bar-fill" :style="{ width: progressPercent + '%' }" />
       </div>
     </div>
+
+    <a
+      v-if="showVideoButton"
+      :href="youtubeUrl"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="tutorial-steps__video"
+    >
+      <span aria-hidden="true">▶</span>
+      Prefer to watch? View this tutorial on YouTube
+    </a>
 
     <slot />
 
@@ -82,6 +105,24 @@ function back() {
   border-radius: 999px;
   background: theme('colors.brand.DEFAULT'); /* was #b91c1c (red-700) */
   transition: width 0.25s ease;
+}
+.tutorial-steps__video {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 1.25rem;
+  padding: 0.5rem 1.25rem;
+  border-radius: 8px;
+  font-weight: 600;
+  text-decoration: none;
+  border: 1px solid transparent;
+  background: theme('colors.leaf.dark'); /* brand leaf green, matches nav buttons */
+  color: #fff !important; /* beat the tutorial-body link colour so text stays white on green */
+  transition: background-color 0.15s ease, color 0.15s ease;
+}
+.tutorial-steps__video:hover,
+.tutorial-steps__video:focus-visible {
+  background: theme('colors.leaf.DEFAULT');
 }
 .tutorial-steps__done {
   margin-top: 1.5rem;
