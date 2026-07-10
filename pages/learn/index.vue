@@ -12,19 +12,19 @@ const platforms = [
     slug: 'picobricks',
     name: 'PicoBricks',
     blurb: 'An all-in-one kit built around the Raspberry Pi Pico. A gentle first step into physical computing.',
-    icon: '🧱',
+    icon: '/learn/icons/picobricks.png',
   },
   {
     slug: 'raspberry-pi-pico',
     name: 'Raspberry Pi Pico',
     blurb: 'Wire up your own circuits and bring them to life with the tiny, mighty Pico microcontroller.',
-    icon: '🔌',
+    icon: '/learn/icons/raspberry-pi-pico.png',
   },
   {
     slug: 'microbit',
     name: 'micro:bit',
     blurb: 'The pocket-sized BBC micro:bit, with projects in MakeCode, Python and EduBlocks.',
-    icon: '🔬',
+    icon: '/learn/icons/microbit.png',
   },
 ] as const
 
@@ -82,7 +82,7 @@ useHead({
             :to="`/learn/${card.slug}`"
             class="group flex h-full flex-col rounded-2xl border-2 border-gray-200 bg-white p-6 shadow-sm transition hover:border-brand hover:shadow-md focus:outline-none focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand"
           >
-            <span class="text-5xl" aria-hidden="true" v-text="card.icon" />
+            <img :src="card.icon" alt="" class="h-16 w-16" width="64" height="64" loading="lazy" />
             <h2
               class="mt-4 font-heading text-2xl font-bold text-gray-900 group-hover:text-brand"
               v-text="card.name"
@@ -99,7 +99,7 @@ useHead({
             v-else
             class="flex h-full flex-col rounded-2xl border-2 border-dashed border-gray-200 bg-white/60 p-6"
           >
-            <span class="text-5xl opacity-50" aria-hidden="true" v-text="card.icon" />
+            <img :src="card.icon" alt="" class="h-16 w-16 opacity-50" width="64" height="64" loading="lazy" />
             <h2 class="mt-4 font-heading text-2xl font-bold text-gray-500" v-text="card.name" />
             <p class="mt-2 flex-1 text-gray-500" v-text="card.blurb" />
             <span class="mt-4 inline-flex items-center self-start rounded-full bg-leaf/10 px-3 py-1 text-sm font-semibold text-leaf-dark">
