@@ -41,7 +41,7 @@ In this project we'll build our very own automatic light, just like the ones tha
 2. Connect the PicoBricks board to your computer using the USB cable.
 3. Connect the PicoBricks board to the Brick IDE by selecting the **Connection** button at the top of the code area.
 
-![The PicoBricks Brick IDE coding environment](./CodingEnvironment.webp)
+![The PicoBricks Brick IDE coding environment](/learn/picobricks/automatic-lighting/CodingEnvironment.webp)
 :::
 
 :::step{title="Build the code"}
@@ -56,13 +56,13 @@ In this project we'll build our very own automatic light, just like the ones tha
 9. Select **RGB LED**. Snap a `Set RGB Led Colour` block inside the `if` block.
 10. Select **RGB LED**. Snap a `Clear RGB Led Colour` block inside the `else` block.
 
-![The finished Automatic Lighting code](./AutomaticLightingCode.webp)
+![The finished Automatic Lighting code](/learn/picobricks/automatic-lighting/AutomaticLightingCode.webp)
 :::
 
 :::step{title="Run it and Watch"}
 Now the code is finished, let's run it and check it works. Select the run button at the top of the code area. If it's daylight the RGB LED should be off. If it's night time, or if you cover the light sensor with your hand, the RGB LED will turn on.
 
-![Automatic Lighting demo](./AutomaticLightingDemo.gif)
+![Automatic Lighting demo](/learn/picobricks/automatic-lighting/AutomaticLightingDemo.gif)
 :::
 
 :::step{title="Try it yourself"}

@@ -3,12 +3,23 @@
 // Same query you already had — just wrapped in RaspiKidd branding.
 const route = useRoute()
 
-const { data: tutorial } = await useAsyncData(route.path, () =>
-  queryCollection('tutorials').path(route.path).first()
+// Guard: requests for asset files (e.g. /learn/picobricks/diagram.webp) can fall
+// through to this catch-all route when they're missing from /public. Detect a
+// file extension so we neither run a pointless query nor crash on a missing image.
+const looksLikeAsset = computed(() => /\.[a-z0-9]+$/i.test(route.path))
+
+const { data: tutorial } = await useAsyncData(
+  () => `tutorial:${route.path}`,          // reactive + unique key
+  () =>
+    looksLikeAsset.value
+      ? Promise.resolve(null)
+      : queryCollection('tutorials').path(route.path).first(),
+  { watch: [() => route.path] }            // refetch on client-side navigation
 )
 
 if (!tutorial.value) {
-  throw createError({ statusCode: 404, statusMessage: 'Tutorial not found', fatal: true })
+  // Non-fatal: a stray/asset request 404s cleanly instead of crashing the whole render.
+  throw createError({ statusCode: 404, statusMessage: 'Tutorial not found', fatal: false })
 }
 
 const pageTitle = computed(() => (tutorial.value?.title || 'Tutorial') + ' | RaspiKidd')

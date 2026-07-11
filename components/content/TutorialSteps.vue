@@ -29,11 +29,14 @@ const isFirst = computed(() => current.value === 0)
 const isLast = computed(() => current.value === total.value - 1)
 
 // Surface the tutorial's YouTube video as an optional "watch instead" button on
-// the first step. Reuses the page's useAsyncData cache (same key = route.path),
-// so this does not trigger a second query.
+// the first step. Uses its OWN key (distinct from the page's) so the two do not
+// clash in Nuxt's payload cache, and watches the route so it refetches on
+// client-side navigation.
 const route = useRoute()
-const { data: tutorialDoc } = useAsyncData(route.path, () =>
-  queryCollection('tutorials').path(route.path).first()
+const { data: tutorialDoc } = useAsyncData(
+  () => `tutorial-steps:${route.path}`,     // distinct key from the page
+  () => queryCollection('tutorials').path(route.path).first(),
+  { watch: [() => route.path] }             // refetch on client-side navigation
 )
 const youtubeUrl = computed(
   () => (tutorialDoc.value as { youtube?: string } | null)?.youtube ?? ''

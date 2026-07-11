@@ -42,7 +42,7 @@ Let's take a look at how we'd create this on the PicoBricks using the Brick IDE.
 2. Connect the PicoBricks board to your computer using the USB cable.
 3. Connect the PicoBricks board to the Brick IDE by selecting the **Connection** button at the top of the code area.
 
-![The PicoBricks Brick IDE coding environment](./CodingEnvironment.webp)
+![The PicoBricks Brick IDE coding environment](/learn/picobricks/blinking-led/CodingEnvironment.webp)
 :::
 
 :::step{title="Build the code"}
@@ -53,7 +53,7 @@ Let's take a look at how we'd create this on the PicoBricks using the Brick IDE.
 5. Select **Bricks**. Select a `Set Led` block and snap it to the `wait 0.5` block. Change the **on** to **off**.
 6. Select **Loops**. Select a `wait` block and snap it to the `Set Led off` block. Change the **1** to **0.5**.
 
-![The completed block code for the blinking LED](./CompletedCode.webp)
+![The completed block code for the blinking LED](/learn/picobricks/blinking-led/CompletedCode.webp)
 
 We've now completed the code for our blinking LED.
 :::
@@ -63,7 +63,7 @@ We've now completed the code for our blinking LED.
 
 Your LED should now blink on and off every half a second. 🎉
 
-![The LED blinking on and off every half a second](./BlinkingLED.gif)
+![The LED blinking on and off every half a second](/learn/picobricks/blinking-led/BlinkingLED.gif)
 :::
 
 :::step{title="Try it yourself"}
