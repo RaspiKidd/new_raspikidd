@@ -12,6 +12,7 @@ export default defineContentConfig({
         level: z.string(),
         duration: z.string(),
         kit: z.array(z.string()),
+        image: z.string().optional(),
         youtube: z.string().optional(),
       }),
     }),

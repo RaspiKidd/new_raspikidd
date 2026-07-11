@@ -7,6 +7,7 @@ kit:
     - PicoBricks Brick IDE
     - MicroUSB to USB cable
     - Laptop or tablet for coding
+image: /learn/picobricks/blinking-led/cover-blink.png
 youtube: https://youtu.be/iaCOzFQv5NY
 ---
 

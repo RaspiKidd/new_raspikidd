@@ -7,8 +7,8 @@ kit:
     - PicoBricks Brick IDE
     - MicroUSB to USB cable
     - Laptop or tablet for coding
-image:
-youtube:
+image: /learn/picobricks/automatic-lighting/cover-automatic-lighting.png
+youtube: https://youtu.be/zBP0ivO4ypg
 ---
 
 # Automatic Lighting
