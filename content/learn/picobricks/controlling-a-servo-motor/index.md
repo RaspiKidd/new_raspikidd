@@ -7,6 +7,7 @@ kit:
   - Servo motor
   - USB to MicroUSB cable
 image: /learn/picobricks/controlling-a-servo-motor/servo-cover.png
+youtube: https://youtu.be/SVJ-3dk5TyU
 ---
 
 # Controlling a Servo Motor
@@ -49,17 +50,17 @@ Connect the servo motor to the top connector of the motor controller with the ye
 :::
 
 :::step{title="Build the code"}
-1. Select **Basic**. Drag a \`PicoBricks\` block into the code area.
-2. Select **Loops**. Snap a :g[forever]{slug="forever-loop"} block onto the \`PicoBricks\` block.
-3. Select **Motor**. Snap a \`Set Servo M1 Angle 180\` block inside the forever block. Change **M1** to **M2**, and change **180** to **90**.
-4. Select **Loops**. Snap a \`wait\` block under the \`Set Servo M2 Angle 90\` block.
-5. Select **Motor**. Add another \`Set Servo M1 Angle 180\` block under the \`wait 1\` block. Change **M1** to **M2** and **180** to **0**.
-6. Select **Loops**. Snap a \`wait\` block under the \`Set Servo M2 Angle 0\` block.
+1. Select **Basic**. Drag a `PicoBricks` block into the code area.
+2. Select **Loops**. Snap a `forever` block onto the `PicoBricks` block.
+3. Select **Motor**. Snap a `Set Servo M1 Angle 180` block inside the forever block. Change **M1** to **M2**, and change **180** to **90**.
+4. Select **Loops**. Snap a `wait` block under the `Set Servo M2 Angle 90` block.
+5. Select **Motor**. Add another `Set Servo M1 Angle 180` block under the `wait 1` block. Change **M1** to **M2** and **180** to **0**.
+6. Select **Loops**. Snap a `wait` block under the \`Set Servo M2 Angle 0\` block.
 
 ![The completed servo motor code](/learn/picobricks/controlling-a-servo-motor/completed-code.webp)
 :::
 
-:::step{title="Run your code"}
+:::step{title="Run it and Watch"}
 Now the code's finished, let's run it. Select the **Run** button at the top of the code area. You should see the little arm on the servo motor move between 90 and 0 degrees.
 
 ![The servo motor arm moving between 90 and 0 degrees](/learn/picobricks/controlling-a-servo-motor/demo.gif)
