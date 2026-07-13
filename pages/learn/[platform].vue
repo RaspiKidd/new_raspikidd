@@ -11,27 +11,29 @@ const route = useRoute()
 const platformSlug = computed(() => String(route.params.platform))
 
 // Same metadata source as the hub landing. Keep in sync with content.config.ts.
+// Icons must match the PNGs used by the hub landing grid (learn-index.vue)
+// so the same custom hardware icon carries through into the platform hub.
 const platformMeta: Record<string, { name: string; blurb: string; icon: string }> = {
   'picobricks': {
     name: 'PicoBricks',
     blurb: 'Step-by-step PicoBricks projects, from your first blinking LED upwards.',
-    icon: '🧱',
+    icon: '/learn/icons/picobricks.png',
   },
   'raspberry-pi-pico': {
     name: 'Raspberry Pi Pico',
     blurb: 'Build and code your own circuits with the Raspberry Pi Pico.',
-    icon: '🔌',
+    icon: '/learn/icons/raspberry-pi-pico.png',
   },
   'microbit': {
     name: 'micro:bit',
     blurb: 'BBC micro:bit projects in MakeCode, Python and EduBlocks.',
-    icon: '🔬',
+    icon: '/learn/icons/microbit.png',
   },
 }
 
 const meta = computed(() => platformMeta[platformSlug.value])
 const heading = computed(() => meta.value?.name ?? platformSlug.value)
-const heroIcon = computed(() => meta.value?.icon ?? '📘')
+const heroIcon = computed(() => meta.value?.icon ?? '/learn/placeholder.svg')
 
 // Friendly labels for the language sub-groups.
 const languageLabels: Record<string, string> = {
@@ -88,7 +90,7 @@ useHead(() => ({
 
       <!-- Hero -->
       <header class="mt-4 flex items-center gap-x-4">
-        <span class="text-5xl" aria-hidden="true" v-text="heroIcon" />
+        <img :src="heroIcon" alt="" class="h-16 w-16 shrink-0" width="64" height="64" loading="lazy" />
         <div>
           <h1 class="font-heading text-3xl sm:text-4xl font-bold text-brand" v-text="heading" />
           <p v-if="meta" class="mt-1 text-gray-700" v-text="meta.blurb" />
