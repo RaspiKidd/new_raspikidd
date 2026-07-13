@@ -28,6 +28,7 @@
     "@netlify/plugin-sitemap": "^0.8.1",
     "@nuxtjs/google-fonts": "^3.2.0",
     "autoprefixer": "^10.4.20",
+    "markdown-it": "^14.3.0",
     "postcss": "^8.4.47",
     "tailwindcss": "^3.4.12"
   }
