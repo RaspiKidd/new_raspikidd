@@ -8,7 +8,7 @@ export default defineNuxtConfig({
     '@nuxtjs/google-fonts', 
     '@storyblok/nuxt', 
     '@nuxt/content', 
-    //'@nuxtjs/sitemap',
+    '@nuxtjs/sitemap',
   ],
 
   googleFonts: {
