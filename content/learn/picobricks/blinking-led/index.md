@@ -9,6 +9,7 @@ kit:
     - Laptop or tablet for coding
 image: /learn/picobricks/blinking-led/cover-blink.png
 youtube: https://youtu.be/iaCOzFQv5NY
+pdf: /learn/picobricks/blink-project/blink-project.pdf
 ---
 
 # Blinking LED Project

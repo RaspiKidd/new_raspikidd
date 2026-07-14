@@ -9,6 +9,7 @@ kit:
     - Laptop or tablet for coding
 image: /learn/picobricks/temperature-monitoring/cover.png
 youtube: https://youtu.be/K-ZN9wmLokk
+pdf: /learn/picobricks/temperature-monitoring/temperature-monitoring.pdf
 ---
 
 # Temperature Monitoring

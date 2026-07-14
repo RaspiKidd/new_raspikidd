@@ -43,6 +43,14 @@ const youtubeUrl = computed(
 )
 const showVideoButton = computed(() => isFirst.value && Boolean(youtubeUrl.value))
 
+// Surface a downloadable PDF of the tutorial as an optional button on the first
+// step. Shown only when the tutorial has a `pdf:` frontmatter path set, so the
+// button appears once a PDF has actually been generated for that tutorial.
+const pdfUrl = computed(
+  () => (tutorialDoc.value as { pdf?: string } | null)?.pdf ?? ''
+)
+const showPdfButton = computed(() => isFirst.value && Boolean(pdfUrl.value))
+
 function next() {
   if (!isLast.value) current.value++
 }
@@ -60,16 +68,28 @@ function back() {
       </div>
     </div>
 
-    <a
-      v-if="showVideoButton"
-      :href="youtubeUrl"
-      target="_blank"
-      rel="noopener noreferrer"
-      class="tutorial-steps__video"
-    >
-      <span aria-hidden="true">▶</span>
-      Prefer to watch? View this tutorial on YouTube
-    </a>
+    <div v-if="showVideoButton || showPdfButton" class="tutorial-steps__actions">
+      <a
+        v-if="showVideoButton"
+        :href="youtubeUrl"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="tutorial-steps__video"
+      >
+        <span aria-hidden="true">▶</span>
+        Prefer to watch? View this tutorial on YouTube
+      </a>
+
+      <a
+        v-if="showPdfButton"
+        :href="pdfUrl"
+        download
+        class="tutorial-steps__pdf"
+      >
+        <span aria-hidden="true">📄</span>
+        Download PDF
+      </a>
+    </div>
 
     <slot />
 
@@ -109,23 +129,38 @@ function back() {
   background: theme('colors.brand.DEFAULT'); /* was #b91c1c (red-700) */
   transition: width 0.25s ease;
 }
-.tutorial-steps__video {
+.tutorial-steps__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-bottom: 1.25rem;
+}
+.tutorial-steps__video,
+.tutorial-steps__pdf {
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
-  margin-bottom: 1.25rem;
   padding: 0.5rem 1.25rem;
   border-radius: 8px;
   font-weight: 600;
   text-decoration: none;
   border: 1px solid transparent;
-  background: theme('colors.leaf.dark'); /* brand leaf green, matches nav buttons */
-  color: #fff !important; /* beat the tutorial-body link colour so text stays white on green */
+  color: #fff !important; /* beat the tutorial-body link colour so text stays white */
   transition: background-color 0.15s ease, color 0.15s ease;
+}
+.tutorial-steps__video {
+  background: theme('colors.leaf.dark'); /* brand leaf green, matches nav buttons */
 }
 .tutorial-steps__video:hover,
 .tutorial-steps__video:focus-visible {
   background: theme('colors.leaf.DEFAULT');
+}
+.tutorial-steps__pdf {
+  background: theme('colors.brand.DEFAULT'); /* brand red, distinct from the green video button */
+}
+.tutorial-steps__pdf:hover,
+.tutorial-steps__pdf:focus-visible {
+  background: theme('colors.brand.light');
 }
 .tutorial-steps__done {
   margin-top: 1.5rem;

@@ -14,6 +14,7 @@ export default defineContentConfig({
         kit: z.array(z.string()),
         image: z.string().optional(),
         youtube: z.string().optional(),
+        pdf: z.string().optional(),
       }),
     }),
 

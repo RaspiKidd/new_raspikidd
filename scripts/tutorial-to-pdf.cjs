@@ -6,23 +6,29 @@
  * Usage:
  *   node tutorial-to-pdf.cjs <index.md> \
  *     [--glossary <dir>] [--public <dir>] [--fonts <dir>] [--logo <file>] \
- *     [--out <file.pdf>] [--html-only]
+ *     [--out <file.pdf>] [--license "<text>"] [--html-only]
  *
  * The output PDF is named after the tutorial's folder (e.g. using-the-button/
- * -> using-the-button.pdf) unless --out is given. --fonts and --logo default to
- * the bundled scripts/assets/ folder. The intermediate .html file is removed
- * once the PDF is written (unless --html-only is used).
- * Requires: markdown-it (npm i -D markdown-it) and a Chromium/Chrome binary
- * (override the binary with CHROMIUM_BIN).
+ * -> using-the-button.pdf) and, by default, written into public/ mirroring the
+ * tutorial's path under content/ (e.g.
+ * public/learn/picobricks/using-the-button/using-the-button.pdf) so Nuxt serves
+ * it at the same root-absolute URL the "Download PDF" button links to. Use --out
+ * to override the destination. --fonts and --logo default to the bundled
+ * scripts/assets/ folder. The intermediate .html file is removed once the PDF is
+ * written (unless --html-only is used).
+ * Every page gets a running footer: RaspiKidd and the site URL on the left, a
+ * Creative Commons notice in the centre (override the text with --license) and
+ * "Page X of Y" on the right.
+ * Requires: markdown-it and puppeteer-core (npm i -D markdown-it puppeteer-core)
+ * plus a Chromium/Chrome binary (override the binary with CHROMIUM_BIN).
  */
 const fs = require('node:fs')
 const path = require('node:path')
-const { execFileSync } = require('node:child_process')
 const MarkdownIt = require('markdown-it')
 
 // ---------- args ----------
 const argv = process.argv.slice(2)
-const opts = { glossary: null, public: null, fonts: null, logo: null, out: null, htmlOnly: false }
+const opts = { glossary: null, public: null, fonts: null, logo: null, out: null, license: 'CC BY-NC-SA 4.0', htmlOnly: false }
 const positional = []
 for (let i = 0; i < argv.length; i++) {
   const a = argv[i]
@@ -31,12 +37,13 @@ for (let i = 0; i < argv.length; i++) {
   else if (a === '--fonts') opts.fonts = argv[++i]
   else if (a === '--logo') opts.logo = argv[++i]
   else if (a === '--out') opts.out = argv[++i]
+  else if (a === '--license') opts.license = argv[++i]
   else if (a === '--html-only') opts.htmlOnly = true
   else positional.push(a)
 }
 const input = positional[0]
 if (!input) {
-  console.error('Usage: node tutorial-to-pdf.cjs <index.md> [--glossary dir] [--public dir] [--fonts dir] [--logo file] [--out file.pdf] [--html-only]')
+  console.error('Usage: node tutorial-to-pdf.cjs <index.md> [--glossary dir] [--public dir] [--fonts dir] [--logo file] [--out file.pdf] [--license "text"] [--html-only]')
   process.exit(1)
 }
 
@@ -288,7 +295,6 @@ const logo = logoTag(opts.logo)
 let html = `<!doctype html><html lang="en"><head><meta charset="utf-8"><title>${title}</title><style>${styleBlock}</style></head><body>` +
   `<header class="cover">${logo}<h1>${title}</h1><div class="badges">${badges}</div></header>` +
   `<main>${rendered}</main>` +
-  `<footer class="foot">RaspiKidd \u2022 raspikidd.com</footer>` +
   `</body></html>`
 html = rewriteImages(html, publicDir)
 
@@ -296,22 +302,69 @@ html = rewriteImages(html, publicDir)
 // using-the-button.pdf), unless --out overrides it.
 const inputAbs = path.resolve(input)
 const slug = path.basename(path.dirname(inputAbs))
-const outPdf = opts.out || path.join(path.dirname(input), `${slug}.pdf`)
+
+// Default output: write into public/, mirroring the tutorial's path under
+// content/, so Nuxt serves the PDF at the same root-absolute URL the "Download
+// PDF" button links to (e.g. content/learn/picobricks/blink-project/index.md ->
+// public/learn/picobricks/blink-project/blink-project.pdf). Falls back to
+// writing next to the source file if the path isn't under content/ or no public
+// dir is known. --out still overrides everything.
+const contentMatch = inputAbs.match(/^(.*)\/content\/(.*)\/[^/]+$/)
+const defaultOut = (publicDir && contentMatch)
+  ? path.join(path.resolve(publicDir), contentMatch[2], `${slug}.pdf`)
+  : path.join(path.dirname(input), `${slug}.pdf`)
+const outPdf = opts.out || defaultOut
+
+// Ensure the destination folder exists before writing anything into it.
+fs.mkdirSync(path.dirname(outPdf), { recursive: true })
+
 const tmpHtml = outPdf.replace(/\.pdf$/, '.html')
 fs.writeFileSync(tmpHtml, html)
 if (opts.htmlOnly) { console.log('Wrote', tmpHtml); process.exit(0) }
 
 const bin = process.env.CHROMIUM_BIN || 'chromium'
-execFileSync(bin, [
-  '--headless', '--no-sandbox', '--disable-gpu',
-  '--no-pdf-header-footer',
-  '--run-all-compositor-stages-before-draw',
-  '--virtual-time-budget=15000',
-  `--print-to-pdf=${outPdf}`,
-  `file://${path.resolve(tmpHtml)}`,
-], { stdio: 'inherit' })
 
-// Clean up the intermediate HTML now the PDF has been written.
-try { fs.unlinkSync(tmpHtml) } catch (e) { /* ignore */ }
+// Branded running footer, repeated on every page. Chromium only exposes live
+// page numbers through the print footer template (not via CSS counters), so we
+// drive Chrome with puppeteer-core + page.pdf() instead of the --print-to-pdf
+// CLI. The template renders in its own context without the document's fonts, so
+// it deliberately uses a system font and inline styles only. `.pageNumber` and
+// `.totalPages` are Chromium's built-in placeholders.
+const year = new Date().getFullYear()
+const footerTemplate =
+  '<div style="width:100%;font-family:Arial,Helvetica,sans-serif;font-size:9px;' +
+  'color:#9ca3af;padding:0 15mm;box-sizing:border-box;display:flex;' +
+  'justify-content:space-between;align-items:center;">' +
+  '<span>RaspiKidd &bull; raspikidd.com</span>' +
+  `<span>&copy; ${year} RaspiKidd &bull; ${opts.license}</span>` +
+  '<span>Page <span class="pageNumber"></span> of <span class="totalPages"></span></span>' +
+  '</div>'
 
-console.log('Wrote', outPdf)
+;(async () => {
+  const puppeteer = require('puppeteer-core')
+  const browser = await puppeteer.launch({
+    executablePath: bin,
+    headless: 'new',
+    args: ['--no-sandbox', '--disable-gpu'],
+  })
+  try {
+    const page = await browser.newPage()
+    await page.goto(`file://${path.resolve(tmpHtml)}`, { waitUntil: 'networkidle0' })
+    await page.pdf({
+      path: outPdf,
+      format: 'A4',
+      printBackground: true,
+      displayHeaderFooter: true,
+      headerTemplate: '<span></span>',
+      footerTemplate,
+      margin: { top: '16mm', right: '15mm', bottom: '22mm', left: '15mm' },
+    })
+  } finally {
+    await browser.close()
+  }
+
+  // Clean up the intermediate HTML now the PDF has been written.
+  try { fs.unlinkSync(tmpHtml) } catch (e) { /* ignore */ }
+
+  console.log('Wrote', outPdf)
+})().catch((err) => { console.error(err); process.exit(1) })

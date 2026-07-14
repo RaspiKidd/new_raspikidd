@@ -8,6 +8,7 @@ kit:
   - USB to MicroUSB cable
 image: /learn/picobricks/controlling-a-servo-motor/servo-cover.png
 youtube: https://youtu.be/SVJ-3dk5TyU
+pdf: /learn/picobricks/controlling-a-servo-motor/controlling-a-servo-motor.pdf
 ---
 
 # Controlling a Servo Motor

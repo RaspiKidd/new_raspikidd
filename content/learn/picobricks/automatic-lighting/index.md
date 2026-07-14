@@ -9,6 +9,7 @@ kit:
     - Laptop or tablet for coding
 image: /learn/picobricks/automatic-lighting/cover-automatic-lighting.png
 youtube: https://youtu.be/zBP0ivO4ypg
+pdf: /learn/picobricks/automatic-lighting/automatic-lighting.pdf
 ---
 
 # Automatic Lighting

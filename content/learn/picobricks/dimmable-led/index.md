@@ -8,6 +8,7 @@ kit:
   - USB to MicroUSB cable
 image: /learn/picobricks/dimmable-led/cover.png
 youtube: https://youtu.be/u5CaiNAMwkI
+pdf: /learn/picobricks/dimmable-led/dimmable-led.pdf
 ---
 
 # Dimmable LED
