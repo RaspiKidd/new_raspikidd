@@ -29,9 +29,11 @@ const platforms = [
 ] as const
 
 // Pull every tutorial once, then count per platform.
-const { data: tutorials } = await useAsyncData('learn-hub-tutorials', () =>
-  queryCollection('tutorials').all()
-)
+// Ensure we return a Promise that resolves to the tutorial array.
+const { data: tutorials } = await useAsyncData('learn-hub-tutorials', async () => {
+  // Only published tutorials (draft: false) count towards the hub cards.
+  return await queryCollection('tutorials').where('draft', '=', false).all()
+})
 
 // Card view-model: attach a live tutorial count (and label) to each platform.
 const cards = computed(() =>

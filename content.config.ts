@@ -7,6 +7,7 @@ export default defineContentConfig({
       type: 'page',
       source: 'learn/**/*.md',
       schema: z.object({
+        draft: z.boolean().default(false),
         platform: z.enum(['picobricks', 'raspberry-pi-pico', 'microbit']),
         language: z.string().optional(), // makecode | python | javascript
         level: z.string(),
