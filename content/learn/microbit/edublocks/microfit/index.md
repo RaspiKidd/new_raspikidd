@@ -18,7 +18,7 @@ pdf: /learn/microbit/edublocks/microfit/microfit.pdf
 ::::tutorial-steps
 
 :::step{title="Overview"}
-Ever wondered how a smartwatch or fitness band counts your steps? In this project, you're going to build your very own step counter using a micro:bit!
+Ever wondered how a smartwatch or fitness band counts your steps? In this project, you're going to build your very own step counter using a :g[micro:bit]{slug="micro-bit"}!
 
 Inside your micro:bit is a clever little sensor called an :g[accelerometer]{slug="accelerometer"}. It can feel when the micro:bit moves. We'll use it to spot every step you take, add them up, and show the total on the :g[LED matrix]{slug="led-matrix"} (the grid of lights on the front).
 
