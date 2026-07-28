@@ -1,4 +1,5 @@
 ---
+title: "Using the Button"
 platform: picobricks
 level: Beginner
 duration: 10 mins
@@ -11,8 +12,6 @@ image: /learn/picobricks/using-the-button/cover.png
 youtube: https://youtu.be/HGowhuRMlRM
 pdf: /learn/picobricks/using-the-button/using-the-button.pdf
 ---
-
-# Using the Button
 
 ::::tutorial-steps
 

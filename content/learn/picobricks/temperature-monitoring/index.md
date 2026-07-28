@@ -1,4 +1,5 @@
 ---
+title: "Temperature Monitoring"
 platform: picobricks
 level: Beginner
 duration: 15 mins
@@ -12,7 +13,6 @@ youtube: https://youtu.be/K-ZN9wmLokk
 pdf: /learn/picobricks/temperature-monitoring/temperature-monitoring.pdf
 ---
 
-# Temperature Monitoring
 
 ::::tutorial-steps
 

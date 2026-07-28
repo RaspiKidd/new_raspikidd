@@ -1,4 +1,5 @@
 ---
+title: "Blinking LED Project"
 platform: picobricks
 level: Beginner
 duration: 10 mins
@@ -12,7 +13,6 @@ youtube: https://youtu.be/iaCOzFQv5NY
 pdf: /learn/picobricks/blink-project/blink-project.pdf
 ---
 
-# Blinking LED Project
 
 ::::tutorial-steps
 

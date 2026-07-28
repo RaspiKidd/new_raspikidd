@@ -1,4 +1,5 @@
 ---
+title: "Controlling a Servo Motor"
 platform: picobricks
 level: Beginner
 duration: 15 mins
@@ -11,7 +12,6 @@ youtube: https://youtu.be/SVJ-3dk5TyU
 pdf: /learn/picobricks/controlling-a-servo-motor/controlling-a-servo-motor.pdf
 ---
 
-# Controlling a Servo Motor
 
 ::::tutorial-steps
 

@@ -1,4 +1,5 @@
 ---
+title: "Automatic Lighting"
 platform: picobricks
 level: Beginner
 duration: 10 mins
@@ -12,7 +13,7 @@ youtube: https://youtu.be/zBP0ivO4ypg
 pdf: /learn/picobricks/automatic-lighting/automatic-lighting.pdf
 ---
 
-# Automatic Lighting
+
 
 ::::tutorial-steps
 

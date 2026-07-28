@@ -1,4 +1,5 @@
 ---
+title: "Dimmable LED"
 platform: picobricks
 level: Beginner
 duration: 15 mins
@@ -11,7 +12,6 @@ youtube: https://youtu.be/u5CaiNAMwkI
 pdf: /learn/picobricks/dimmable-led/dimmable-led.pdf
 ---
 
-# Dimmable LED
 
 ::::tutorial-steps
 
