@@ -48,7 +48,7 @@ The best bit? When you're done, you'll have a real working fitness tracker you c
 :::step{title="Set up your micro:bit"}
 ### On a Computer
 1. Open your favourite web browser. We recommend either Google Chrome or Microsoft Edge.
-2. In the Address bar type [makecode.microbit.org](makecode.microbit.org).
+2. In the Address bar type [makecode.microbit.org](https://makecode.microbit.org/#).
 3. Select **New Project** and give it the name **MicroFit**.
 
 ![The MakeCode code area](/learn/microbit/makecode/microfit/CodeArea.webp)

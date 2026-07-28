@@ -29,7 +29,7 @@ const items = computed(() =>
   <div class="key-words">
 
     <div v-for="item in items" :key="item.term" class="key-words__item">
-      <h4 class="key-words__term" v-text="item.term" />
+      <h3 class="key-words__term" v-text="item.term" />
       <p class="key-words__definition" v-text="item.definition" />
       <p v-if="item.example" class="key-words__example">
         <span class="key-words__example-label">Real-world example: </span>

@@ -12,7 +12,7 @@ kit:
     - battery pack for the micro:bit (optional)
 image: /learn/microbit/edublocks/microfit/microfit-cover.png
 youtube: 
-pdf: 
+pdf: /learn/microbit/edublocks/microfit/microfit.pdf
 ---
 
 ::::tutorial-steps
@@ -47,7 +47,7 @@ The best bit? When you're done, you'll have a real working fitness tracker you c
 
 :::step{title="Set up your micro:bit EduBlocks Editor"}
 1. Open your web browser. We recommend Google Chrome or Microsoft Edge.
-2. In the address bar type [app.edublocks.org](app.edublocks.org).
+2. In the address bar type [app.edublocks.org](https://app.edublocks.org/).
 3. Under **Create New Project**, select **micro:bit**. Name your project **MicroFit**, and make sure **block** is selected under type.
 
 ![Creating a new EduBlocks project](/learn/microbit/edublocks/microfit/ProjectCreation.webp)
