@@ -45,7 +45,7 @@ The best bit? When you're done, you'll have a real working fitness tracker you c
 ::
 :::
 
-:::step{title="Set up your micro:bit"}
+:::step{title="Navigating to the MakeCode Editor"}
 ### On a Computer
 1. Open your favourite web browser. We recommend either Google Chrome or Microsoft Edge.
 2. In the Address bar type [makecode.microbit.org](https://makecode.microbit.org/#).
