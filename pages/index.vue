@@ -18,7 +18,7 @@
           </p>
 
           <div class="mt-10 flex items-center justify-center gap-x-6">
-            <NuxtLink to="/classes" class="rounded-md bg-brand px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-brand-light focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand">
+            <NuxtLink to="/kids-coding-workshops-perth-waitlist" class="rounded-md bg-brand px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-brand-light focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand">
               Coding Classes
             </NuxtLink>
             <NuxtLink to="/tutoring" class="rounded-md bg-emerald-700 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-emerald-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand">

@@ -34,8 +34,11 @@ export default defineNuxtConfig({
 
   nitro: {
     prerender: {
+      crawlLinks: true,
+      failOnError: false,
       routes: [
         '/',
+        '/about',
         '/coding-workshops-perth',
         '/kids-coding-workshops-perth-waitlist',
         '/hire-me',
