@@ -6,7 +6,7 @@ language: python
 level: Beginner
 duration: 10 mins
 kit:
-    - The micro:bit EduBlocks editor
+    - The micro:bit Python editor
     - micro:bit
     - micro USB cable
     - battery pack for the micro:bit (optional)
