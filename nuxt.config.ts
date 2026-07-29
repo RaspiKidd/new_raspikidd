@@ -34,6 +34,7 @@ export default defineNuxtConfig({
 
   nitro: {
     prerender: {
+      crawlLinks: true,
       routes: [
         '/',
         '/coding-workshops-perth',
@@ -41,6 +42,7 @@ export default defineNuxtConfig({
         '/hire-me',
         '/tutoring',
         '/smarter-screen-time',
+        '/learn',
       ]
     }
   },
