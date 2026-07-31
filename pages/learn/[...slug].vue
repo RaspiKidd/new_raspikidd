@@ -85,6 +85,9 @@ useSeoMeta({
         <div class="tutorial-body rounded-xl bg-white p-6 shadow-sm sm:p-10">
           <ContentRenderer v-if="tutorial" :value="tutorial" />
         </div>
+
+        <!-- Ko-fi support panel: shows at the end of every tutorial -->
+        <SupportMe />
       </article>
     </main>
 

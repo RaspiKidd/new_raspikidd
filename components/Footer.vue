@@ -1,11 +1,11 @@
 <template>
-    <footer class="bg-gray-200">
+    <footer class="bg-sky-900">
         <div class="px-4 py-4 mx-auto overflow-hidden max-w-7xl sm:px-6 lg:px-8">
             <div class="flex justify-center mt-8 space-x-6">
                 <a 
                 href="https://www.facebook.com/RaspiKidd" 
                 target="_blank"
-                class="text-gray-400 hover:text-gray-500"
+                class="text-leaf hover:text-leaf-dark"
                 >
                     <span class="sr-only">Facebook</span>
                     <svg 
@@ -23,7 +23,7 @@
                 <a 
                 href="https://www.instagram.com/raspikidd/" 
                 target="_blank"
-                class="text-gray-400 hover:text-gray-500"
+                class="text-leaf hover:text-leaf-dark"
                 >
                     <span class="sr-only">Instagram</span>
                     <svg 
@@ -40,7 +40,7 @@
                 <a
                 href="https://twitter.com/RaspiKidd"
                 target="_blank"
-                class="text-gray-400 hover:text-gray-500"
+                class="text-leaf hover:text-leaf-dark"
                 >
                     <span class="sr-only">Twitter</span>
                     <svg
@@ -58,7 +58,7 @@
                 <a
                 href="https://github.com/RaspiKidd"
                 target="_blank"
-                class="text-gray-400 hover:text-gray-500"
+                class="text-leaf hover:text-leaf-dark"
                 >
                     <span class="sr-only">GitHub</span>
                     <svg
@@ -78,7 +78,7 @@
                 <a
                 href="mailto:kerry@raspikidd.com"
                 target="_blank"
-                class="text-gray-400 hover:text-gray-500"
+                class="text-leaf hover:text-leaf-dark"
                 >
                     <span class="sr-only">Email</span>
                     <svg class="w-6 h-6" fill="currentColor">
@@ -90,7 +90,7 @@
                 <a
                 href="https://www.youtube.com/channel/UC0IHxEDaC6z9py2XAGaTYPA"
                 target="_blank"
-                class="text-gray-400 hover:text-gray-500"
+                class="text-leaf hover:text-leaf-dark"
                 >
                     <span class="sr-only">YouTube</span>
                     
@@ -99,16 +99,16 @@
                     </svg>
                 </a>
             </div>
-            <p class="mt-8 text-base text-center text-gray-700">
+            <p class="mt-8 text-base text-center text-white">
           &copy; 2026 RaspiKidd. All rights reserved. 
           <a 
-          class ="text-blue-800" 
+          class ="text-leaf hover:text-leaf-dark" 
           href= "/privacy_policy.pdf"
           target="_blank"> 
             Privacy Policy 
           </a>
         </p>
-        <p class="mt-2 text-base text-center text-gray-700">
+        <p class="mt-2 text-base text-center text-white">
           Servicing Perth Scotland and surrounding areas.
         </p>
         </div>

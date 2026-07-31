@@ -1,5 +1,5 @@
 <template>
-     <div class="relative bg-gray-200 shadow">
+     <div class="relative bg-sky-900 shadow">
       <div class="max-w-7xl mx-auto px-4 sm:px-6">
         <div class="flex justify-between items-center py-6 md:justify-start md:space-x-10">
           <div class="flex justify-start lg:w-0 lg:flex-1">
@@ -24,14 +24,14 @@
                 :href="link.to"
                 target="_blank"
                 rel="noopener noreferrer"
-                class="text-base font-medium text-gray-700 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-brand"
+                class="text-base font-medium text-white hover:text-leaf focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-brand"
               >
                 <span v-text="link.label" />
               </a>
               <NuxtLink
                 v-else
                 :to="link.to"
-                class="text-base font-medium text-gray-700 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-brand"
+                class="text-base font-medium text-white hover:text-leaf focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-brand"
               >
                 <span v-text="link.label" />
               </NuxtLink>
@@ -53,7 +53,7 @@
 
         <!-- Mobile Menu -->
         <div class="absolute top-0 inset-x-0 z-10 p-2 transition transform origin-top-right md:hidden">
-          <div class="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 bg-gray-200 divide-y-2 divide-gray-50">
+          <div class="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 bg-sky-900 divide-y-2 divide-gray-50">
             <div class="pt-5 pb-6 px-5">
               <div class="flex items-center justify-between">
                 <NuxtLink to="/">
@@ -86,7 +86,7 @@
                     leave-to-class="opacity-0 scale-95"
                   >
                     <div v-show="isOpen" class="origin-top-right absolute right-0 mt-2 w-56 rounded-md shadow-lg">
-                      <div class="rounded-md bg-gray-200 shadow-xs">
+                      <div class="rounded-md bg-sky-900 shadow-xs">
                         <div class="mt-6">
                           <!-- Same `navLinks` list as the desktop menu above. -->
                           <nav class="grid gap-y-8">
@@ -96,7 +96,7 @@
                                 :href="link.to"
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                class="text-base font-medium text-gray-700 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-brand p-3"
+                                class="text-base font-medium text-white hover:text-leaf focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-brand p-3"
                                 @click="isOpen = false"
                               >
                                 <span v-text="link.label" />
@@ -104,7 +104,7 @@
                               <NuxtLink
                                 v-else
                                 :to="link.to"
-                                class="text-base font-medium text-gray-700 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-brand p-3"
+                                class="text-base font-medium text-white hover:text-leaf focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-brand p-3"
                                 @click="isOpen = false"
                               >
                                 <span v-text="link.label" />
