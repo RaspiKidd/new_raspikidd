@@ -1,5 +1,5 @@
 ---
-title: "Rock Paper Scissors"
+title: "Code Rock Paper Scissors on a micro:bit with EduBlocks"
 draft: false
 platform: microbit
 language: edublocks
