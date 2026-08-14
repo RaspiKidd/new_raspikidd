@@ -1,5 +1,5 @@
 ---
-title: "Rock Paper Scissors"
+title: "Code Rock Paper Scissors on a micro:bit with MakeCode"
 draft: false
 platform: microbit
 language: makecode
