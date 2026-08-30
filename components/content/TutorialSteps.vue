@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { provide, reactive, ref, computed, type Ref } from 'vue'
+import { provide, reactive, ref, computed, nextTick, type Ref } from 'vue'
 
 const steps = reactive<{ title: string }[]>([])
 const current = ref(0)
@@ -51,16 +51,36 @@ const pdfUrl = computed(
 )
 const showPdfButton = computed(() => isFirst.value && Boolean(pdfUrl.value))
 
-function next() {
-  if (!isLast.value) current.value++
+const stepperTop = ref<HTMLElement | null>(null)
+
+async function scrollToStepTop() {
+  await nextTick()
+
+  if (!import.meta.client || !stepperTop.value) return
+
+  stepperTop.value.scrollIntoView({
+    behavior: 'smooth',
+    block: 'start',
+  })
 }
-function back() {
-  if (!isFirst.value) current.value--
+
+async function next() {
+  if (isLast.value) return
+
+  current.value++
+  await scrollToStepTop()
+}
+
+async function back() {
+  if (isFirst.value) return
+
+  current.value--
+  await scrollToStepTop()
 }
 </script>
 
 <template>
-  <div class="tutorial-steps">
+  <div ref="stepperTop" class="tutorial-steps">
     <div v-if="total" class="tutorial-steps__progress">
       <span class="tutorial-steps__count" v-text="progressLabel" />
       <div class="tutorial-steps__bar" role="progressbar">
