@@ -54,6 +54,15 @@ if (!opts.logo) { const l = path.join(__dirname, 'assets', 'logo', 'RaspiKidd.sv
 // ---------- helpers ----------
 function slugify(s) { return String(s).toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '') }
 
+function escapeHtml(value = '') {
+  return String(value)
+    .replaceAll('&', '&amp;')
+    .replaceAll('<', '&lt;')
+    .replaceAll('>', '&gt;')
+    .replaceAll('"', '&quot;')
+    .replaceAll("'", '&#039;')
+}
+
 function parseFrontmatter(text) {
   const m = text.match(/^---\n([\s\S]*?)\n---\n?/)
   if (!m) return { data: {}, body: text }
@@ -277,9 +286,13 @@ p, li { orphans:3; widows:3; }
 const raw = fs.readFileSync(input, 'utf8')
 const { data: fm, body: body0 } = parseFrontmatter(raw)
 let body = body0
-let title = ''
+let title = fm.title || ''
 const h1 = body.match(/^#\s+(.+)$/m)
-if (h1) { title = h1[1].trim(); body = body.replace(h1[0], '') }
+if (h1) {
+  if (!title) title = h1[1].trim()
+  body = body.replace(h1[0], '')
+}
+if (!title) title = path.basename(path.dirname(path.resolve(input))).replace(/-/g, ' ')
 
 const glossary = loadGlossary(opts.glossary)
 const publicDir = opts.public || inferPublic(input)
@@ -294,8 +307,8 @@ const badges = ['platform', 'level', 'duration']
 const styleBlock = fontFaces(opts.fonts) + '\n' + CSS
 const logo = logoTag(opts.logo)
 
-let html = `<!doctype html><html lang="en"><head><meta charset="utf-8"><title>${title}</title><style>${styleBlock}</style></head><body>` +
-  `<header class="cover">${logo}<h1>${title}</h1><div class="badges">${badges}</div></header>` +
+let html = `<!doctype html><html lang="en"><head><meta charset="utf-8"><title>${escapeHtml(title)}</title><style>${styleBlock}</style></head><body>` +
+  `<header class="cover">${logo}<h1>${escapeHtml(title)}</h1><div class="badges">${badges}</div></header>` +
   `<main>${rendered}</main>` +
   `</body></html>`
 html = rewriteImages(html, publicDir)
