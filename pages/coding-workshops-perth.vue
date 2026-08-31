@@ -10,7 +10,7 @@
                                 Turn Screen Time into Skill Time with RaspiKidd Coding Workshops in Perth
                             </h1>
                             <h2 class="mt-2 text-3xl font-extrabold tracking-tight text-emerald-800 sm:text-4xl">
-                                Fun, beginner-friendly coding workshops for kids aged 8–16 – just £10 per session!
+                                Fun, beginner-friendly coding workshops for kids aged 8–16 – just £15 per session!
                             </h2>
                             <h3 class="mt-2 text-2xl font-extrabold tracking-tight text-sky-700 sm:text-3xl pt-8">
                                 Why Parents Choose RaspiKidd:
@@ -52,7 +52,7 @@
                                             stroke-width="1.5" stroke="currentColor" class="absolute left-1 top-1 h-6 w-5 text-emerald-800">
                                             <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75 11.25 15 15 9.75M21 12c0 1.268-.63 2.39-1.593 3.068a3.745 3.745 0 0 1-1.043 3.296 3.745 3.745 0 0 1-3.296 1.043A3.745 3.745 0 0 1 12 21c-1.268 0-2.39-.63-3.068-1.593a3.746 3.746 0 0 1-3.296-1.043 3.745 3.745 0 0 1-1.043-3.296A3.745 3.745 0 0 1 3 12c0-1.268.63-2.39 1.593-3.068a3.745 3.745 0 0 1 1.043-3.296 3.746 3.746 0 0 1 3.296-1.043A3.746 3.746 0 0 1 12 3c1.268 0 2.39.63 3.068 1.593a3.746 3.746 0 0 1 3.296 1.043 3.746 3.746 0 0 1 1.043 3.296A3.745 3.745 0 0 1 21 12Z" />
                                         </svg>
-                                        <b> Affordable & Low-Risk: </b> Try the first session for only £10.
+                                        <b> Affordable & Low-Risk: </b> Try the first session for only £15.
                                     </dt>
                                 </div>
                                 <div class="relative ml-8 pl-9 text-lg">
@@ -72,7 +72,7 @@
                             <dl class="mt-10 max-w-xl space-y-8 text-base leading-7 lg:max-w-none">
                                 <div class="relative ml-8 pl-9 text-lg">
                                     <dt class="inline text-gray-900">
-                                        <b> Book a Session: </b> Easy online registration for just £10.
+                                        <b> Book a Session: </b> Easy online registration for just £15.
                                     </dt>
                                 </div>
                                 <div class="relative ml-8 pl-9 text-lg">
