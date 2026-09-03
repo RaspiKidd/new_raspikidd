@@ -17,7 +17,7 @@ const { data: tutorial } = await useAsyncData(
   { watch: [() => route.path] }            // refetch on client-side navigation
 )
 
-if (!tutorial.value) {
+if (import.meta.server && !tutorial.value) {
   // Non-fatal: a stray/asset request 404s cleanly instead of crashing the whole render.
   throw createError({ statusCode: 404, statusMessage: 'Tutorial not found', fatal: false })
 }
