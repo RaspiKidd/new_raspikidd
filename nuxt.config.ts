@@ -36,6 +36,7 @@ export default defineNuxtConfig({
     prerender: {
       crawlLinks: true,
       failOnError: false,
+      ignore: ['/classes', '/ComingSoon', '/About'],
       routes: [
         '/',
         '/about',
