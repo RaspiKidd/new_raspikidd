@@ -56,6 +56,6 @@ export default defineNuxtConfig({
         {key: 'cookieyes', src: "https://cdn-cookieyes.com/client_data/d6f0c1a00dd0dc1726c250ea/script.js"}
       ],
     },
-  },ß
+  },
 
 })
