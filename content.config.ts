@@ -30,5 +30,14 @@ export default defineContentConfig({
         example: z.string().optional(),
       }),
     }),
+    testimonials: defineCollection({
+      type: 'data',
+      source: 'testimonials/**/*.md',
+      schema: z.object({
+        quote: z.string(),
+        attribution: z.string(),
+        tags: z.array(z.string()).optional(), // e.g. ["libraries", "workshops", "schools"]
+      }),
+    }),
   },
 })

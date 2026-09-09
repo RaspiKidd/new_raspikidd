@@ -47,14 +47,14 @@
           </div>
         </div>
       <!-- Testimonials -->
-      <!-- <section class="bg-gray-200">
         <div class="max-w-7xl mx-auto md:grid md:grid-cols-1 md:px-6 lg:px-8">
-          <h2 class="text-3xl font-extrabold tracking-tight sm:text-4xl text-red-600">
+          <h2 class="text-3xl font-extrabold tracking-tight sm:text-4xl text-emerald-800">
             Testimonials
           </h2>
+          <TestimonialsSection tag="libraries" heading="What our library partners say" />
         </div>
       
-        <div class="max-w-7xl mx-auto md:grid md:grid-cols-2 md:px-6 lg:px-8">
+        <!-- <div class="max-w-7xl mx-auto md:grid md:grid-cols-2 md:px-6 lg:px-8">
           <div class="py-12 px-4 sm:px-6 md:flex md:flex-col md:py-16 md:pl-0 md:pr-10 md:border-r md:border-grey-400 lg:pr-16">
             <blockquote class="mt-6 md:flex-grow md:flex md:flex-col">
               <div class="relative text-lg font-medium text-black md:flex-grow">
@@ -124,9 +124,9 @@
                 </div>
               </footer>
             </blockquote>
-          </div> -->
+          </div>
         
-          <!-- <div class="py-12 px-4 border-t-2 border-red-600 sm:px-6 md:py-16 md:pr-0 md:pl-10 md:border-t-0 md:border-l lg:pl-16">
+          <div class="py-12 px-4 border-t-2 border-red-600 sm:px-6 md:py-16 md:pr-0 md:pl-10 md:border-t-0 md:border-l lg:pl-16">
             <blockquote class="mt-6 md:flex-grow md:flex md:flex-col">
               <div class="relative text-lg font-medium text-black md:flex-grow">
                 <svg class="absolute top-0 left-0 transform -translate-x-3 -translate-y-2 h-8 w-8 text-red-300" fill="currentColor" viewBox="0 0 32 32">

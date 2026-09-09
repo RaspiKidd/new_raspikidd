@@ -92,6 +92,13 @@
         <img class="absolute inset-0 w-full h-full object-cover" src="/images/PhysicalComputing.jpg" alt="cutting mat with various electronics">
       </div>
     </main>
+    <div>
+      <h2 class="px-10 mt-5 text-pretty text-3xl font-semibold tracking-tight text-emerald-800 sm:text-4xl">
+        Testimonials
+      </h2>
+      <TestimonialsSection variant="compact" />
+    </div>
+    
     <NewsletterForm />
     <Footer />
   </div>

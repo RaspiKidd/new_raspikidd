@@ -98,6 +98,12 @@
                 </div>
             </div>
         </main>
+        <div>
+      <h2 class="px-10 mt-5 text-pretty text-3xl font-extrabold tracking-tight text-emerald-800 sm:text-4xl">
+        Testimonials
+      </h2>
+      <TestimonialsSection tag="workshops" variant="compact" heading="What parents and partners say" />
+    </div>
         <ClassesCTA />
         <Footer />
     </div>
