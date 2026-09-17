@@ -37,16 +37,16 @@ useSeoMeta({
 
     <main>
       <!-- Hero / title band -->
-      <section class="border-b-4 border-red-700 bg-white">
+      <section class="border-b-4 border-brand bg-white">
         <div class="mx-auto max-w-4xl px-4 py-10 sm:px-8">
           <NuxtLink
             to="/learn"
-            class="inline-flex items-center gap-x-1 text-sm font-semibold text-red-700 hover:text-red-500"
+            class="inline-flex items-center gap-x-1 text-sm font-semibold text-brand hover:text-brand-dark"
           >
             <span aria-hidden="true">←</span> All tutorials
           </NuxtLink>
 
-          <h1 class="mt-3 text-3xl font-extrabold tracking-tight text-red-800 sm:text-4xl md:text-5xl">
+          <h1 class="mt-3 text-3xl font-extrabold tracking-tight text-brand-dark sm:text-4xl md:text-5xl">
             {{ tutorial?.title }}
           </h1>
 

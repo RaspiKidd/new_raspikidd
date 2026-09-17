@@ -67,7 +67,7 @@ useHead({
     <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
       <!-- Hero -->
       <header class="text-center max-w-2xl mx-auto">
-        <h1 class="font-heading text-4xl sm:text-5xl font-bold text-brand">
+        <h1 class="font-heading text-4xl sm:text-5xl font-bold text-brand-dark">
           Learning Hub
         </h1>
         <p class="mt-4 text-lg text-gray-700">

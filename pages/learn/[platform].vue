@@ -140,7 +140,7 @@ useHead(() => ({
       <header class="mt-4 flex items-center gap-x-4">
         <img :src="heroIcon" alt="" class="h-16 w-16 shrink-0" width="64" height="64" loading="lazy" />
         <div>
-          <h1 class="font-heading text-3xl sm:text-4xl font-bold text-brand" v-text="heading" />
+          <h1 class="font-heading text-3xl sm:text-4xl font-bold text-brand-dark" v-text="heading" />
           <p v-if="meta" class="mt-1 text-gray-700" v-text="meta.blurb" />
         </div>
       </header>
