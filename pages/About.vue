@@ -45,8 +45,8 @@
               </div>
               <div class="lg:flex lg:flex-auto lg:justify-center">
                 <dl class="w-64 space-y-8 xl:w-80">
-                  <div class="flex flex-col-reverse justify-between gap-x-16 gap-y-8 rounded-2xl bg-fuchsia-200 p-8 sm:w-3/4 sm:max-w-md sm:flex-row-reverse sm:items-end lg:w-72 lg:max-w-none lg:flex-none lg:flex-col lg:items-start">
-                    <p class="flex-none text-3xl font-bold tracking-tight text-fuchsia-700">
+                  <div class="flex flex-col-reverse justify-between gap-x-16 gap-y-8 rounded-2xl bg-brand-light/50 p-8 sm:w-3/4 sm:max-w-md sm:flex-row-reverse sm:items-end lg:w-72 lg:max-w-none lg:flex-none lg:flex-col lg:items-start">
+                    <p class="flex-none text-3xl font-bold tracking-tight text-black">
                       Vision
                     </p>
                     <div class="sm:w-80 sm:shrink lg:w-auto lg:flex-none">
@@ -59,8 +59,8 @@
                       </p>
                     </div>
                   </div>
-                  <div class="flex flex-col-reverse justify-between gap-x-16 gap-y-8 rounded-2xl bg-violet-200 p-8 sm:w-3/4 sm:max-w-md sm:flex-row-reverse sm:items-end lg:w-72 lg:max-w-none lg:flex-none lg:flex-col lg:items-start">
-                    <p class="flex-none text-3xl font-bold tracking-tight text-violet-700">
+                  <div class="flex flex-col-reverse justify-between gap-x-16 gap-y-8 rounded-2xl bg-leaf-dark/50 p-8 sm:w-3/4 sm:max-w-md sm:flex-row-reverse sm:items-end lg:w-72 lg:max-w-none lg:flex-none lg:flex-col lg:items-start">
+                    <p class="flex-none text-3xl font-bold tracking-tight text-black">
                       Mission
                     </p>
                     <div class="sm:w-80 sm:shrink lg:w-auto lg:flex-none">
@@ -80,7 +80,7 @@
         </div>
         
         <!-- Values section -->
-        <div class="mx-auto mt-32 max-w-7xl px-6 sm:mt-10 lg:px-8 sm:rounded-3xl bg-orange-100">
+        <div class="mx-auto mt-32 max-w-7xl px-6 sm:mt-10 lg:px-8 sm:rounded-3xl bg-sage/50">
           <div class="mx-auto max-w-2xl lg:mx-0">
             <h2 class="text-pretty text-4xl font-semibold tracking-tight text-emerald-800 sm:text-5xl">
               Our values
@@ -112,7 +112,7 @@
           </ul>
         </div> -->
       </main>
-      <div class="relative isolate overflow-hidden px-6 pt-16 shadow-2xl sm:rounded-3xl sm:px-16 md:pt-24 lg:flex lg:gap-x-20 lg:px-24 lg:pt-0 bg-sage">
+      <div class="relative isolate overflow-hidden px-6 pt-16 shadow-2xl sm:rounded-3xl sm:px-16 md:pt-24 lg:flex lg:gap-x-20 lg:px-24 lg:pt-0 bg-gray-100">
         <div class="text-center justify-center lg:mx-0 lg:flex-auto lg:py-10">
           <h2 class="text-emerald-800 text-3xl font-bold tracking-tight sm:text-4xl">
             Sign Up to our Newsletter
@@ -122,8 +122,8 @@
             Book a Call
           </h2>
           <div class="flex-shrink-0 lg:py-5">
-            <a href="https://app.simplymeet.me/raspikidd/discovery" target="_blank" class="relative inline-flex items-center gap-x-1.5 rounded-md bg-brand px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-brand-light focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand">
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" class="size-6 stroke-leaf">
+            <a href="https://app.simplymeet.me/raspikidd/discovery" target="_blank" class="relative inline-flex items-center gap-x-1.5 rounded-md bg-brand-dark px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-brand-light focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" class="size-6 stroke-leaf-light">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z" />
               </svg>
               Book Now

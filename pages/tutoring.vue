@@ -109,19 +109,19 @@
             </dl>
             <!-- CTA Section -->
             <div class="px-6 py-12 mx-auto max-w-7xl sm:px-6 lg:py-16 lg:px-8">
-                <div class="px-6 py-6 bg-leaf-dark rounded-lg md:py-12 md:px-12 lg:py-16 lg:px-16 xl:flex xl:items-center">
+                <div class="px-6 py-6 bg-brand-light/50 rounded-lg md:py-12 md:px-12 lg:py-16 lg:px-16 xl:flex xl:items-center">
                     <div class="xl:w-0 xl:flex-1">
-                        <h2 class="text-sage text-2xl font-bold tracking-tight sm:text-3xl">
+                        <h2 class="text-black text-2xl font-bold tracking-tight sm:text-3xl">
                             Book Your Free Parent Consultation
                         </h2>
         
-                        <p class="text-white max-w-3xl mt-3 text-lg leading-6 font-bold">
+                        <p class="text-gray-900 max-w-3xl mt-3 text-lg leading-6 font-bold">
                             Ready to help your child <b> level up their grades? </b> Book a free 30-minute 
                             consultation to see how Kerry at RaspiKidd can help your teen succeed in National 5 
                             and Higher Computer Science.
                         </p>
                         <div class="mt-10 flex items-center justify-center gap-x-6 text-lg">
-                            <a href="https://app.simplymeet.me/raspikidd/discovery-call" target="_blank" class="rounded-md bg-brand px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-brand-light focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand">
+                            <a href="https://app.simplymeet.me/raspikidd/discovery-call" target="_blank" class="rounded-md bg-brand-dark px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-brand-light focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand">
                                 Book Now
                             </a>
                         </div>
@@ -130,7 +130,7 @@
              </div>
              
             <!-- FAQs Section -->
-            <div class="bg-orange-100 rounded-lg mt-10">
+            <div class="bg-sage/50 rounded-lg mt-10">
                 <div class="mx-auto max-w-7xl px-6 py-24 sm:py-32 lg:px-8 lg:py-40">
                     <h2 class="text-4xl font-semibold tracking-tight text-emerald-800 sm:text-5xl">
                         Frequently Asked Questions
@@ -141,7 +141,7 @@
                                 {{ faq.question }}
                             </dt>
                             <dd class="mt-4 lg:col-span-7 lg:mt-0">
-                                <p class="text-lg text-gray-600">
+                                <p class="text-lg text-gray-900">
                                     {{ faq.answer }}
                                 </p>
                             </dd>
@@ -151,18 +151,18 @@
             </div>
             <!-- CTA Section -->
             <div class="px-6 py-12 mx-auto max-w-7xl sm:px-6 lg:py-16 lg:px-8">
-                <div class="px-6 py-6 bg-leaf-dark rounded-lg md:py-12 md:px-12 lg:py-16 lg:px-16 xl:flex xl:items-center">
+                <div class="px-6 py-6 bg-brand-light/50 rounded-lg md:py-12 md:px-12 lg:py-16 lg:px-16 xl:flex xl:items-center">
                     <div class="xl:w-0 xl:flex-1">
-                        <h2 class="text-sage text-2xl font-bold tracking-tight sm:text-3xl">
+                        <h2 class="text-black text-2xl font-bold tracking-tight sm:text-3xl">
                             Boost Your Child’s Grades Today
                         </h2>
         
-                        <p class="text-white max-w-3xl mt-3 text-lg leading-6 font-bold">
+                        <p class="text-gray-900 max-w-3xl mt-3 text-lg leading-6 font-bold">
                             Book a free 30-minute parent consultation and see how RaspiKidd Tutoring can help your 
                             teen level up in National 5 & Higher Computer Science.
                         </p>
                         <div class="mt-10 flex items-center justify-center gap-x-6 text-lg">
-                            <a href="https://app.simplymeet.me/raspikidd/discovery-call" target="_blank" class="rounded-md bg-brand px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-brand-light focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand">
+                            <a href="https://app.simplymeet.me/raspikidd/discovery-call" target="_blank" class="rounded-md bg-brand-dark px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-brand-light focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand">
                                 Book Now
                             </a>
                         </div>

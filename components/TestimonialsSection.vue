@@ -1,8 +1,8 @@
 <!-- components/TestimonialsSection.vue -->
 <template>
-  <section class="bg-sage px-4" :class="variant === 'compact' ? 'py-8' : 'py-12'">
+  <section class="bg-sage/50 px-4" :class="variant === 'compact' ? 'py-8' : 'py-12'">
     <div class="max-w-4xl mx-auto text-center">
-      <h2 v-if="variant === 'full'" class="font-heading text-emerald-800 text-2xl md:text-3xl mb-8">
+      <h2 v-if="variant === 'full'" class="font-heading text-emerald-800 semi-bold text-2xl md:text-3xl mb-8">
         {{ heading }}
       </h2>
 

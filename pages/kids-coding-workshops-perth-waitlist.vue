@@ -365,7 +365,7 @@
                     </p>
                 </div>
                 <!-- FAQs Section -->
-                <div class="bg-orange-100 rounded-lg mt-10">
+                <div class="bg-sage/50 rounded-lg mt-10">
                     <div class="mx-auto max-w-7xl px-6 py-24 sm:py-32 lg:px-8 lg:py-40">
                         <h2 class="text-4xl font-semibold tracking-tight text-emerald-800 sm:text-5xl">
                             Frequently Asked Questions
@@ -376,7 +376,7 @@
                                     {{ faq.question }}
                                 </dt>
                                 <dd class="mt-4 lg:col-span-7 lg:mt-0">
-                                    <p class="text-lg text-gray-600">
+                                    <p class="text-lg text-gray-900">
                                         {{ faq.answer }}
                                     </p>
                                 </dd>
