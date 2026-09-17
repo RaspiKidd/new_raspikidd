@@ -5,7 +5,7 @@
           <div class="flex justify-start lg:w-0 lg:flex-1">
             <NuxtLink to="/">
               <span class="sr-only">Workflow</span>
-              <img class="h-8 w-auto sm:h-20" src="/public/RaspiKidd.svg" alt="Logo">
+              <img class="h-8 w-auto sm:h-20" src="/public/RaspiKidd-whiteline.png" alt="Logo">
             </NuxtLink>
           </div>
 
@@ -57,7 +57,7 @@
             <div class="pt-5 pb-6 px-5">
               <div class="flex items-center justify-between">
                 <NuxtLink to="/">
-                  <img class="h-8 w-auto sm:h-10" src="/public/RaspiKidd.svg" alt="Logo">
+                  <img class="h-8 w-auto sm:h-10" src="/public/RaspiKidd-whiteline.png" alt="Logo">
                 </NuxtLink>
                 <div class="flex items-center">
                       <div class="flex-shrink-0">
