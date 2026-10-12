@@ -12,9 +12,9 @@
           
           <p class="leading-relaxed mt-3 max-w-2xl mx-auto text-xl text-gray-700 sm:mt-4">
             At RaspiKidd, we believe that every child deserves the opportunity to explore, engage with, and 
-            excel in STEM (Science Technology Engineering & Maths) regardless of their background. Our mission is 
-            to break down barriers to STEM education by offering fun pratical coding and electonics sessions for 
-            young learners aged 8-16 in Perth, Bridge of Earn, Scone and surrounding areas.
+            excel in STEM (Science, Technology, Engineering & Maths) regardless of their background. Our mission 
+            is to break down barriers to STEM education by offering fun, practical coding and electronics sessions 
+            for young learners aged 8-16 in Perth, Bridge of Earn, Scone, and surrounding areas.
           </p>
 
           <div class="mt-10 flex items-center justify-center gap-x-6">
