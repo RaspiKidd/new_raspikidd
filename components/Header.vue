@@ -136,7 +136,7 @@ export default {
     // - External links: add `external: true` (renders as a new-tab <a>).
     navLinks: [
       { label: "About", to: "/about" },
-      { label: "Coding Workshops", to: "/kids-coding-workshops-perth-waitlist" },
+      { label: "Coding Workshops", to: "/coding-workshops-perth" },
       { label: "Tutoring Services", to: "/tutoring" },
       { label: "Learning Hub", to: "/learn" },
       { label: "Blog", to: "/blog" },
