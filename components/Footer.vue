@@ -100,17 +100,36 @@
                 </a>
             </div>
             <p class="mt-8 text-base text-center text-white">
-          &copy; 2026 RaspiKidd. All rights reserved. 
-          <a 
-          class ="text-leaf hover:text-leaf-dark" 
-          href= "/privacy_policy.pdf"
-          target="_blank"> 
-            Privacy Policy 
-          </a>
-        </p>
-        <p class="mt-2 text-base text-center text-white">
-          Servicing Perth Scotland and surrounding areas.
-        </p>
+                Find linked our 
+                <a href="/legal/terms" class="text-leaf hover:text-leaf-dark" target="_blank">
+                    Terms of Booking
+                </a>
+                ,
+                <a href="/legal/cancellation-policy" class="text-leaf hover:text-leaf-dark" target="_blank">
+                    Cancellation and Refund Policy
+                </a>
+                ,
+                <a href="/legal/privacy-notice" class="text-leaf hover:text-leaf-dark" target="_blank">
+                    Privacy Notice
+                </a>
+                and
+                <a href="/legal/safeguarding-policy" class="text-leaf hover:text-leaf-dark" target="_blank">
+                    Safeguarding Policy
+                </a>.
+            </p>
+            <p class="mt-8 text-base text-center text-white">
+                &copy; 2026 RaspiKidd. All rights reserved. 
+                <a 
+                    class ="text-leaf hover:text-leaf-dark" 
+                    href= "/privacy_policy.pdf"
+                    target="_blank"
+                > 
+                    Privacy Policy 
+                </a>
+            </p>
+            <p class="mt-2 text-base text-center text-white">
+                Servicing Perth Scotland and surrounding areas.
+            </p>
         </div>
     </footer>
 </template>

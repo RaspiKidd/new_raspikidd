@@ -186,6 +186,17 @@
                     </a>  
                 </div>
                 <p class="leading-relaxed mt-3 max-w-2xl mx-auto text-xl text-gray-700 sm:mt-4">
+                    Before you book, please read our 
+                    <a href="/legal/terms" class="text-brand hover:text-brand-dark" target="_blank">
+                        Terms of Bookingn
+                    </a> 
+                    and 
+                    <a href="/legal/cancellation-policy" class="text-brand hover:text-brand-dark" target="_blank">
+                        Cancellation and Refund Policy
+                    </a>. 
+                    You can also find our Privacy Notice and Safeguarding Policy below.
+                </p>
+                <p class="leading-relaxed mt-3 max-w-2xl mx-auto text-xl text-gray-700 sm:mt-4">
                     Not sure yet? Call 
                     <a class="hover:text-gray-900" href="tel:07848692935">
                         <b class="text-brand-dark">07848 692 935</b>
@@ -210,12 +221,12 @@
 
   <script setup>
   const workshops = [
-    { id: 1, date: '28-10-2026', time: '5:00 PM - 6:00 PM' },
-    { id: 2, date: '04-11-2026', time: '5:00 PM - 6:00 PM' },
-    { id: 3, date: '11-11-2026', time: '5:00 PM - 6:00 PM' },
-    { id: 4, date: '18-11-2026', time: '5:00 PM - 6:00 PM' },
-    { id: 5, date: '25-11-2026', time: '5:00 PM - 6:00 PM' },
-    { id: 6, date: '02-12-2026', time: '5:00 PM - 6:00 PM' }
+    { id: 1, date: '04-11-2026', time: '5:00 PM - 6:00 PM' },
+    { id: 2, date: '11-11-2026', time: '5:00 PM - 6:00 PM' },
+    { id: 3, date: '18-11-2026', time: '5:00 PM - 6:00 PM' },
+    { id: 4, date: '25-11-2026', time: '5:00 PM - 6:00 PM' },
+    { id: 5, date: '02-12-2026', time: '5:00 PM - 6:00 PM' },
+    { id: 6, date: '09-12-2026', time: '5:00 PM - 6:00 PM' }
 ]
     useHead({
       title: 'Children\'s STEM Classes Near Perth, Scotland | RaspiKidd',
