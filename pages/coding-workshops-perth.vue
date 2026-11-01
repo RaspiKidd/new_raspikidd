@@ -188,7 +188,7 @@
                 <p class="leading-relaxed mt-3 max-w-2xl mx-auto text-xl text-gray-700 sm:mt-4">
                     Before you book, please read our 
                     <a href="/legal/terms" class="text-brand hover:text-brand-dark" target="_blank">
-                        Terms of Bookingn
+                        Terms of Booking
                     </a> 
                     and 
                     <a href="/legal/cancellation-policy" class="text-brand hover:text-brand-dark" target="_blank">
