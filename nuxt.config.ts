@@ -53,7 +53,9 @@ export default defineNuxtConfig({
   app: {
     head: {
       script: [
-        {key: 'cookieyes', src: "https://cdn-cookieyes.com/client_data/d6f0c1a00dd0dc1726c250ea/script.js"}
+        {
+          src: "https://app.termly.io/resource-blocker/ffd35feb-c0cb-4a48-b926-9c008b06df78?autoBlock=on",
+          type:"text/javascript"}
       ],
     },
   },
