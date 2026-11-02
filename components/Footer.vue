@@ -126,6 +126,9 @@
                 > 
                     Privacy Policy 
                 </a>
+                <a href="#" class="termly-display-preferences text-leaf hover:text-leaf-dark" target="_blank">
+                    Consent Preferences
+                </a>
             </p>
             <p class="mt-2 text-base text-center text-white">
                 Servicing Perth Scotland and surrounding areas.

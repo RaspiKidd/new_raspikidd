@@ -2,7 +2,7 @@ export default defineNuxtPlugin((nuxtApp) => {
     useHead({
       script: [
         {
-          src: "https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX",
+          src: "https://www.googletagmanager.com/gtag/js?id=G-FM9JG7YE71",
           async: true,
         },
         {
@@ -10,7 +10,7 @@ export default defineNuxtPlugin((nuxtApp) => {
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', 'G-E4LPY0R90V');
+            gtag('config', 'G-FM9JG7YE71');
           `,
         },
       ],
