@@ -12,7 +12,7 @@
                 This notice explains how RaspiKidd collects, uses and keeps the personal information we need 
                 to run the 6-week beginner micro:bit coding workshops in Perth. It applies to parents, guardians 
                 and children who book or attend a workshop. It sits alongside our main website 
-                <a href="/Privacy_policy.pdf" class="text-brand hover:text-brand-dark" target="_blank">
+                <a href="/legal/privacy-policy" class="text-brand hover:text-brand-dark" target="_blank">
                     privacy policy.
                 </a>
             </p>
