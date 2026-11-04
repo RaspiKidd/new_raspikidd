@@ -178,9 +178,9 @@
                     </div>
                 </dl>
                 <div class="mt-10 flex items-center justify-center gap-x-6">
-                    <a href="https://buy.stripe.com/eVq9AN3uR3Ds3AR1An1VK01" target="_blank" class=" rounded-md bg-brand-dark px-3.5 py-2.5 text-xl font-semibold text-white shadow-xs hover:bg-brand-light focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand">
+                    <!--<a href="https://buy.stripe.com/eVq9AN3uR3Ds3AR1An1VK01" target="_blank" class=" rounded-md bg-brand-dark px-3.5 py-2.5 text-xl font-semibold text-white shadow-xs hover:bg-brand-light focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand">
                         Book the 6-week block for £75
-                    </a>
+                    </a> -->
                     <a href="https://buy.stripe.com/14A4gt3uRfmadbrgvh1VK00" target="_blank" class="rounded-md bg-emerald-800 px-3.5 py-2.5 text-xl font-semibold text-white shadow-xs hover:bg-emerald-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand">
                         Book a single session for £15
                     </a>  
